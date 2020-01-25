@@ -121,7 +121,7 @@ function Region:IsIgnoringParentScale() end
 ---|[Wowpedia](https://wow.gamepedia.com/API_Region_IsMouseOver) | [WoW Programming](http://wowprogramming.com/docs/widgets/Region/IsMouseOver.html) | [WOWJP](http://api.wowjp.net/publ/api_funkcii/oblast/138-1-0-5357)
 ---@param top number
 ---@param left number
----@para bottom number
+---@param bottom number
 ---@param right number
 ---@return boolean isMouseOver
 ---@overload fun(top:number):boolean
@@ -146,6 +146,8 @@ function Region:IsRectValid() end
 ---|[Wowpedia](https://wow.gamepedia.com/API_Region_IsShown)
 ---@return boolean isShown
 function Region:IsShown() end
+
+Region.IsShown()
 
 --- Get whether the object is visible on screen.
 ---|
@@ -190,7 +192,7 @@ function Region:SetParent(parent) end
 --- Set an attachment point of this object.
 ---|Since 2.2 cooordinates are now relative to the closest anchor point
 ---|[Wowpedia](https://wow.gamepedia.com/API_Region_SetPoint)
----@param point string
+---@param point string @test
 ---@param relativeFrame string
 ---@param relativeObject UIObject
 ---@param xOffset number

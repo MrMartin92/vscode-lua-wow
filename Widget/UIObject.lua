@@ -7,7 +7,7 @@ UIObject = {}
 function UIObject:GetDebugName() end
 
 --- Returns the widget object's name
----@result string name
+---@return string name
 function UIObject:GetName() end
 
 --- Returns the object's widget type
