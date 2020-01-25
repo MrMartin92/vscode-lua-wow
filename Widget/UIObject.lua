@@ -28,6 +28,6 @@ function UIObject:IsForbidden() end
 ---@return boolean isType
 function UIObject:IsObjectType(type) end
 
---- PROTECTED
+--- **PROTECTED**
 ---@param status boolean
 function UIObject:SetForbidden(status) end
