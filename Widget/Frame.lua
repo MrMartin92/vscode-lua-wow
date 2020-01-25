@@ -298,7 +298,7 @@ function Frame:SetBackdrop(backdropSettings) end
 ---@param blue number
 ---@param alpha number
 ---@overload fun(red:number, green:number, blue:number)
-function Frame:SetBackdropBorderColor(r, g, b, a) end
+function Frame:SetBackdropBorderColor(red, green, blue, alpha) end
 
 --- Set the frame's backdrop color.
 ---@param red number
@@ -306,7 +306,7 @@ function Frame:SetBackdropBorderColor(r, g, b, a) end
 ---@param blue number
 ---@param alpha number
 ---@overload fun(red:number, green:number, blue:number)
-function Frame:SetBackdropColor(r, g, b, a) end
+function Frame:SetBackdropColor(red, green, blue, alpha) end
 
 --- Modify the frame's rectangle used to prevent dragging offscreen.
 ---@param left number
