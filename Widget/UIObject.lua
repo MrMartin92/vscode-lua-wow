@@ -19,8 +19,8 @@ function UIObject:GetObjectType() end
 function UIObject:GetParent() end
 
 --- Returns whether insecure interaction with a widget is forbidden.
+---|[View Documentation](https://wow.gamepedia.com/API_UIObject_IsForbidden)
 ---@return boolean isForbidden @true if this widget's methods may only be called from secure execution paths, false otherwise.
----[View Documentation](https://wow.gamepedia.com/API_UIObject_IsForbidden)
 function UIObject:IsForbidden() end
 
 --- Returns whether the object belongs to a given widget type, or a subclass of that type.
