@@ -409,3 +409,27 @@ function Frame:UnregisterAllEvents() end
 ---@param event Event
 ---@return boolean success
 function Frame:UnregisterEvent(event) end
+
+--- The following functions are normally in a separate class "SciptObject".
+--- But EmmyLua does not support multiple inheritance. So that I put these
+--- functions into every derived class manually, until I found a better solution.
+
+--- Returns the widget's handler function for a script.
+---@param scriptType FrameHandlerType
+---@return function|nil handler
+function Frame:GetScript(scriptType) end
+
+--- Returns whether the widget supports a script handler.
+---@param scriptType FrameHandlerType
+---@return boolean hasScript
+function Frame:HasScript(scriptType) end
+
+--- Securely hooks a script handler.
+---@param scriptType FrameHandlerType
+---@param handler function
+function Frame:HookScript(scriptType, handler) end
+
+--- Sets the widget's handler function for a script.
+---@param scriptType FrameHandlerType
+---@param handler function
+function Frame:SetScript(scriptType, handler) end

@@ -7,3 +7,5 @@
 ---@alias Event string
 
 ---@alias ButtonType string|"'Button4'"|"'Button5'"|"'LeftButton'"|"'RightButton'"|"'MiddleButton'"
+
+---@alias FrameHandlerType string|"'OnLoad'"|"'OnUpdate'"|"'OnAttributeChanged'"|"'OnChar'"|"'OnDisable'"|"'OnDragStart'"|"'OnDragStop'"|"'OnEnable'"|"'OnEnter'"|"'OnEvent'"|"'OnHide'"|"'OnHyperlinkClick'"|"'OnHyperlinkEnter'"|"'OnHyperlinkLeave'"|"'OnKeyDown'"|"'OnKeyUp'"|"'OnLeave'"|"'OnMouseDown'"|"'OnMouseUp'"|"'OnMouseWheel'"|"'OnReceiveDrag"|"'OnShow'"|"'OnSizeChanged'"
