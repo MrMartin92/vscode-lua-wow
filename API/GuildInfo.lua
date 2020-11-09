@@ -2,17 +2,17 @@
 C_GuildInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GuildInfo.CanEditOfficerNote)
----@return bool @canEditOfficerNote
+---@return boolean @canEditOfficerNote
 function C_GuildInfo.CanEditOfficerNote()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GuildInfo.CanSpeakInGuildChat)
----@return bool @canSpeakInGuildChat
+---@return boolean @canSpeakInGuildChat
 function C_GuildInfo.CanSpeakInGuildChat()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GuildInfo.CanViewOfficerNote)
----@return bool @canViewOfficerNote
+---@return boolean @canViewOfficerNote
 function C_GuildInfo.CanViewOfficerNote()
 end
 
@@ -45,14 +45,14 @@ function C_GuildInfo.GuildRoster()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GuildInfo.IsGuildOfficer)
----@return bool @isOfficer
+---@return boolean @isOfficer
 function C_GuildInfo.IsGuildOfficer()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GuildInfo.IsGuildRankAssignmentAllowed)
 ---@param guid string
 ---@param rankOrder number
----@return bool @isGuildRankAssignmentAllowed
+---@return boolean @isGuildRankAssignmentAllowed
 function C_GuildInfo.IsGuildRankAssignmentAllowed(guid, rankOrder)
 end
 
@@ -76,13 +76,13 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GuildInfo.SetNote)
 ---@param guid string
 ---@param note string
----@param isPublic bool
+---@param isPublic boolean
 function C_GuildInfo.SetNote(guid, note, isPublic)
 end
 
 ---@class GuildNewsInfo
----@field public isSticky bool
----@field public isHeader bool
+---@field public isSticky boolean
+---@field public isHeader boolean
 ---@field public newsType number
 ---@field public whoText string
 ---@field public whatText string

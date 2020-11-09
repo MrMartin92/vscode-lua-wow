@@ -3,12 +3,12 @@ C_MountJournal = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.ApplyMountEquipment)
 ---@param itemLocation table
----@return bool @canContinue
+---@return boolean @canContinue
 function C_MountJournal.ApplyMountEquipment(itemLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.AreMountEquipmentEffectsSuppressed)
----@return bool @areEffectsSuppressed
+---@return boolean @areEffectsSuppressed
 function C_MountJournal.AreMountEquipmentEffectsSuppressed()
 end
 
@@ -32,7 +32,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.GetCollectedFilterSetting)
 ---@param filterIndex number
----@return bool @isChecked
+---@return boolean @isChecked
 function C_MountJournal.GetCollectedFilterSetting(filterIndex)
 end
 
@@ -44,19 +44,19 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.GetDisplayedMountInfo)
 ---@param displayIndex number
----@return string, number, number, bool, bool, number, bool, bool, number, bool, bool, number @name, spellID, icon, isActive, isUsable, sourceType, isFavorite, isFactionSpecific, faction, shouldHideOnChar, isCollected, mountID
+---@return string, number, number, boolean, boolean, number, boolean, boolean, number, boolean, boolean, number @name, spellID, icon, isActive, isUsable, sourceType, isFavorite, isFactionSpecific, faction, shouldHideOnChar, isCollected, mountID
 function C_MountJournal.GetDisplayedMountInfo(displayIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.GetDisplayedMountInfoExtra)
 ---@param mountIndex number
----@return number, string, string, bool, number, number, number, number, bool @creatureDisplayInfoID, description, source, isSelfMount, mountTypeID, uiModelSceneID, animID, spellVisualKitID, disablePlayerMountPreview
+---@return number, string, string, boolean, number, number, number, number, boolean @creatureDisplayInfoID, description, source, isSelfMount, mountTypeID, uiModelSceneID, animID, spellVisualKitID, disablePlayerMountPreview
 function C_MountJournal.GetDisplayedMountInfoExtra(mountIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.GetIsFavorite)
 ---@param mountIndex number
----@return bool, bool @isFavorite, canSetFavorite
+---@return boolean, boolean @isFavorite, canSetFavorite
 function C_MountJournal.GetIsFavorite(mountIndex)
 end
 
@@ -90,20 +90,20 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.GetMountInfoByID)
 ---@param mountID number
----@return string, number, number, bool, bool, number, bool, bool, number, bool, bool, number @name, spellID, icon, isActive, isUsable, sourceType, isFavorite, isFactionSpecific, faction, shouldHideOnChar, isCollected, mountID
+---@return string, number, number, boolean, boolean, number, boolean, boolean, number, boolean, boolean, number @name, spellID, icon, isActive, isUsable, sourceType, isFavorite, isFactionSpecific, faction, shouldHideOnChar, isCollected, mountID
 function C_MountJournal.GetMountInfoByID(mountID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.GetMountInfoExtraByID)
 ---@param mountID number
----@return number, string, string, bool, number, number, number, number, bool @creatureDisplayInfoID, description, source, isSelfMount, mountTypeID, uiModelSceneID, animID, spellVisualKitID, disablePlayerMountPreview
+---@return number, string, string, boolean, number, number, number, number, boolean @creatureDisplayInfoID, description, source, isSelfMount, mountTypeID, uiModelSceneID, animID, spellVisualKitID, disablePlayerMountPreview
 function C_MountJournal.GetMountInfoExtraByID(mountID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.GetMountUsabilityByID)
 ---@param mountID number
----@param checkIndoors bool
----@return bool, string @isUsable, useError
+---@param checkIndoors boolean
+---@return boolean, string @isUsable, useError
 function C_MountJournal.GetMountUsabilityByID(mountID, checkIndoors)
 end
 
@@ -124,30 +124,30 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.IsItemMountEquipment)
 ---@param itemLocation table
----@return bool @isMountEquipment
+---@return boolean @isMountEquipment
 function C_MountJournal.IsItemMountEquipment(itemLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.IsMountEquipmentApplied)
----@return bool @isApplied
+---@return boolean @isApplied
 function C_MountJournal.IsMountEquipmentApplied()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.IsSourceChecked)
 ---@param filterIndex number
----@return bool @isChecked
+---@return boolean @isChecked
 function C_MountJournal.IsSourceChecked(filterIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.IsValidSourceFilter)
 ---@param filterIndex number
----@return bool @isValid
+---@return boolean @isValid
 function C_MountJournal.IsValidSourceFilter(filterIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.NeedsFanfare)
 ---@param mountID number
----@return bool @needsFanfare
+---@return boolean @needsFanfare
 function C_MountJournal.NeedsFanfare(mountID)
 end
 
@@ -157,19 +157,19 @@ function C_MountJournal.Pickup(displayIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.SetAllSourceFilters)
----@param isChecked bool
+---@param isChecked boolean
 function C_MountJournal.SetAllSourceFilters(isChecked)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.SetCollectedFilterSetting)
 ---@param filterIndex number
----@param isChecked bool
+---@param isChecked boolean
 function C_MountJournal.SetCollectedFilterSetting(filterIndex, isChecked)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.SetIsFavorite)
 ---@param mountIndex number
----@param isFavorite bool
+---@param isFavorite boolean
 function C_MountJournal.SetIsFavorite(mountIndex, isFavorite)
 end
 
@@ -180,7 +180,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.SetSourceFilter)
 ---@param filterIndex number
----@param isChecked bool
+---@param isChecked boolean
 function C_MountJournal.SetSourceFilter(filterIndex, isChecked)
 end
 
@@ -191,6 +191,6 @@ end
 
 ---@class MountCreatureDisplayInfo
 ---@field public creatureDisplayID number
----@field public isVisible bool
+---@field public isVisible boolean
 MountCreatureDisplayInfo = {}
 

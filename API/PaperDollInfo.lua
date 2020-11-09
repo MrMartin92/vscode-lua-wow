@@ -39,12 +39,12 @@ function C_PaperDollInfo.GetStaggerPercentage(unit)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PaperDollInfo.OffhandHasShield)
----@return bool @offhandHasShield
+---@return boolean @offhandHasShield
 function C_PaperDollInfo.OffhandHasShield()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PaperDollInfo.OffhandHasWeapon)
----@return bool @offhandHasWeapon
+---@return boolean @offhandHasWeapon
 function C_PaperDollInfo.OffhandHasWeapon()
 end
 

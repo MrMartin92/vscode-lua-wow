@@ -2,7 +2,7 @@
 C_WeeklyRewards = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_WeeklyRewards.CanClaimRewards)
----@return bool @canClaimRewards
+---@return boolean @canClaimRewards
 function C_WeeklyRewards.CanClaimRewards()
 end
 
@@ -39,12 +39,12 @@ function C_WeeklyRewards.GetItemHyperlink(itemDBID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_WeeklyRewards.HasAvailableRewards)
----@return bool @hasAvailableRewards
+---@return boolean @hasAvailableRewards
 function C_WeeklyRewards.HasAvailableRewards()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_WeeklyRewards.HasGeneratedRewards)
----@return bool @hasGeneratedRewards
+---@return boolean @hasGeneratedRewards
 function C_WeeklyRewards.HasGeneratedRewards()
 end
 

@@ -10,13 +10,13 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CVar.GetCVarBitfield)
 ---@param name string
 ---@param index number
----@return bool @value
+---@return boolean @value
 function C_CVar.GetCVarBitfield(name, index)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CVar.GetCVarBool)
 ---@param name string
----@return bool @value
+---@return boolean @value
 function C_CVar.GetCVarBool(name)
 end
 
@@ -40,16 +40,16 @@ end
 ---@param name string
 ---@param value string
 ---@param scriptCVar string
----@return bool @success
+---@return boolean @success
 function C_CVar.SetCVar(name, value, scriptCVar)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CVar.SetCVarBitfield)
 ---@param name string
 ---@param index number
----@param value bool
+---@param value boolean
 ---@param scriptCVar string
----@return bool @success
+---@return boolean @success
 function C_CVar.SetCVarBitfield(name, index, value, scriptCVar)
 end
 

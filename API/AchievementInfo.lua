@@ -15,7 +15,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AchievementInfo.IsValidAchievement)
 ---@param achievementId number
----@return bool @isValidAchievement
+---@return boolean @isValidAchievement
 function C_AchievementInfo.IsValidAchievement(achievementId)
 end
 

@@ -2,33 +2,33 @@
 C_PvP = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.CanDisplayDeaths)
----@return bool @canDisplay
+---@return boolean @canDisplay
 function C_PvP.CanDisplayDeaths()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.CanDisplayHonorableKills)
----@return bool @canDisplay
+---@return boolean @canDisplay
 function C_PvP.CanDisplayHonorableKills()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.CanPlayerUseRatedPVPUI)
----@return bool, string @canUse, failureReason
+---@return boolean, string @canUse, failureReason
 function C_PvP.CanPlayerUseRatedPVPUI()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.CanToggleWarMode)
----@param toggle bool
----@return bool @canTogglePvP
+---@param toggle boolean
+---@return boolean @canTogglePvP
 function C_PvP.CanToggleWarMode(toggle)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.CanToggleWarModeInArea)
----@return bool @canTogglePvPInArea
+---@return boolean @canTogglePvPInArea
 function C_PvP.CanToggleWarModeInArea()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.DoesMatchOutcomeAffectRating)
----@return bool @doesAffect
+---@return boolean @doesAffect
 function C_PvP.DoesMatchOutcomeAffectRating()
 end
 
@@ -94,7 +94,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.GetBrawlRewards)
 ---@param brawlType BrawlType
----@return number, number, table, table, bool @honor, experience, itemRewards, currencyRewards, hasWon
+---@return number, number, table, table, boolean @honor, experience, itemRewards, currencyRewards, hasWon
 function C_PvP.GetBrawlRewards(brawlType)
 end
 
@@ -248,87 +248,87 @@ function C_PvP.GetWarModeRewardBonusDefault()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.GetWeeklyChestInfo)
----@return bool, bool, bool, number @rewardAchieved, lastWeekRewardAchieved, lastWeekRewardClaimed, pvpTierMaxFromWins
+---@return boolean, boolean, boolean, number @rewardAchieved, lastWeekRewardAchieved, lastWeekRewardClaimed, pvpTierMaxFromWins
 function C_PvP.GetWeeklyChestInfo()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.HasArenaSkirmishWinToday)
----@return bool @hasArenaSkirmishWinToday
+---@return boolean @hasArenaSkirmishWinToday
 function C_PvP.HasArenaSkirmishWinToday()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsActiveBattlefield)
----@return bool @isActiveBattlefield
+---@return boolean @isActiveBattlefield
 function C_PvP.IsActiveBattlefield()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsActiveMatchRegistered)
----@return bool @registered
+---@return boolean @registered
 function C_PvP.IsActiveMatchRegistered()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsArena)
----@return bool @isArena
+---@return boolean @isArena
 function C_PvP.IsArena()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsBattleground)
----@return bool @isBattleground
+---@return boolean @isBattleground
 function C_PvP.IsBattleground()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsBattlegroundEnlistmentBonusActive)
----@return bool, bool @battlegroundActive, brawlActive
+---@return boolean, boolean @battlegroundActive, brawlActive
 function C_PvP.IsBattlegroundEnlistmentBonusActive()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsInBrawl)
----@return bool @isInBrawl
+---@return boolean @isInBrawl
 function C_PvP.IsInBrawl()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsMatchConsideredArena)
----@return bool @asArena
+---@return boolean @asArena
 function C_PvP.IsMatchConsideredArena()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsMatchFactional)
----@return bool @isFactional
+---@return boolean @isFactional
 function C_PvP.IsMatchFactional()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsPVPMap)
----@return bool @isPVPMap
+---@return boolean @isPVPMap
 function C_PvP.IsPVPMap()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsRatedArena)
----@return bool @isRatedArena
+---@return boolean @isRatedArena
 function C_PvP.IsRatedArena()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsRatedBattleground)
----@return bool @isRatedBattleground
+---@return boolean @isRatedBattleground
 function C_PvP.IsRatedBattleground()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsRatedMap)
----@return bool @isRatedMap
+---@return boolean @isRatedMap
 function C_PvP.IsRatedMap()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsWarModeActive)
----@return bool @warModeActive
+---@return boolean @warModeActive
 function C_PvP.IsWarModeActive()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsWarModeDesired)
----@return bool @warModeDesired
+---@return boolean @warModeDesired
 function C_PvP.IsWarModeDesired()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.IsWarModeFeatureEnabled)
----@return bool @warModeEnabled
+---@return boolean @warModeEnabled
 function C_PvP.IsWarModeFeatureEnabled()
 end
 
@@ -342,7 +342,7 @@ function C_PvP.RequestCrowdControlSpell(playerToken)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.SetWarModeDesired)
----@param warModeDesired bool
+---@param warModeDesired boolean
 function C_PvP.SetWarModeDesired(warModeDesired)
 end
 
@@ -379,14 +379,14 @@ BattlefieldItemReward = {}
 ---@field public x number
 ---@field public y number
 ---@field public name string
----@field public isOccupied bool
+---@field public isOccupied boolean
 ---@field public atlas string
 ---@field public textureWidth number
 ---@field public textureHeight number
 ---@field public facing number
----@field public isPlayer bool
----@field public isAlive bool
----@field public shouldDrawBelowPlayerBlips bool
+---@field public isPlayer boolean
+---@field public isAlive boolean
+---@field public shouldDrawBelowPlayerBlips boolean
 BattlefieldVehicleInfo = {}
 
 ---@class BattlemasterListInfo
@@ -409,7 +409,7 @@ HonorRewardInfo = {}
 ---@field public id number
 ---@field public icon number
 ---@field public name string
----@field public isEpic bool
+---@field public isEpic boolean
 LevelUpBattlegroundInfo = {}
 
 ---@class MatchPVPStatColumn
@@ -424,7 +424,7 @@ MatchPVPStatColumn = {}
 ---@field public name string
 ---@field public shortDescription string
 ---@field public longDescription string
----@field public canQueue bool
+---@field public canQueue boolean
 ---@field public timeLeftUntilNextChange number
 ---@field public brawlType BrawlType
 ---@field public mapNames table
@@ -439,7 +439,7 @@ PvpBrawlInfo = {}
 ---@field public weeklyPlayed number
 ---@field public weeklyWon number
 ---@field public lastWeeksBestRating number
----@field public hasWonBracketToday bool
+---@field public hasWonBracketToday boolean
 ---@field public tier number
 ---@field public ranking number
 PVPPersonalRatedInfo = {}
@@ -455,7 +455,7 @@ PVPPostMatchCurrencyReward = {}
 ---@field public quantity number
 ---@field public specID number
 ---@field public sex number
----@field public isUpgraded bool
+---@field public isUpgraded boolean
 PVPPostMatchItemReward = {}
 
 ---@class PvpScalingData
@@ -515,9 +515,9 @@ PVPTeamInfo = {}
 PvpTierInfo = {}
 
 ---@class RandomBGInfo
----@field public canQueue bool
+---@field public canQueue boolean
 ---@field public bgID number
----@field public hasRandomWinToday bool
+---@field public hasRandomWinToday boolean
 ---@field public minLevel number
 ---@field public maxLevel number
 RandomBGInfo = {}
@@ -527,6 +527,6 @@ RandomBGInfo = {}
 ---@field public shortDescription string
 ---@field public longDescription string
 ---@field public achievementID number
----@field public isActive bool
+---@field public isActive boolean
 SpecialEventDetails = {}
 

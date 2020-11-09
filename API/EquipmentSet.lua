@@ -8,7 +8,7 @@ function C_EquipmentSet.AssignSpecToEquipmentSet(equipmentSetID, specIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_EquipmentSet.CanUseEquipmentSets)
----@return bool @canUseEquipmentSets
+---@return boolean @canUseEquipmentSets
 function C_EquipmentSet.CanUseEquipmentSets()
 end
 
@@ -29,7 +29,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_EquipmentSet.EquipmentSetContainsLockedItems)
 ---@param equipmentSetID number
----@return bool @hasLockedItems
+---@return boolean @hasLockedItems
 function C_EquipmentSet.EquipmentSetContainsLockedItems(equipmentSetID)
 end
 
@@ -58,7 +58,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_EquipmentSet.GetEquipmentSetInfo)
 ---@param equipmentSetID number
----@return string, number, number, bool, number, number, number, number, number @name, iconFileID, setID, isEquipped, numItems, numEquipped, numInInventory, numLost, numIgnored
+---@return string, number, number, boolean, number, number, number, number, number @name, iconFileID, setID, isEquipped, numItems, numEquipped, numInInventory, numLost, numIgnored
 function C_EquipmentSet.GetEquipmentSetInfo(equipmentSetID)
 end
 
@@ -92,7 +92,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_EquipmentSet.IsSlotIgnoredForSave)
 ---@param slot number
----@return bool @isSlotIgnored
+---@return boolean @isSlotIgnored
 function C_EquipmentSet.IsSlotIgnoredForSave(slot)
 end
 
@@ -126,7 +126,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_EquipmentSet.UseEquipmentSet)
 ---@param equipmentSetID number
----@return bool @setWasEquipped
+---@return boolean @setWasEquipped
 function C_EquipmentSet.UseEquipmentSet(equipmentSetID)
 end
 

@@ -9,13 +9,13 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AccountInfo.IsGUIDBattleNetAccountType)
 ---@param guid string
----@return bool @isBNet
+---@return boolean @isBNet
 function C_AccountInfo.IsGUIDBattleNetAccountType(guid)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AccountInfo.IsGUIDRelatedToLocalAccount)
 ---@param guid string
----@return bool @isLocalUser
+---@return boolean @isLocalUser
 function C_AccountInfo.IsGUIDRelatedToLocalAccount(guid)
 end
 

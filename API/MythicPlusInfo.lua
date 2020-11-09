@@ -39,8 +39,8 @@ function C_MythicPlus.GetRewardLevelFromKeystoneLevel(keystoneLevel)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MythicPlus.GetRunHistory)
----@param includePreviousWeeks bool
----@param includeIncompleteRuns bool
+---@param includePreviousWeeks boolean
+---@param includeIncompleteRuns boolean
 ---@return table @runs
 function C_MythicPlus.GetRunHistory(includePreviousWeeks, includeIncompleteRuns)
 end
@@ -63,12 +63,12 @@ function C_MythicPlus.GetWeeklyChestRewardLevel()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MythicPlus.IsMythicPlusActive)
----@return bool @isMythicPlusActive
+---@return boolean @isMythicPlusActive
 function C_MythicPlus.IsMythicPlusActive()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MythicPlus.IsWeeklyRewardAvailable)
----@return bool @weeklyRewardAvailable
+---@return boolean @weeklyRewardAvailable
 function C_MythicPlus.IsWeeklyRewardAvailable()
 end
 
@@ -114,7 +114,7 @@ MythicPlusMember = {}
 ---@class MythicPlusRunInfo
 ---@field public mapChallengeModeID number
 ---@field public level number
----@field public thisWeek bool
----@field public completed bool
+---@field public thisWeek boolean
+---@field public completed boolean
 MythicPlusRunInfo = {}
 

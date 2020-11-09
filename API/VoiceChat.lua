@@ -7,12 +7,12 @@ function C_VoiceChat.ActivateChannel(channelID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.BeginLocalCapture)
----@param listenToLocalUser bool
+---@param listenToLocalUser boolean
 function C_VoiceChat.BeginLocalCapture(listenToLocalUser)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.CanPlayerUseVoiceChat)
----@return bool @canUseVoiceChat
+---@return boolean @canUseVoiceChat
 function C_VoiceChat.CanPlayerUseVoiceChat()
 end
 
@@ -147,7 +147,7 @@ function C_VoiceChat.GetOutputVolume()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.GetPTTButtonPressedState)
----@return bool @isPressed
+---@return boolean @isPressed
 function C_VoiceChat.GetPTTButtonPressedState()
 end
 
@@ -170,75 +170,75 @@ end
 ---@param channelType ChatChannelType
 ---@param clubId string
 ---@param streamId string
----@return bool @isPending
+---@return boolean @isPending
 function C_VoiceChat.IsChannelJoinPending(channelType, clubId, streamId)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsDeafened)
----@return bool @isDeafened
+---@return boolean @isDeafened
 function C_VoiceChat.IsDeafened()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsEnabled)
----@return bool @isEnabled
+---@return boolean @isEnabled
 function C_VoiceChat.IsEnabled()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsLoggedIn)
----@return bool @isLoggedIn
+---@return boolean @isLoggedIn
 function C_VoiceChat.IsLoggedIn()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsMemberLocalPlayer)
 ---@param memberID number
 ---@param channelID number
----@return bool @isLocalPlayer
+---@return boolean @isLocalPlayer
 function C_VoiceChat.IsMemberLocalPlayer(memberID, channelID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsMemberMuted)
 ---@param playerLocation table
----@return bool @mutedForMe
+---@return boolean @mutedForMe
 function C_VoiceChat.IsMemberMuted(playerLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsMemberMutedForAll)
 ---@param memberID number
 ---@param channelID number
----@return bool @mutedForAll
+---@return boolean @mutedForAll
 function C_VoiceChat.IsMemberMutedForAll(memberID, channelID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsMemberSilenced)
 ---@param memberID number
 ---@param channelID number
----@return bool @silenced
+---@return boolean @silenced
 function C_VoiceChat.IsMemberSilenced(memberID, channelID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsMuted)
----@return bool @isMuted
+---@return boolean @isMuted
 function C_VoiceChat.IsMuted()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsParentalDisabled)
----@return bool @isParentalDisabled
+---@return boolean @isParentalDisabled
 function C_VoiceChat.IsParentalDisabled()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsParentalMuted)
----@return bool @isParentalMuted
+---@return boolean @isParentalMuted
 function C_VoiceChat.IsParentalMuted()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsPlayerUsingVoice)
 ---@param playerLocation table
----@return bool @isUsingVoice
+---@return boolean @isUsingVoice
 function C_VoiceChat.IsPlayerUsingVoice(playerLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.IsSilenced)
----@return bool @isSilenced
+---@return boolean @isSilenced
 function C_VoiceChat.IsSilenced()
 end
 
@@ -269,7 +269,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.RequestJoinChannelByChannelType)
 ---@param channelType ChatChannelType
----@param autoActivate bool
+---@param autoActivate boolean
 function C_VoiceChat.RequestJoinChannelByChannelType(channelType, autoActivate)
 end
 
@@ -279,7 +279,7 @@ function C_VoiceChat.SetCommunicationMode(communicationMode)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.SetDeafened)
----@param isDeafened bool
+---@param isDeafened boolean
 function C_VoiceChat.SetDeafened(isDeafened)
 end
 
@@ -300,7 +300,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.SetMemberMuted)
 ---@param playerLocation table
----@param muted bool
+---@param muted boolean
 function C_VoiceChat.SetMemberMuted(playerLocation, muted)
 end
 
@@ -311,7 +311,7 @@ function C_VoiceChat.SetMemberVolume(playerLocation, volume)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.SetMuted)
----@param isMuted bool
+---@param isMuted boolean
 function C_VoiceChat.SetMuted(isMuted)
 end
 
@@ -343,7 +343,7 @@ function C_VoiceChat.SetVADSensitivity(sensitivity)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.ShouldDiscoverChannels)
----@return bool @shouldDiscoverChannels
+---@return boolean @shouldDiscoverChannels
 function C_VoiceChat.ShouldDiscoverChannels()
 end
 
@@ -402,8 +402,8 @@ enum.VoiceChatStatusCode.InvalidOutputDevice = 24
 ---@field public deviceID string
 ---@field public displayName string
 ---@field public power number
----@field public isActive bool
----@field public isSystemDefault bool
+---@field public isActive boolean
+---@field public isSystemDefault boolean
 VoiceAudioDevice = {}
 
 ---@class VoiceChatChannel
@@ -413,20 +413,20 @@ VoiceAudioDevice = {}
 ---@field public clubId string
 ---@field public streamId string
 ---@field public volume number
----@field public isActive bool
----@field public isMuted bool
----@field public isTransmitting bool
----@field public isLocalProcess bool
+---@field public isActive boolean
+---@field public isMuted boolean
+---@field public isTransmitting boolean
+---@field public isLocalProcess boolean
 ---@field public members table
 VoiceChatChannel = {}
 
 ---@class VoiceChatMember
 ---@field public energy number
 ---@field public memberID number
----@field public isActive bool
----@field public isSpeaking bool
----@field public isMutedForAll bool
----@field public isSilenced bool
+---@field public isActive boolean
+---@field public isSpeaking boolean
+---@field public isMutedForAll boolean
+---@field public isSilenced boolean
 VoiceChatMember = {}
 
 ---@class VoiceChatProcess

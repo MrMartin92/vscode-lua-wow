@@ -2,13 +2,13 @@
 C_PartyInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PartyInfo.AllowedToDoPartyConversion)
----@param toRaid bool
----@return bool @allowed
+---@param toRaid boolean
+---@return boolean @allowed
 function C_PartyInfo.AllowedToDoPartyConversion(toRaid)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PartyInfo.CanInvite)
----@return bool @allowedToInvite
+---@return boolean @allowedToInvite
 function C_PartyInfo.CanInvite()
 end
 
@@ -34,9 +34,9 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PartyInfo.ConfirmRequestInviteFromUnit)
 ---@param targetName string
----@param tank bool
----@param healer bool
----@param dps bool
+---@param tank boolean
+---@param healer boolean
+---@param dps boolean
 function C_PartyInfo.ConfirmRequestInviteFromUnit(targetName, tank, healer, dps)
 end
 
@@ -66,7 +66,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PartyInfo.GetInviteReferralInfo)
 ---@param inviteGUID string
----@return string, string, PartyRequestJoinRelation, bool, string @outReferredByGuid, outReferredByName, outRelationType, outIsQuickJoin, outClubId
+---@return string, string, PartyRequestJoinRelation, boolean, string @outReferredByGuid, outReferredByName, outRelationType, outIsQuickJoin, outClubId
 function C_PartyInfo.GetInviteReferralInfo(inviteGUID)
 end
 
@@ -83,7 +83,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PartyInfo.IsPartyFull)
 ---@param category number
----@return bool @isFull
+---@return boolean @isFull
 function C_PartyInfo.IsPartyFull(category)
 end
 
@@ -94,9 +94,9 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PartyInfo.RequestInviteFromUnit)
 ---@param targetName string
----@param tank bool
----@param healer bool
----@param dps bool
+---@param tank boolean
+---@param healer boolean
+---@param dps boolean
 function C_PartyInfo.RequestInviteFromUnit(targetName, tank, healer, dps)
 end
 

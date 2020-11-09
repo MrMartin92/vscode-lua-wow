@@ -30,7 +30,7 @@ end
 ---@param streamId string
 ---@param epoch number
 ---@param position number
----@return bool @canResolve
+---@return boolean @canResolve
 function C_Club.CanResolvePlayerLocationFromClubMessageData(clubId, streamId, epoch, position)
 end
 
@@ -63,7 +63,7 @@ end
 ---@param clubId string
 ---@param name string
 ---@param subject string
----@param leadersAndModeratorsOnly bool
+---@param leadersAndModeratorsOnly boolean
 function C_Club.CreateStream(clubId, name, subject, leadersAndModeratorsOnly)
 end
 
@@ -127,7 +127,7 @@ end
 ---@param streamId string
 ---@param name string
 ---@param subject string
----@param leadersAndModeratorsOnly bool
+---@param leadersAndModeratorsOnly boolean
 function C_Club.EditStream(clubId, streamId, name, subject, leadersAndModeratorsOnly)
 end
 
@@ -138,7 +138,7 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Club.FocusStream)
 ---@param clubId string
 ---@param streamId string
----@return bool @focused
+---@return boolean @focused
 function C_Club.FocusStream(clubId, streamId)
 end
 
@@ -211,7 +211,7 @@ end
 ---@param filter string
 ---@param maxResults number
 ---@param cursorPosition number
----@param allowFullMatch bool
+---@param allowFullMatch boolean
 ---@param clubId string
 ---@return table @candidates
 function C_Club.GetInvitationCandidates(filter, maxResults, cursorPosition, allowFullMatch, clubId)
@@ -236,7 +236,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Club.GetLastTicketResponse)
 ---@param ticket string
----@return ClubErrorType, ClubInfo, bool @error, info, showError
+---@return ClubErrorType, ClubInfo, boolean @error, info, showError
 function C_Club.GetLastTicketResponse(ticket)
 end
 
@@ -319,7 +319,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Club.IsAccountMuted)
 ---@param clubId string
----@return bool @accountMuted
+---@return boolean @accountMuted
 function C_Club.IsAccountMuted(clubId)
 end
 
@@ -327,12 +327,12 @@ end
 ---@param clubId string
 ---@param streamId string
 ---@param messageId ClubMessageIdentifier
----@return bool @isBeginningOfStream
+---@return boolean @isBeginningOfStream
 function C_Club.IsBeginningOfStream(clubId, streamId, messageId)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Club.IsEnabled)
----@return bool @clubsEnabled
+---@return boolean @clubsEnabled
 function C_Club.IsEnabled()
 end
 
@@ -344,7 +344,7 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Club.IsSubscribedToStream)
 ---@param clubId string
 ---@param streamId string
----@return bool @subscribed
+---@return boolean @subscribed
 function C_Club.IsSubscribedToStream(clubId, streamId)
 end
 
@@ -374,7 +374,7 @@ end
 ---@param streamId string
 ---@param messageId ClubMessageIdentifier
 ---@param count number
----@return bool @alreadyHasMessages
+---@return boolean @alreadyHasMessages
 function C_Club.RequestMoreMessagesBefore(clubId, streamId, messageId, count)
 end
 
@@ -452,19 +452,19 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Club.SetFavorite)
 ---@param clubId string
----@param isFavorite bool
+---@param isFavorite boolean
 function C_Club.SetFavorite(clubId, isFavorite)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Club.SetSocialQueueingEnabled)
 ---@param clubId string
----@param enabled bool
+---@param enabled boolean
 function C_Club.SetSocialQueueingEnabled(clubId, enabled)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Club.ShouldAllowClubType)
 ---@param clubType ClubType
----@return bool @clubTypeIsAllowed
+---@return boolean @clubTypeIsAllowed
 function C_Club.ShouldAllowClubType(clubType)
 end
 
@@ -651,7 +651,7 @@ enum.ValidateNameResult.NameSpacesDisallowed = 17
 ---@field public memberCount number
 ---@field public favoriteTimeStamp number
 ---@field public joinTime number
----@field public socialQueueingEnabled bool
+---@field public socialQueueingEnabled boolean
 ClubInfo = {}
 
 ---@class ClubInvitationCandidateInfo
@@ -663,7 +663,7 @@ ClubInvitationCandidateInfo = {}
 
 ---@class ClubInvitationInfo
 ---@field public invitationId string
----@field public isMyInvitation bool
+---@field public isMyInvitation boolean
 ---@field public invitee ClubMemberInfo
 ClubInvitationInfo = {}
 
@@ -672,7 +672,7 @@ ClubInvitationInfo = {}
 ClubLimits = {}
 
 ---@class ClubMemberInfo
----@field public isSelf bool
+---@field public isSelf boolean
 ---@field public memberId number
 ---@field public name string
 ---@field public role ClubRoleIdentifier
@@ -699,7 +699,7 @@ ClubLimits = {}
 ---@field public lastOnlineHour number
 ---@field public guildRank string
 ---@field public guildRankOrder number
----@field public isRemoteChat bool
+---@field public isRemoteChat boolean
 ClubMemberInfo = {}
 
 ---@class ClubMessageIdentifier
@@ -712,8 +712,8 @@ ClubMessageIdentifier = {}
 ---@field public content string
 ---@field public author ClubMemberInfo
 ---@field public destroyer ClubMemberInfo
----@field public destroyed bool
----@field public edited bool
+---@field public destroyed boolean
+---@field public edited boolean
 ClubMessageInfo = {}
 
 ---@class ClubMessageRange
@@ -722,47 +722,47 @@ ClubMessageInfo = {}
 ClubMessageRange = {}
 
 ---@class ClubPrivilegeInfo
----@field public canDestroy bool
----@field public canSetAttribute bool
----@field public canSetName bool
----@field public canSetDescription bool
----@field public canSetAvatar bool
----@field public canSetBroadcast bool
----@field public canSetPrivacyLevel bool
----@field public canSetOwnMemberAttribute bool
----@field public canSetOtherMemberAttribute bool
----@field public canSetOwnMemberNote bool
----@field public canSetOtherMemberNote bool
----@field public canSetOwnVoiceState bool
----@field public canSetOwnPresenceLevel bool
----@field public canUseVoice bool
----@field public canVoiceMuteMemberForAll bool
----@field public canGetInvitation bool
----@field public canSendInvitation bool
----@field public canSendGuestInvitation bool
----@field public canRevokeOwnInvitation bool
----@field public canRevokeOtherInvitation bool
----@field public canGetBan bool
----@field public canGetSuggestion bool
----@field public canSuggestMember bool
----@field public canGetTicket bool
----@field public canCreateTicket bool
----@field public canDestroyTicket bool
----@field public canAddBan bool
----@field public canRemoveBan bool
----@field public canCreateStream bool
----@field public canDestroyStream bool
----@field public canSetStreamPosition bool
----@field public canSetStreamAttribute bool
----@field public canSetStreamName bool
----@field public canSetStreamSubject bool
----@field public canSetStreamAccess bool
----@field public canSetStreamVoiceLevel bool
----@field public canCreateMessage bool
----@field public canDestroyOwnMessage bool
----@field public canDestroyOtherMessage bool
----@field public canEditOwnMessage bool
----@field public canPinMessage bool
+---@field public canDestroy boolean
+---@field public canSetAttribute boolean
+---@field public canSetName boolean
+---@field public canSetDescription boolean
+---@field public canSetAvatar boolean
+---@field public canSetBroadcast boolean
+---@field public canSetPrivacyLevel boolean
+---@field public canSetOwnMemberAttribute boolean
+---@field public canSetOtherMemberAttribute boolean
+---@field public canSetOwnMemberNote boolean
+---@field public canSetOtherMemberNote boolean
+---@field public canSetOwnVoiceState boolean
+---@field public canSetOwnPresenceLevel boolean
+---@field public canUseVoice boolean
+---@field public canVoiceMuteMemberForAll boolean
+---@field public canGetInvitation boolean
+---@field public canSendInvitation boolean
+---@field public canSendGuestInvitation boolean
+---@field public canRevokeOwnInvitation boolean
+---@field public canRevokeOtherInvitation boolean
+---@field public canGetBan boolean
+---@field public canGetSuggestion boolean
+---@field public canSuggestMember boolean
+---@field public canGetTicket boolean
+---@field public canCreateTicket boolean
+---@field public canDestroyTicket boolean
+---@field public canAddBan boolean
+---@field public canRemoveBan boolean
+---@field public canCreateStream boolean
+---@field public canDestroyStream boolean
+---@field public canSetStreamPosition boolean
+---@field public canSetStreamAttribute boolean
+---@field public canSetStreamName boolean
+---@field public canSetStreamSubject boolean
+---@field public canSetStreamAccess boolean
+---@field public canSetStreamVoiceLevel boolean
+---@field public canCreateMessage boolean
+---@field public canDestroyOwnMessage boolean
+---@field public canDestroyOtherMessage boolean
+---@field public canEditOwnMessage boolean
+---@field public canPinMessage boolean
 ---@field public kickableRoleIds table
 ClubPrivilegeInfo = {}
 
@@ -777,7 +777,7 @@ ClubSelfInvitationInfo = {}
 ---@field public streamId string
 ---@field public name string
 ---@field public subject string
----@field public leadersAndModeratorsOnly bool
+---@field public leadersAndModeratorsOnly boolean
 ---@field public streamType ClubStreamType
 ---@field public creationTime number
 ClubStreamInfo = {}

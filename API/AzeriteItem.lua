@@ -25,30 +25,30 @@ function C_AzeriteItem.GetUnlimitedPowerLevel(azeriteItemLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteItem.HasActiveAzeriteItem)
----@return bool @hasActiveAzeriteItem
+---@return boolean @hasActiveAzeriteItem
 function C_AzeriteItem.HasActiveAzeriteItem()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteItem.IsAzeriteItem)
 ---@param itemLocation table
----@return bool @isAzeriteItem
+---@return boolean @isAzeriteItem
 function C_AzeriteItem.IsAzeriteItem(itemLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteItem.IsAzeriteItemAtMaxLevel)
----@return bool @isAtMax
+---@return boolean @isAtMax
 function C_AzeriteItem.IsAzeriteItemAtMaxLevel()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteItem.IsAzeriteItemByID)
 ---@param itemInfo string
----@return bool @isAzeriteItem
+---@return boolean @isAzeriteItem
 function C_AzeriteItem.IsAzeriteItemByID(itemInfo)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteItem.IsAzeriteItemEnabled)
 ---@param azeriteItemLocation table
----@return bool @isEnabled
+---@return boolean @isEnabled
 function C_AzeriteItem.IsAzeriteItemEnabled(azeriteItemLocation)
 end
 

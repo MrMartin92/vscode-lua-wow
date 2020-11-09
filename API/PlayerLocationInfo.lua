@@ -3,7 +3,7 @@ C_PlayerInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.GUIDIsPlayer)
 ---@param guid string
----@return bool @isPlayer
+---@return boolean @isPlayer
 function C_PlayerInfo.GUIDIsPlayer(guid)
 end
 
@@ -33,13 +33,13 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.IsConnected)
 ---@param playerLocation table
----@return bool @isConnected
+---@return boolean @isConnected
 function C_PlayerInfo.IsConnected(playerLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.UnitIsSameServer)
 ---@param playerLocation table
----@return bool @unitIsSameServer
+---@return boolean @unitIsSameServer
 function C_PlayerInfo.UnitIsSameServer(playerLocation)
 end
 

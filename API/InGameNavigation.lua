@@ -17,12 +17,12 @@ function C_Navigation.GetTargetState()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Navigation.HasValidScreenPosition)
----@return bool @hasValidScreenPosition
+---@return boolean @hasValidScreenPosition
 function C_Navigation.HasValidScreenPosition()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Navigation.WasClampedToScreen)
----@return bool @wasClamped
+---@return boolean @wasClamped
 function C_Navigation.WasClampedToScreen()
 end
 

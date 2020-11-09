@@ -41,15 +41,15 @@ enum.SelfResurrectOptionType.Item = 1
 ---@field public name string
 ---@field public textureIndex number
 ---@field public graveyardID number
----@field public isGraveyardSelectable bool
+---@field public isGraveyardSelectable boolean
 GraveyardMapInfo = {}
 
 ---@class SelfResurrectOption
 ---@field public name string
 ---@field public optionType SelfResurrectOptionType
 ---@field public id number
----@field public canUse bool
----@field public isLimited bool
+---@field public canUse boolean
+---@field public isLimited boolean
 ---@field public priority number
 SelfResurrectOption = {}
 

@@ -73,7 +73,7 @@ function C_GamePad.GetDeviceRawState(deviceID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GamePad.IsEnabled)
----@return bool @enabled
+---@return boolean @enabled
 function C_GamePad.IsEnabled()
 end
 

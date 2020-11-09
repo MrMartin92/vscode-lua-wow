@@ -6,12 +6,12 @@ function C_SplashScreen.AcknowledgeSplash()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SplashScreen.CanViewSplashScreen)
----@return bool @canView
+---@return boolean @canView
 function C_SplashScreen.CanViewSplashScreen()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SplashScreen.RequestLatestSplashScreen)
----@param fromGameMenu bool
+---@param fromGameMenu boolean
 function C_SplashScreen.RequestLatestSplashScreen(fromGameMenu)
 end
 
@@ -34,7 +34,7 @@ enum.SplashScreenType.SeasonRollOver = 1
 ---@field public bottomLeftFeatureDesc string
 ---@field public rightFeatureTitle string
 ---@field public rightFeatureDesc string
----@field public shouldShowQuest bool
+---@field public shouldShowQuest boolean
 ---@field public screenType SplashScreenType
 SplashScreenInfo = {}
 

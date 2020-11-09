@@ -37,7 +37,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ItemInteraction.SetPendingItem)
 ---@param item table
----@return bool @success
+---@return boolean @success
 function C_ItemInteraction.SetPendingItem(item)
 end
 

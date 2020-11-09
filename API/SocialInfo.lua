@@ -34,7 +34,7 @@ function C_Social.GetTweetLength(tweetText)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Social.IsSocialEnabled)
----@return bool @isEnabled
+---@return boolean @isEnabled
 function C_Social.IsSocialEnabled()
 end
 

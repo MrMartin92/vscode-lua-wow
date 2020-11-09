@@ -8,7 +8,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ToyBoxInfo.NeedsFanfare)
 ---@param itemID number
----@return bool @needsFanfare
+---@return boolean @needsFanfare
 function C_ToyBoxInfo.NeedsFanfare(itemID)
 end
 

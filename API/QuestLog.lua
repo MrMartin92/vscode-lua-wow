@@ -8,20 +8,20 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.AddQuestWatch)
 ---@param questID number
 ---@param watchType QuestWatchType
----@return bool @wasWatched
+---@return boolean @wasWatched
 function C_QuestLog.AddQuestWatch(questID, watchType)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.AddWorldQuestWatch)
 ---@param questID number
 ---@param watchType QuestWatchType
----@return bool @wasWatched
+---@return boolean @wasWatched
 function C_QuestLog.AddWorldQuestWatch(questID, watchType)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.CanAbandonQuest)
 ---@param questID number
----@return bool @canAbandon
+---@return boolean @canAbandon
 function C_QuestLog.CanAbandonQuest(questID)
 end
 
@@ -59,7 +59,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.GetDistanceSqToQuest)
 ---@param questID number
----@return number, bool @distanceSq, onContinent
+---@return number, boolean @distanceSq, onContinent
 function C_QuestLog.GetDistanceSqToQuest(questID)
 end
 
@@ -132,7 +132,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.GetQuestAdditionalHighlights)
 ---@param questID number
----@return number, bool, bool, bool, bool @uiMapID, worldQuests, worldQuestsElite, dungeons, treasures
+---@return number, boolean, boolean, boolean, boolean @uiMapID, worldQuests, worldQuestsElite, dungeons, treasures
 function C_QuestLog.GetQuestAdditionalHighlights(questID)
 end
 
@@ -232,171 +232,171 @@ function C_QuestLog.GetZoneStoryInfo(uiMapID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.HasActiveThreats)
----@return bool @hasActiveThreats
+---@return boolean @hasActiveThreats
 function C_QuestLog.HasActiveThreats()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsAccountQuest)
 ---@param questID number
----@return bool @isAccountQuest
+---@return boolean @isAccountQuest
 function C_QuestLog.IsAccountQuest(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsComplete)
 ---@param questID number
----@return bool @isComplete
+---@return boolean @isComplete
 function C_QuestLog.IsComplete(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsFailed)
 ---@param questID number
----@return bool @isFailed
+---@return boolean @isFailed
 function C_QuestLog.IsFailed(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsLegendaryQuest)
 ---@param questID number
----@return bool @isLegendaryQuest
+---@return boolean @isLegendaryQuest
 function C_QuestLog.IsLegendaryQuest(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsOnMap)
 ---@param questID number
----@return bool, bool @onMap, hasLocalPOI
+---@return boolean, boolean @onMap, hasLocalPOI
 function C_QuestLog.IsOnMap(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsOnQuest)
 ---@param questID number
----@return bool @isOnQuest
+---@return boolean @isOnQuest
 function C_QuestLog.IsOnQuest(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsPushableQuest)
 ---@param questID number
----@return bool @isPushable
+---@return boolean @isPushable
 function C_QuestLog.IsPushableQuest(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsQuestBounty)
 ---@param questID number
----@return bool @isBounty
+---@return boolean @isBounty
 function C_QuestLog.IsQuestBounty(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsQuestCalling)
 ---@param questID number
----@return bool @isCalling
+---@return boolean @isCalling
 function C_QuestLog.IsQuestCalling(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsQuestCriteriaForBounty)
 ---@param questID number
 ---@param bountyQuestID number
----@return bool @isCriteriaForBounty
+---@return boolean @isCriteriaForBounty
 function C_QuestLog.IsQuestCriteriaForBounty(questID, bountyQuestID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsQuestDisabledForSession)
 ---@param questID number
----@return bool @isDisabled
+---@return boolean @isDisabled
 function C_QuestLog.IsQuestDisabledForSession(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsQuestFlaggedCompleted)
 ---@param questID number
----@return bool @isCompleted
+---@return boolean @isCompleted
 function C_QuestLog.IsQuestFlaggedCompleted(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsQuestInvasion)
 ---@param questID number
----@return bool @isInvasion
+---@return boolean @isInvasion
 function C_QuestLog.IsQuestInvasion(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsQuestReplayable)
 ---@param questID number
----@return bool @isReplayable
+---@return boolean @isReplayable
 function C_QuestLog.IsQuestReplayable(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsQuestReplayedRecently)
 ---@param questID number
----@return bool @recentlyReplayed
+---@return boolean @recentlyReplayed
 function C_QuestLog.IsQuestReplayedRecently(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsQuestTask)
 ---@param questID number
----@return bool @isTask
+---@return boolean @isTask
 function C_QuestLog.IsQuestTask(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsQuestTrivial)
 ---@param questID number
----@return bool @isTrivial
+---@return boolean @isTrivial
 function C_QuestLog.IsQuestTrivial(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsRepeatableQuest)
 ---@param questID number
----@return bool @isRepeatable
+---@return boolean @isRepeatable
 function C_QuestLog.IsRepeatableQuest(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsThreatQuest)
 ---@param questID number
----@return bool @isThreat
+---@return boolean @isThreat
 function C_QuestLog.IsThreatQuest(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsUnitOnQuest)
 ---@param unit string
 ---@param questID number
----@return bool @isOnQuest
+---@return boolean @isOnQuest
 function C_QuestLog.IsUnitOnQuest(unit, questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.IsWorldQuest)
 ---@param questID number
----@return bool @isWorldQuest
+---@return boolean @isWorldQuest
 function C_QuestLog.IsWorldQuest(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.QuestCanHaveWarModeBonus)
 ---@param questID number
----@return bool @hasBonus
+---@return boolean @hasBonus
 function C_QuestLog.QuestCanHaveWarModeBonus(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.QuestHasQuestSessionBonus)
 ---@param questID number
----@return bool @hasBonus
+---@return boolean @hasBonus
 function C_QuestLog.QuestHasQuestSessionBonus(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.QuestHasWarModeBonus)
 ---@param questID number
----@return bool @hasBonus
+---@return boolean @hasBonus
 function C_QuestLog.QuestHasWarModeBonus(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.ReadyForTurnIn)
 ---@param questID number
----@return bool @readyForTurnIn
+---@return boolean @readyForTurnIn
 function C_QuestLog.ReadyForTurnIn(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.RemoveQuestWatch)
 ---@param questID number
----@return bool @wasRemoved
+---@return boolean @wasRemoved
 function C_QuestLog.RemoveQuestWatch(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.RemoveWorldQuestWatch)
 ---@param questID number
----@return bool @wasRemoved
+---@return boolean @wasRemoved
 function C_QuestLog.RemoveWorldQuestWatch(questID)
 end
 
@@ -421,7 +421,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.ShouldShowQuestRewards)
 ---@param questID number
----@return bool @shouldShow
+---@return boolean @shouldShow
 function C_QuestLog.ShouldShowQuestRewards(questID)
 end
 
@@ -478,25 +478,25 @@ enum.WorldQuestQuality.Epic = 2
 ---@field public difficultyLevel number
 ---@field public suggestedGroup number
 ---@field public frequency QuestFrequency
----@field public isHeader bool
----@field public isCollapsed bool
----@field public startEvent bool
----@field public isTask bool
----@field public isBounty bool
----@field public isStory bool
----@field public isScaling bool
----@field public isOnMap bool
----@field public hasLocalPOI bool
----@field public isHidden bool
----@field public isAutoComplete bool
----@field public overridesSortOrder bool
----@field public readyForTranslation bool
+---@field public isHeader boolean
+---@field public isCollapsed boolean
+---@field public startEvent boolean
+---@field public isTask boolean
+---@field public isBounty boolean
+---@field public isStory boolean
+---@field public isScaling boolean
+---@field public isOnMap boolean
+---@field public hasLocalPOI boolean
+---@field public isHidden boolean
+---@field public isAutoComplete boolean
+---@field public overridesSortOrder boolean
+---@field public readyForTranslation boolean
 QuestInfo = {}
 
 ---@class QuestObjectiveInfo
 ---@field public text string
 ---@field public type string
----@field public finished bool
+---@field public finished boolean
 ---@field public numFulfilled number
 ---@field public numRequired number
 QuestObjectiveInfo = {}
@@ -506,7 +506,7 @@ QuestObjectiveInfo = {}
 ---@field public x number
 ---@field public y number
 ---@field public type number
----@field public isMapIndicatorQuest bool
+---@field public isMapIndicatorQuest boolean
 QuestOnMapInfo = {}
 
 ---@class QuestTagInfo
@@ -515,8 +515,8 @@ QuestOnMapInfo = {}
 ---@field public worldQuestType number
 ---@field public quality WorldQuestQuality
 ---@field public tradeskillLineID number
----@field public isElite bool
----@field public displayExpiration bool
+---@field public isElite boolean
+---@field public displayExpiration boolean
 QuestTagInfo = {}
 
 ---@class QuestTheme

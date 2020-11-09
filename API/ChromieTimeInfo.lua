@@ -27,7 +27,7 @@ end
 ---@field public description string
 ---@field public mapAtlas string
 ---@field public previewAtlas string
----@field public completed bool
----@field public alreadyOn bool
+---@field public completed boolean
+---@field public alreadyOn boolean
 ChromieTimeExpansionInfo = {}
 

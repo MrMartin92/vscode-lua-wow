@@ -3,7 +3,7 @@ C_ArtifactUI = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.AddPower)
 ---@param powerID number
----@return bool @success
+---@return boolean @success
 function C_ArtifactUI.AddPower(powerID)
 end
 
@@ -14,33 +14,33 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.CanApplyArtifactRelic)
 ---@param relicItemID number
----@param onlyUnlocked bool
----@return bool @canApply
+---@param onlyUnlocked boolean
+---@return boolean @canApply
 function C_ArtifactUI.CanApplyArtifactRelic(relicItemID, onlyUnlocked)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.CanApplyCursorRelicToSlot)
 ---@param relicSlotIndex number
----@return bool @canApply
+---@return boolean @canApply
 function C_ArtifactUI.CanApplyCursorRelicToSlot(relicSlotIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.CanApplyRelicItemIDToEquippedArtifactSlot)
 ---@param relicItemID number
 ---@param relicSlotIndex number
----@return bool @canApply
+---@return boolean @canApply
 function C_ArtifactUI.CanApplyRelicItemIDToEquippedArtifactSlot(relicItemID, relicSlotIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.CanApplyRelicItemIDToSlot)
 ---@param relicItemID number
 ---@param relicSlotIndex number
----@return bool @canApply
+---@return boolean @canApply
 function C_ArtifactUI.CanApplyRelicItemIDToSlot(relicItemID, relicSlotIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.CheckRespecNPC)
----@return bool @canRespec
+---@return boolean @canRespec
 function C_ArtifactUI.CheckRespecNPC()
 end
 
@@ -57,20 +57,20 @@ function C_ArtifactUI.ConfirmRespec()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.DoesEquippedArtifactHaveAnyRelicsSlotted)
----@return bool @hasAnyRelicsSlotted
+---@return boolean @hasAnyRelicsSlotted
 function C_ArtifactUI.DoesEquippedArtifactHaveAnyRelicsSlotted()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.GetAppearanceInfo)
 ---@param appearanceSetIndex number
 ---@param appearanceIndex number
----@return number, string, number, bool, string, number, number, number, number, number, number, number, bool @artifactAppearanceID, appearanceName, displayIndex, unlocked, failureDescription, uiCameraID, altHandCameraID, swatchColorR, swatchColorG, swatchColorB, modelOpacity, modelSaturation, obtainable
+---@return number, string, number, boolean, string, number, number, number, number, number, number, number, boolean @artifactAppearanceID, appearanceName, displayIndex, unlocked, failureDescription, uiCameraID, altHandCameraID, swatchColorR, swatchColorG, swatchColorB, modelOpacity, modelSaturation, obtainable
 function C_ArtifactUI.GetAppearanceInfo(appearanceSetIndex, appearanceIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.GetAppearanceInfoByID)
 ---@param artifactAppearanceID number
----@return number, number, string, number, bool, string, number, number, number, number, number, number, number, bool @artifactAppearanceSetID, artifactAppearanceID, appearanceName, displayIndex, unlocked, failureDescription, uiCameraID, altHandCameraID, swatchColorR, swatchColorG, swatchColorB, modelOpacity, modelSaturation, obtainable
+---@return number, number, string, number, boolean, string, number, number, number, number, number, number, number, boolean @artifactAppearanceSetID, artifactAppearanceID, appearanceName, displayIndex, unlocked, failureDescription, uiCameraID, altHandCameraID, swatchColorR, swatchColorG, swatchColorB, modelOpacity, modelSaturation, obtainable
 function C_ArtifactUI.GetAppearanceInfoByID(artifactAppearanceID)
 end
 
@@ -86,7 +86,7 @@ function C_ArtifactUI.GetArtifactArtInfo()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.GetArtifactInfo)
----@return number, number, string, number, number, number, number, number, number, number, number, bool, number @itemID, altItemID, name, icon, xp, pointsSpent, quality, artifactAppearanceID, appearanceModID, itemAppearanceID, altItemAppearanceID, altOnTop, tier
+---@return number, number, string, number, number, number, number, number, number, number, number, boolean, number @itemID, altItemID, name, icon, xp, pointsSpent, quality, artifactAppearanceID, appearanceModID, itemAppearanceID, altItemAppearanceID, altOnTop, tier
 function C_ArtifactUI.GetArtifactInfo()
 end
 
@@ -119,7 +119,7 @@ function C_ArtifactUI.GetEquippedArtifactArtInfo()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.GetEquippedArtifactInfo)
----@return number, number, string, number, number, number, number, number, number, number, number, bool, number @itemID, altItemID, name, icon, xp, pointsSpent, quality, artifactAppearanceID, appearanceModID, itemAppearanceID, altItemAppearanceID, altOnTop, tier
+---@return number, number, string, number, number, number, number, number, number, number, number, boolean, number @itemID, altItemID, name, icon, xp, pointsSpent, quality, artifactAppearanceID, appearanceModID, itemAppearanceID, altItemAppearanceID, altOnTop, tier
 function C_ArtifactUI.GetEquippedArtifactInfo()
 end
 
@@ -129,7 +129,7 @@ function C_ArtifactUI.GetEquippedArtifactItemID()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.GetEquippedArtifactNumRelicSlots)
----@param onlyUnlocked bool
+---@param onlyUnlocked boolean
 ---@return number @numRelicSlots
 function C_ArtifactUI.GetEquippedArtifactNumRelicSlots(onlyUnlocked)
 end
@@ -173,7 +173,7 @@ function C_ArtifactUI.GetNumObtainedArtifacts()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.GetNumRelicSlots)
----@param onlyUnlocked bool
+---@param onlyUnlocked boolean
 ---@return number @numRelicSlots
 function C_ArtifactUI.GetNumRelicSlots(onlyUnlocked)
 end
@@ -253,7 +253,7 @@ function C_ArtifactUI.GetRespecArtifactArtInfo()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.GetRespecArtifactInfo)
----@return number, number, string, number, number, number, number, number, number, number, number, bool, number @itemID, altItemID, name, icon, xp, pointsSpent, quality, artifactAppearanceID, appearanceModID, itemAppearanceID, altItemAppearanceID, altOnTop, tier
+---@return number, number, string, number, number, number, number, number, number, number, number, boolean, number @itemID, altItemID, name, icon, xp, pointsSpent, quality, artifactAppearanceID, appearanceModID, itemAppearanceID, altItemAppearanceID, altOnTop, tier
 function C_ArtifactUI.GetRespecArtifactInfo()
 end
 
@@ -276,38 +276,38 @@ function C_ArtifactUI.GetTotalPurchasedRanks()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.IsArtifactDisabled)
----@return bool @artifactDisabled
+---@return boolean @artifactDisabled
 function C_ArtifactUI.IsArtifactDisabled()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.IsAtForge)
----@return bool @isAtForge
+---@return boolean @isAtForge
 function C_ArtifactUI.IsAtForge()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.IsEquippedArtifactDisabled)
----@return bool @artifactDisabled
+---@return boolean @artifactDisabled
 function C_ArtifactUI.IsEquippedArtifactDisabled()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.IsEquippedArtifactMaxed)
----@return bool @artifactMaxed
+---@return boolean @artifactMaxed
 function C_ArtifactUI.IsEquippedArtifactMaxed()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.IsMaxedByRulesOrEffect)
----@return bool @isEffectivelyMaxed
+---@return boolean @isEffectivelyMaxed
 function C_ArtifactUI.IsMaxedByRulesOrEffect()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.IsPowerKnown)
 ---@param powerID number
----@return bool @known
+---@return boolean @known
 function C_ArtifactUI.IsPowerKnown(powerID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.IsViewedArtifactEquipped)
----@return bool @isViewedArtifactEquipped
+---@return boolean @isViewedArtifactEquipped
 function C_ArtifactUI.IsViewedArtifactEquipped()
 end
 
@@ -333,7 +333,7 @@ function C_ArtifactUI.SetPreviewAppearance(artifactAppearanceID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.ShouldSuppressForgeRotation)
----@return bool @shouldSuppressForgeRotation
+---@return boolean @shouldSuppressForgeRotation
 function C_ArtifactUI.ShouldSuppressForgeRotation()
 end
 
@@ -354,10 +354,10 @@ ArtifactArtInfo = {}
 ---@field public maxRank number
 ---@field public bonusRanks number
 ---@field public numMaxRankBonusFromTier number
----@field public prereqsMet bool
----@field public isStart bool
----@field public isGoldMedal bool
----@field public isFinal bool
+---@field public prereqsMet boolean
+---@field public isStart boolean
+---@field public isGoldMedal boolean
+---@field public isFinal boolean
 ---@field public tier number
 ---@field public position table
 ---@field public offset table

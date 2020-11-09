@@ -30,7 +30,7 @@ function C_SummonInfo.GetSummonReason()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SummonInfo.IsSummonSkippingStartExperience)
----@return bool @isSummonSkippingStartExperience
+---@return boolean @isSummonSkippingStartExperience
 function C_SummonInfo.IsSummonSkippingStartExperience()
 end
 

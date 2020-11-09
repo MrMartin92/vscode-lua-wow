@@ -30,6 +30,6 @@ CovenantAbilityInfo = {}
 ---@field public description string
 ---@field public covenantCrest string
 ---@field public covenantAbilities table
----@field public fromPlayerChoice bool
+---@field public fromPlayerChoice boolean
 CovenantPreviewInfo = {}
 

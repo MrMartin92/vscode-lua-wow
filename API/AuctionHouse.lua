@@ -19,7 +19,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.CanCancelAuction)
 ---@param ownedAuctionID number
----@return bool @canCancelAuction
+---@return boolean @canCancelAuction
 function C_AuctionHouse.CanCancelAuction(ownedAuctionID)
 end
 
@@ -47,7 +47,7 @@ function C_AuctionHouse.ConfirmCommoditiesPurchase(itemID, quantity)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.FavoritesAreAvailable)
----@return bool @favoritesAreAvailable
+---@return boolean @favoritesAreAvailable
 function C_AuctionHouse.FavoritesAreAvailable()
 end
 
@@ -124,7 +124,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.GetItemKeyInfo)
 ---@param itemKey ItemKey
----@param restrictQualityToFilter bool
+---@param restrictQualityToFilter boolean
 ---@return ItemKeyInfo @itemKeyInfo
 function C_AuctionHouse.GetItemKeyInfo(itemKey, restrictQualityToFilter)
 end
@@ -248,7 +248,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.GetReplicateItemInfo)
 ---@param index number
----@return string, number, number, number, bool, number, string, number, number, number, number, string, string, string, string, number, number, bool @name, texture, count, qualityID, usable, level, levelType, minBid, minIncrement, buyoutPrice, bidAmount, highBidder, bidderFullName, owner, ownerFullName, saleStatus, itemID, hasAllInfo
+---@return string, number, number, number, boolean, number, string, number, number, number, number, string, string, string, string, number, number, boolean @name, texture, count, qualityID, usable, level, levelType, minBid, minIncrement, buyoutPrice, bidAmount, highBidder, bidderFullName, owner, ownerFullName, saleStatus, itemID, hasAllInfo
 function C_AuctionHouse.GetReplicateItemInfo(index)
 end
 
@@ -271,63 +271,63 @@ function C_AuctionHouse.GetTimeLeftBandInfo(timeLeftBand)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.HasFavorites)
----@return bool @hasFavorites
+---@return boolean @hasFavorites
 function C_AuctionHouse.HasFavorites()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.HasFullBidResults)
----@return bool @hasFullBidResults
+---@return boolean @hasFullBidResults
 function C_AuctionHouse.HasFullBidResults()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.HasFullBrowseResults)
----@return bool @hasFullBrowseResults
+---@return boolean @hasFullBrowseResults
 function C_AuctionHouse.HasFullBrowseResults()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.HasFullCommoditySearchResults)
 ---@param itemID number
----@return bool @hasFullResults
+---@return boolean @hasFullResults
 function C_AuctionHouse.HasFullCommoditySearchResults(itemID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.HasFullItemSearchResults)
 ---@param itemKey ItemKey
----@return bool @hasFullResults
+---@return boolean @hasFullResults
 function C_AuctionHouse.HasFullItemSearchResults(itemKey)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.HasFullOwnedAuctionResults)
----@return bool @hasFullOwnedAuctionResults
+---@return boolean @hasFullOwnedAuctionResults
 function C_AuctionHouse.HasFullOwnedAuctionResults()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.HasMaxFavorites)
----@return bool @hasMaxFavorites
+---@return boolean @hasMaxFavorites
 function C_AuctionHouse.HasMaxFavorites()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.HasSearchResults)
 ---@param itemKey ItemKey
----@return bool @hasSearchResults
+---@return boolean @hasSearchResults
 function C_AuctionHouse.HasSearchResults(itemKey)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.IsFavoriteItem)
 ---@param itemKey ItemKey
----@return bool @isFavorite
+---@return boolean @isFavorite
 function C_AuctionHouse.IsFavoriteItem(itemKey)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.IsSellItemValid)
 ---@param item table
----@param displayError bool
----@return bool @valid
+---@param displayError boolean
+---@return boolean @valid
 function C_AuctionHouse.IsSellItemValid(item, displayError)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.IsThrottledMessageSystemReady)
----@return bool @canSendThrottledMessage
+---@return boolean @canSendThrottledMessage
 function C_AuctionHouse.IsThrottledMessageSystemReady()
 end
 
@@ -394,13 +394,13 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.RequestMoreCommoditySearchResults)
 ---@param itemID number
----@return bool @hasFullResults
+---@return boolean @hasFullResults
 function C_AuctionHouse.RequestMoreCommoditySearchResults(itemID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.RequestMoreItemSearchResults)
 ---@param itemKey ItemKey
----@return bool @hasFullResults
+---@return boolean @hasFullResults
 function C_AuctionHouse.RequestMoreItemSearchResults(itemKey)
 end
 
@@ -429,20 +429,20 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.SendSearchQuery)
 ---@param itemKey ItemKey
 ---@param sorts table
----@param separateOwnerItems bool
+---@param separateOwnerItems boolean
 function C_AuctionHouse.SendSearchQuery(itemKey, sorts, separateOwnerItems)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.SendSellSearchQuery)
 ---@param itemKey ItemKey
 ---@param sorts table
----@param separateOwnerItems bool
+---@param separateOwnerItems boolean
 function C_AuctionHouse.SendSellSearchQuery(itemKey, sorts, separateOwnerItems)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.SetFavoriteItem)
 ---@param itemKey ItemKey
----@param setFavorite bool
+---@param setFavorite boolean
 function C_AuctionHouse.SetFavoriteItem(itemKey, setFavorite)
 end
 
@@ -491,7 +491,7 @@ AuctionHouseItemClassFilter = {}
 
 ---@class AuctionHouseSortType
 ---@field public sortOrder AuctionHouseSortOrder
----@field public reverseSort bool
+---@field public reverseSort boolean
 AuctionHouseSortType = {}
 
 ---@class BidInfo
@@ -510,7 +510,7 @@ BidInfo = {}
 ---@field public appearanceLink string
 ---@field public totalQuantity number
 ---@field public minPrice number
----@field public containsOwnerItem bool
+---@field public containsOwnerItem boolean
 BrowseResultInfo = {}
 
 ---@class CommoditySearchResultInfo
@@ -521,8 +521,8 @@ BrowseResultInfo = {}
 ---@field public owners table
 ---@field public timeLeftSeconds number
 ---@field public numOwnerItems number
----@field public containsOwnerItem bool
----@field public containsAccountItem bool
+---@field public containsOwnerItem boolean
+---@field public containsAccountItem boolean
 CommoditySearchResultInfo = {}
 
 ---@class ItemKey
@@ -538,9 +538,9 @@ ItemKey = {}
 ---@field public appearanceLink string
 ---@field public quality number
 ---@field public iconFileID number
----@field public isPet bool
----@field public isCommodity bool
----@field public isEquipment bool
+---@field public isPet boolean
+---@field public isCommodity boolean
+---@field public isEquipment boolean
 ItemKeyInfo = {}
 
 ---@class ItemSearchResultInfo
@@ -550,9 +550,9 @@ ItemKeyInfo = {}
 ---@field public auctionID number
 ---@field public quantity number
 ---@field public itemLink string
----@field public containsOwnerItem bool
----@field public containsAccountItem bool
----@field public containsSocketedItem bool
+---@field public containsOwnerItem boolean
+---@field public containsAccountItem boolean
+---@field public containsSocketedItem boolean
 ---@field public bidder string
 ---@field public minBid number
 ---@field public bidAmount number

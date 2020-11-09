@@ -88,26 +88,26 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LegendaryCrafting.IsRuneforgeLegendary)
 ---@param item table
----@return bool @isRuneforgeLegendary
+---@return boolean @isRuneforgeLegendary
 function C_LegendaryCrafting.IsRuneforgeLegendary(item)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LegendaryCrafting.IsRuneforgeLegendaryMaxLevel)
 ---@param runeforgeLegendary table
----@return bool @isMaxLevel
+---@return boolean @isMaxLevel
 function C_LegendaryCrafting.IsRuneforgeLegendaryMaxLevel(runeforgeLegendary)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LegendaryCrafting.IsUpgradeItemValidForRuneforgeLegendary)
 ---@param runeforgeLegendary table
 ---@param upgradeItem table
----@return bool @isValid
+---@return boolean @isValid
 function C_LegendaryCrafting.IsUpgradeItemValidForRuneforgeLegendary(runeforgeLegendary, upgradeItem)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LegendaryCrafting.IsValidRuneforgeBaseItem)
 ---@param baseItem table
----@return bool @isValid
+---@return boolean @isValid
 function C_LegendaryCrafting.IsValidRuneforgeBaseItem(baseItem)
 end
 

@@ -325,7 +325,7 @@ enum.ZoneControlState.State2 = 1
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -347,7 +347,7 @@ BulletTextListWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -365,7 +365,7 @@ CaptureBarWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -384,7 +384,7 @@ CaptureZoneVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -403,7 +403,7 @@ DiscreteProgressStepsVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -419,7 +419,7 @@ DoubleIconAndTextWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -443,7 +443,7 @@ DoubleStateIconRowVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -458,7 +458,7 @@ DoubleStatusBarWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -475,7 +475,7 @@ HorizontalCurrenciesWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -490,7 +490,7 @@ IconAndTextWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -510,7 +510,7 @@ IconTextAndBackgroundWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -526,7 +526,7 @@ IconTextAndCurrenciesWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -545,7 +545,7 @@ ScenarioHeaderCurrenciesAndBackgroundWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -561,7 +561,7 @@ ScenarioHeaderTimerWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -576,7 +576,7 @@ SpellDisplayVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -600,7 +600,7 @@ StackedResourceTrackerWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -620,7 +620,7 @@ StatusBarWidgetVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -641,7 +641,7 @@ TextureAndTextEntryInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -657,7 +657,7 @@ TextureAndTextRowVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -672,7 +672,7 @@ TextureAndTextVisualizationInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType
@@ -686,7 +686,7 @@ TextureWithAnimationVisualizationInfo = {}
 ---@field public leadingText string
 ---@field public text string
 ---@field public tooltip string
----@field public isCurrencyMaxed bool
+---@field public isCurrencyMaxed boolean
 UIWidgetCurrencyInfo = {}
 
 ---@class UIWidgetInfo
@@ -721,7 +721,7 @@ UIWidgetStateIconInfo = {}
 ---@field public widgetSizeSetting number
 ---@field public textureKit string
 ---@field public frameTextureKit string
----@field public hasTimer bool
+---@field public hasTimer boolean
 ---@field public orderIndex number
 ---@field public widgetTag string
 ---@field public inAnimType WidgetAnimationType

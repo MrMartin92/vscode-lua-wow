@@ -9,7 +9,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_FriendList.AddIgnore)
 ---@param name string
----@return bool @added
+---@return boolean @added
 function C_FriendList.AddIgnore(name)
 end
 
@@ -26,7 +26,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_FriendList.DelIgnore)
 ---@param name string
----@return bool @removed
+---@return boolean @removed
 function C_FriendList.DelIgnore(name)
 end
 
@@ -91,25 +91,25 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_FriendList.IsFriend)
 ---@param guid string
----@return bool @isFriend
+---@return boolean @isFriend
 function C_FriendList.IsFriend(guid)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_FriendList.IsIgnored)
 ---@param token string
----@return bool @isIgnored
+---@return boolean @isIgnored
 function C_FriendList.IsIgnored(token)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_FriendList.IsIgnoredByGuid)
 ---@param guid string
----@return bool @isIgnored
+---@return boolean @isIgnored
 function C_FriendList.IsIgnoredByGuid(guid)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_FriendList.RemoveFriend)
 ---@param name string
----@return bool @removed
+---@return boolean @removed
 function C_FriendList.RemoveFriend(name)
 end
 
@@ -126,7 +126,7 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_FriendList.SetFriendNotes)
 ---@param name string
 ---@param notes string
----@return bool @found
+---@return boolean @found
 function C_FriendList.SetFriendNotes(name, notes)
 end
 
@@ -147,7 +147,7 @@ function C_FriendList.SetSelectedIgnore(index)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_FriendList.SetWhoToUi)
----@param whoToUi bool
+---@param whoToUi boolean
 function C_FriendList.SetWhoToUi(whoToUi)
 end
 
@@ -161,17 +161,17 @@ function C_FriendList.SortWho(sorting)
 end
 
 ---@class FriendInfo
----@field public connected bool
+---@field public connected boolean
 ---@field public name string
 ---@field public className string
 ---@field public area string
 ---@field public notes string
 ---@field public guid string
 ---@field public level number
----@field public dnd bool
----@field public afk bool
+---@field public dnd boolean
+---@field public afk boolean
 ---@field public rafLinkType RafLinkType
----@field public mobile bool
+---@field public mobile boolean
 FriendInfo = {}
 
 ---@class WhoInfo

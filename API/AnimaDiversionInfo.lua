@@ -31,7 +31,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AnimaDiversion.SelectAnimaNode)
 ---@param talentID number
----@param temporary bool
+---@param temporary boolean
 function C_AnimaDiversion.SelectAnimaNode(talentID, temporary)
 end
 

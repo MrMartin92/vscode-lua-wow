@@ -50,13 +50,13 @@ end
 ---@field public bnetAccountID number
 ---@field public accountName string
 ---@field public battleTag string
----@field public isFriend bool
----@field public isBattleTagFriend bool
+---@field public isFriend boolean
+---@field public isBattleTagFriend boolean
 ---@field public lastOnlineTime number
----@field public isAFK bool
----@field public isDND bool
----@field public isFavorite bool
----@field public appearOffline bool
+---@field public isAFK boolean
+---@field public isDND boolean
+---@field public isFavorite boolean
+---@field public appearOffline boolean
 ---@field public customMessage string
 ---@field public customMessageTime number
 ---@field public note string
@@ -67,9 +67,9 @@ BNetAccountInfo = {}
 ---@class BNetGameAccountInfo
 ---@field public gameAccountID number
 ---@field public clientProgram string
----@field public isOnline bool
----@field public isGameBusy bool
----@field public isGameAFK bool
+---@field public isOnline boolean
+---@field public isGameBusy boolean
+---@field public isGameAFK boolean
 ---@field public wowProjectID number
 ---@field public characterName string
 ---@field public realmName string
@@ -82,8 +82,8 @@ BNetAccountInfo = {}
 ---@field public characterLevel number
 ---@field public richPresence string
 ---@field public playerGuid string
----@field public isWowMobile bool
----@field public canSummon bool
----@field public hasFocus bool
+---@field public isWowMobile boolean
+---@field public canSummon boolean
+---@field public hasFocus boolean
 BNetGameAccountInfo = {}
 

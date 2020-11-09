@@ -2,8 +2,8 @@
 C_SocialQueue = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SocialQueue.GetAllGroups)
----@param allowNonJoinable bool
----@param allowNonQueuedGroups bool
+---@param allowNonJoinable boolean
+---@param allowNonQueuedGroups boolean
 ---@return table @groupGUIDs
 function C_SocialQueue.GetAllGroups(allowNonJoinable, allowNonQueuedGroups)
 end
@@ -15,13 +15,13 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SocialQueue.GetGroupForPlayer)
 ---@param playerGUID string
----@return string, bool @groupGUID, isSoloQueueParty
+---@return string, boolean @groupGUID, isSoloQueueParty
 function C_SocialQueue.GetGroupForPlayer(playerGUID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SocialQueue.GetGroupInfo)
 ---@param groupGUID string
----@return bool, number, bool, bool, bool, bool, bool, string @canJoin, numQueues, needTank, needHealer, needDamage, isSoloQueueParty, questSessionActive, leaderGUID
+---@return boolean, number, boolean, boolean, boolean, boolean, boolean, string @canJoin, numQueues, needTank, needHealer, needDamage, isSoloQueueParty, questSessionActive, leaderGUID
 function C_SocialQueue.GetGroupInfo(groupGUID)
 end
 
@@ -39,10 +39,10 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SocialQueue.RequestToJoin)
 ---@param groupGUID string
----@param applyAsTank bool
----@param applyAsHealer bool
----@param applyAsDamage bool
----@return bool @requestSuccessful
+---@param applyAsTank boolean
+---@param applyAsHealer boolean
+---@param applyAsDamage boolean
+---@return boolean @requestSuccessful
 function C_SocialQueue.RequestToJoin(groupGUID, applyAsTank, applyAsHealer, applyAsDamage)
 end
 
@@ -53,7 +53,7 @@ function C_SocialQueue.SignalToastDisplayed(groupGUID, priority)
 end
 
 ---@class SocialQueueConfig
----@field public TOASTS_DISABLED bool
+---@field public TOASTS_DISABLED boolean
 ---@field public TOAST_DURATION number
 ---@field public DELAY_DURATION number
 ---@field public QUEUE_MULTIPLIER number
@@ -80,11 +80,11 @@ SocialQueueConfig = {}
 
 ---@class SocialQueueGroupQueueInfo
 ---@field public clientID number
----@field public eligible bool
----@field public needTank bool
----@field public needHealer bool
----@field public needDamage bool
----@field public isAutoAccept bool
+---@field public eligible boolean
+---@field public needTank boolean
+---@field public needHealer boolean
+---@field public needDamage boolean
+---@field public isAutoAccept boolean
 ---@field public queueData QueueSpecificInfo
 SocialQueueGroupQueueInfo = {}
 

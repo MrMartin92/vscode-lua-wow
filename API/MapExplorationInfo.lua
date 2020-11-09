@@ -26,7 +26,7 @@ UiMapExplorationHitRect = {}
 ---@field public textureHeight number
 ---@field public offsetX number
 ---@field public offsetY number
----@field public isShownByMouseOver bool
+---@field public isShownByMouseOver boolean
 ---@field public fileDataIDs table
 ---@field public hitRect UiMapExplorationHitRect
 UiMapExplorationInfo = {}

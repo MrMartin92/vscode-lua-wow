@@ -96,13 +96,13 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ContributionCollector.HasPendingContribution)
 ---@param contributionID number
----@return bool @hasPending
+---@return boolean @hasPending
 function C_ContributionCollector.HasPendingContribution(contributionID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ContributionCollector.IsAwaitingRewardQuestData)
 ---@param contributionID number
----@return bool @awaitingData
+---@return boolean @awaitingData
 function C_ContributionCollector.IsAwaitingRewardQuestData(contributionID)
 end
 
@@ -133,7 +133,7 @@ enum.ContributionState.Destroyed = 4
 ---@field public stateName string
 ---@field public stateColor table
 ---@field public tooltipLine string
----@field public tooltipUseTimeRemaining bool
+---@field public tooltipUseTimeRemaining boolean
 ---@field public statusBarAtlas string
 ---@field public borderAtlas string
 ---@field public bannerAtlas string

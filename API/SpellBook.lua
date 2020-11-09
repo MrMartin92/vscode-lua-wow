@@ -2,7 +2,7 @@
 C_SpellBook = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SpellBook.ContainsAnyDisenchantSpell)
----@return bool @contains
+---@return boolean @contains
 function C_SpellBook.ContainsAnyDisenchantSpell()
 end
 
@@ -14,7 +14,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SpellBook.IsSpellDisabled)
 ---@param spellID number
----@return bool @disabled
+---@return boolean @disabled
 function C_SpellBook.IsSpellDisabled(spellID)
 end
 

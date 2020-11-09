@@ -34,7 +34,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.DoesPlayerBelongToClubFromClubGUID)
 ---@param clubFinderGUID string
----@return bool @belongsToClub
+---@return boolean @belongsToClub
 function C_ClubFinder.DoesPlayerBelongToClubFromClubGUID(clubFinderGUID)
 end
 
@@ -117,36 +117,36 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.HasAlreadyAppliedToLinkedPosting)
 ---@param clubFinderGUID string
----@return bool @hasAlreadyApplied
+---@return boolean @hasAlreadyApplied
 function C_ClubFinder.HasAlreadyAppliedToLinkedPosting(clubFinderGUID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.HasPostingBeenDelisted)
 ---@param postingID string
----@return bool @postingDelisted
+---@return boolean @postingDelisted
 function C_ClubFinder.HasPostingBeenDelisted(postingID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.IsEnabled)
----@return bool @isEnabled
+---@return boolean @isEnabled
 function C_ClubFinder.IsEnabled()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.IsListingEnabledFromFlags)
 ---@param flags number
----@return bool @isListed
+---@return boolean @isListed
 function C_ClubFinder.IsListingEnabledFromFlags(flags)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.IsPostingBanned)
 ---@param postingID string
----@return bool @postingBanned
+---@return boolean @postingBanned
 function C_ClubFinder.IsPostingBanned(postingID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.LookupClubPostingFromClubFinderGUID)
 ---@param clubFinderGUID string
----@param isLinkedPosting bool
+---@param isLinkedPosting boolean
 function C_ClubFinder.LookupClubPostingFromClubFinderGUID(clubFinderGUID, isLinkedPosting)
 end
 
@@ -177,7 +177,7 @@ end
 ---@param description string
 ---@param specs table
 ---@param type ClubFinderRequestType
----@return bool @succesful
+---@return boolean @succesful
 function C_ClubFinder.PostClub(clubId, itemLevelRequirement, name, description, specs, type)
 end
 
@@ -195,7 +195,7 @@ function C_ClubFinder.RequestApplicantList(type)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.RequestClubsList)
----@param guildListRequested bool
+---@param guildListRequested boolean
 ---@param searchString string
 ---@param specIDs table
 function C_ClubFinder.RequestClubsList(guildListRequested, searchString, specIDs)
@@ -222,7 +222,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.RequestPostingInformationFromClubId)
 ---@param clubId string
----@return bool @success
+---@return boolean @success
 function C_ClubFinder.RequestPostingInformationFromClubId(clubId)
 end
 
@@ -237,11 +237,11 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.RespondToApplicant)
 ---@param clubFinderGUID string
 ---@param playerGUID string
----@param shouldAccept bool
+---@param shouldAccept boolean
 ---@param requestType ClubFinderRequestType
 ---@param playerName string
----@param forceAccept bool
----@param reported bool
+---@param forceAccept boolean
+---@param reported boolean
 function C_ClubFinder.RespondToApplicant(clubFinderGUID, playerGUID, shouldAccept, requestType, playerName, forceAccept, reported)
 end
 
@@ -279,7 +279,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.SetPlayerApplicantSettings)
 ---@param index number
----@param checked bool
+---@param checked boolean
 function C_ClubFinder.SetPlayerApplicantSettings(index, checked)
 end
 
@@ -290,12 +290,12 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.SetRecruitmentSettings)
 ---@param index number
----@param checked bool
+---@param checked boolean
 function C_ClubFinder.SetRecruitmentSettings(index, checked)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.ShouldShowClubFinder)
----@return bool @shouldShow
+---@return boolean @shouldShow
 function C_ClubFinder.ShouldShowClubFinder()
 end
 
@@ -390,28 +390,28 @@ enum.PlayerClubRequestStatus.Canceled = 7
 ---@field public ilvl number
 ---@field public specIds table
 ---@field public requestStatus PlayerClubRequestStatus
----@field public lookupSuccess bool
+---@field public lookupSuccess boolean
 ---@field public lastUpdatedTime number
 ClubFinderApplicantInfo = {}
 
 ---@class ClubSettingsInfo
----@field public playStyleDungeon bool
----@field public playStyleRaids bool
----@field public playStylePvp bool
----@field public playStyleRP bool
----@field public playStyleSocial bool
----@field public roleTank bool
----@field public roleHealer bool
----@field public roleDps bool
----@field public sizeSmall bool
----@field public sizeMedium bool
----@field public sizeLarge bool
----@field public maxLevelOnly bool
----@field public enableListing bool
----@field public sortRelevance bool
----@field public sortMembers bool
----@field public sortNewest bool
----@field public autoAccept bool
+---@field public playStyleDungeon boolean
+---@field public playStyleRaids boolean
+---@field public playStylePvp boolean
+---@field public playStyleRP boolean
+---@field public playStyleSocial boolean
+---@field public roleTank boolean
+---@field public roleHealer boolean
+---@field public roleDps boolean
+---@field public sizeSmall boolean
+---@field public sizeMedium boolean
+---@field public sizeLarge boolean
+---@field public maxLevelOnly boolean
+---@field public enableListing boolean
+---@field public sortRelevance boolean
+---@field public sortMembers boolean
+---@field public sortNewest boolean
+---@field public autoAccept boolean
 ClubSettingsInfo = {}
 
 ---@class RecruitingClubInfo
@@ -420,12 +420,12 @@ ClubSettingsInfo = {}
 ---@field public name string
 ---@field public comment string
 ---@field public guildLeader string
----@field public isGuild bool
+---@field public isGuild boolean
 ---@field public emblemInfo number
 ---@field public tabardInfo GuildTabardInfo
 ---@field public recruitingSpecIds table
 ---@field public recruitmentFlags number
----@field public localeSet bool
+---@field public localeSet boolean
 ---@field public recruitmentLocale number
 ---@field public minILvl number
 ---@field public cached number

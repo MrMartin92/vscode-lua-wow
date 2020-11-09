@@ -9,24 +9,24 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.AddPendingConduit)
 ---@param nodeID number
 ---@param conduitID number
----@return bool @result
+---@return boolean @result
 function C_Soulbinds.AddPendingConduit(nodeID, conduitID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.CanActivateSoulbind)
 ---@param soulbindID number
----@return bool, string @result, errorDescription
+---@return boolean, string @result, errorDescription
 function C_Soulbinds.CanActivateSoulbind(soulbindID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.CanModifySoulbind)
----@return bool @result
+---@return boolean @result
 function C_Soulbinds.CanModifySoulbind()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.CanResetConduitsInSoulbind)
 ---@param soulbindID number
----@return bool, string @result, errorDescription
+---@return boolean, string @result, errorDescription
 function C_Soulbinds.CanResetConduitsInSoulbind(soulbindID)
 end
 
@@ -122,56 +122,56 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.HasAnyInstalledConduitInSoulbind)
 ---@param soulbindID number
----@return bool @result
+---@return boolean @result
 function C_Soulbinds.HasAnyInstalledConduitInSoulbind(soulbindID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.HasAnyPendingConduits)
----@return bool @result
+---@return boolean @result
 function C_Soulbinds.HasAnyPendingConduits()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.HasPendingConduitInSoulbind)
 ---@param soulbindID number
 ---@param conduitID number
----@return bool @result
+---@return boolean @result
 function C_Soulbinds.HasPendingConduitInSoulbind(soulbindID, conduitID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.HasPendingConduitsInSoulbind)
 ---@param soulbindID number
----@return bool @result
+---@return boolean @result
 function C_Soulbinds.HasPendingConduitsInSoulbind(soulbindID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.IsConduitInstalled)
 ---@param nodeID number
----@return bool @result
+---@return boolean @result
 function C_Soulbinds.IsConduitInstalled(nodeID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.IsConduitInstalledInSoulbind)
 ---@param soulbindID number
 ---@param conduitID number
----@return bool @result
+---@return boolean @result
 function C_Soulbinds.IsConduitInstalledInSoulbind(soulbindID, conduitID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.IsItemConduitByItemInfo)
 ---@param itemInfo string
----@return bool @result
+---@return boolean @result
 function C_Soulbinds.IsItemConduitByItemInfo(itemInfo)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.IsUnselectedConduitPendingInSoulbind)
 ---@param soulbindID number
----@return bool @result
+---@return boolean @result
 function C_Soulbinds.IsUnselectedConduitPendingInSoulbind(soulbindID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.MatchesCurrentSpecSet)
 ---@param specSetID number
----@return bool @matches
+---@return boolean @matches
 function C_Soulbinds.MatchesCurrentSpecSet(specSetID)
 end
 
@@ -211,7 +211,7 @@ SoulbindConduitData = {}
 ---@field public name string
 ---@field public description string
 ---@field public textureKit string
----@field public unlocked bool
+---@field public unlocked boolean
 ---@field public cvarIndex number
 ---@field public tree SoulbindTree
 ---@field public modelSceneData SoulbindModelSceneData
@@ -237,7 +237,7 @@ SoulbindModelSceneData = {}
 SoulbindNode = {}
 
 ---@class SoulbindTree
----@field public editable bool
+---@field public editable boolean
 ---@field public nodes table
 SoulbindTree = {}
 

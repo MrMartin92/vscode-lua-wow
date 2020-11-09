@@ -1,10 +1,10 @@
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_CanUpgradeExpansion)
----@return bool @canUpgradeExpansion
+---@return boolean @canUpgradeExpansion
 function CanUpgradeExpansion()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_DoesCurrentLocaleSellExpansionLevels)
----@return bool @regionSellsExpansions
+---@return boolean @regionSellsExpansions
 function DoesCurrentLocaleSellExpansionLevels()
 end
 
@@ -41,7 +41,7 @@ function GetExpansionLevel()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_GetExpansionTrialInfo)
----@return bool, number @isExpansionTrialAccount, expansionTrialRemainingSeconds
+---@return boolean, number @isExpansionTrialAccount, expansionTrialRemainingSeconds
 function GetExpansionTrialInfo()
 end
 
@@ -82,17 +82,17 @@ function GetServerExpansionLevel()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_IsExpansionTrial)
----@return bool @isExpansionTrialAccount
+---@return boolean @isExpansionTrialAccount
 function IsExpansionTrial()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_IsTrialAccount)
----@return bool @isTrialAccount
+---@return boolean @isTrialAccount
 function IsTrialAccount()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_IsVeteranTrialAccount)
----@return bool @isVeteranTrialAccount
+---@return boolean @isVeteranTrialAccount
 function IsVeteranTrialAccount()
 end
 

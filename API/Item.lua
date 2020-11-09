@@ -3,31 +3,31 @@ C_Item = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.CanScrapItem)
 ---@param itemLoc table
----@return bool @canBeScrapped
+---@return boolean @canBeScrapped
 function C_Item.CanScrapItem(itemLoc)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.CanViewItemPowers)
 ---@param itemLoc table
----@return bool @isItemViewable
+---@return boolean @isItemViewable
 function C_Item.CanViewItemPowers(itemLoc)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.DoesItemExist)
 ---@param emptiableItemLocation table
----@return bool @itemExists
+---@return boolean @itemExists
 function C_Item.DoesItemExist(emptiableItemLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.DoesItemExistByID)
 ---@param itemInfo string
----@return bool @itemExists
+---@return boolean @itemExists
 function C_Item.DoesItemExistByID(itemInfo)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.DoesItemMatchBonusTreeReplacement)
 ---@param itemLoc table
----@return bool @matchesBonusTree
+---@return boolean @matchesBonusTree
 function C_Item.DoesItemMatchBonusTreeReplacement(itemLoc)
 end
 
@@ -111,49 +111,49 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.IsBound)
 ---@param itemLocation table
----@return bool @isBound
+---@return boolean @isBound
 function C_Item.IsBound(itemLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.IsItemCorrupted)
 ---@param itemLoc table
----@return bool @isCorrupted
+---@return boolean @isCorrupted
 function C_Item.IsItemCorrupted(itemLoc)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.IsItemCorruptionRelated)
 ---@param itemLoc table
----@return bool @isCorruptionRelated
+---@return boolean @isCorruptionRelated
 function C_Item.IsItemCorruptionRelated(itemLoc)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.IsItemCorruptionResistant)
 ---@param itemLoc table
----@return bool @isCorruptionResistant
+---@return boolean @isCorruptionResistant
 function C_Item.IsItemCorruptionResistant(itemLoc)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.IsItemDataCached)
 ---@param itemLocation table
----@return bool @isCached
+---@return boolean @isCached
 function C_Item.IsItemDataCached(itemLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.IsItemDataCachedByID)
 ---@param itemInfo string
----@return bool @isCached
+---@return boolean @isCached
 function C_Item.IsItemDataCachedByID(itemInfo)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.IsItemKeystoneByID)
 ---@param itemInfo string
----@return bool @isKeystone
+---@return boolean @isKeystone
 function C_Item.IsItemKeystoneByID(itemInfo)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.IsLocked)
 ---@param itemLocation table
----@return bool @isLocked
+---@return boolean @isLocked
 function C_Item.IsLocked(itemLocation)
 end
 

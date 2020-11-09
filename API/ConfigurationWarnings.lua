@@ -3,7 +3,7 @@ C_ConfigurationWarnings = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ConfigurationWarnings.GetConfigurationWarningSeen)
 ---@param configurationWarning ConfigurationWarning
----@return bool @hasSeenConfigurationWarning
+---@return boolean @hasSeenConfigurationWarning
 function C_ConfigurationWarnings.GetConfigurationWarningSeen(configurationWarning)
 end
 
@@ -14,7 +14,7 @@ function C_ConfigurationWarnings.GetConfigurationWarningString(configurationWarn
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ConfigurationWarnings.GetConfigurationWarnings)
----@param includeSeenWarnings bool
+---@param includeSeenWarnings boolean
 ---@return table @configurationWarnings
 function C_ConfigurationWarnings.GetConfigurationWarnings(includeSeenWarnings)
 end

@@ -9,7 +9,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MerchantFrame.IsMerchantItemRefundable)
 ---@param index number
----@return bool @refundable
+---@return boolean @refundable
 function C_MerchantFrame.IsMerchantItemRefundable(index)
 end
 

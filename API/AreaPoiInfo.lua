@@ -22,7 +22,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AreaPoiInfo.IsAreaPOITimed)
 ---@param areaPoiID number
----@return bool @isTimed
+---@return boolean @isTimed
 function C_AreaPoiInfo.IsAreaPOITimed(areaPoiID)
 end
 

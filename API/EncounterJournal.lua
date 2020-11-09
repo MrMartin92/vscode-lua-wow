@@ -45,13 +45,13 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_EncounterJournal.InstanceHasLoot)
 ---@param instanceID number
----@return bool @hasLoot
+---@return boolean @hasLoot
 function C_EncounterJournal.InstanceHasLoot(instanceID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_EncounterJournal.IsEncounterComplete)
 ---@param journalEncounterID number
----@return bool @isEncounterComplete
+---@return boolean @isEncounterComplete
 function C_EncounterJournal.IsEncounterComplete(journalEncounterID)
 end
 
@@ -112,8 +112,8 @@ DungeonEntranceMapInfo = {}
 ---@field public slot string
 ---@field public armorType string
 ---@field public link string
----@field public handError bool
----@field public weaponTypeError bool
+---@field public handError boolean
+---@field public weaponTypeError boolean
 EncounterJournalItemInfo = {}
 
 ---@class EncounterJournalMapEncounterInfo
@@ -132,8 +132,8 @@ EncounterJournalMapEncounterInfo = {}
 ---@field public uiModelSceneID number
 ---@field public siblingSectionID number
 ---@field public firstChildSectionID number
----@field public filteredByDifficulty bool
+---@field public filteredByDifficulty boolean
 ---@field public link string
----@field public startsOpen bool
+---@field public startsOpen boolean
 EncounterJournalSectionInfo = {}
 

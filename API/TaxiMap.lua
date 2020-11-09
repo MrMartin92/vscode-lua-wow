@@ -15,7 +15,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TaxiMap.ShouldMapShowTaxiNodes)
 ---@param uiMapID number
----@return bool @shouldShowNodes
+---@return boolean @shouldShowNodes
 function C_TaxiMap.ShouldMapShowTaxiNodes(uiMapID)
 end
 

@@ -4,7 +4,7 @@ C_AzeriteEmpoweredItem = {}
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.CanSelectPower)
 ---@param azeriteEmpoweredItemLocation table
 ---@param powerID number
----@return bool @canSelect
+---@return boolean @canSelect
 function C_AzeriteEmpoweredItem.CanSelectPower(azeriteEmpoweredItemLocation, powerID)
 end
 
@@ -57,58 +57,58 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.HasAnyUnselectedPowers)
 ---@param azeriteEmpoweredItemLocation table
----@return bool @hasAnyUnselectedPowers
+---@return boolean @hasAnyUnselectedPowers
 function C_AzeriteEmpoweredItem.HasAnyUnselectedPowers(azeriteEmpoweredItemLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.HasBeenViewed)
 ---@param azeriteEmpoweredItemLocation table
----@return bool @hasBeenViewed
+---@return boolean @hasBeenViewed
 function C_AzeriteEmpoweredItem.HasBeenViewed(azeriteEmpoweredItemLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItem)
 ---@param itemLocation table
----@return bool @isAzeriteEmpoweredItem
+---@return boolean @isAzeriteEmpoweredItem
 function C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItem(itemLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItemByID)
 ---@param itemInfo string
----@return bool @isAzeriteEmpoweredItem
+---@return boolean @isAzeriteEmpoweredItem
 function C_AzeriteEmpoweredItem.IsAzeriteEmpoweredItemByID(itemInfo)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.IsAzeritePreviewSourceDisplayable)
 ---@param itemInfo string
 ---@param classID number
----@return bool @isAzeritePreviewSourceDisplayable
+---@return boolean @isAzeritePreviewSourceDisplayable
 function C_AzeriteEmpoweredItem.IsAzeritePreviewSourceDisplayable(itemInfo, classID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.IsHeartOfAzerothEquipped)
----@return bool @isHeartOfAzerothEquipped
+---@return boolean @isHeartOfAzerothEquipped
 function C_AzeriteEmpoweredItem.IsHeartOfAzerothEquipped()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.IsPowerAvailableForSpec)
 ---@param powerID number
 ---@param specID number
----@return bool @isPowerAvailableForSpec
+---@return boolean @isPowerAvailableForSpec
 function C_AzeriteEmpoweredItem.IsPowerAvailableForSpec(powerID, specID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.IsPowerSelected)
 ---@param azeriteEmpoweredItemLocation table
 ---@param powerID number
----@return bool @isSelected
+---@return boolean @isSelected
 function C_AzeriteEmpoweredItem.IsPowerSelected(azeriteEmpoweredItemLocation, powerID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.SelectPower)
 ---@param azeriteEmpoweredItemLocation table
 ---@param powerID number
----@return bool @success
+---@return boolean @success
 function C_AzeriteEmpoweredItem.SelectPower(azeriteEmpoweredItemLocation, powerID)
 end
 

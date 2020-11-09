@@ -14,8 +14,8 @@ end
 ---@field public rightTexCoord number
 ---@field public topTexCoord number
 ---@field public bottomTexCoord number
----@field public tilesHorizontally bool
----@field public tilesVertically bool
+---@field public tilesHorizontally boolean
+---@field public tilesVertically boolean
 ---@field public file number
 ---@field public filename string
 AtlasInfo = {}

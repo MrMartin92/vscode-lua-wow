@@ -15,7 +15,7 @@ function C_ChallengeMode.GetActiveChallengeMapID()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChallengeMode.GetActiveKeystoneInfo)
----@return number, table, bool @activeKeystoneLevel, activeAffixIDs, wasActiveKeystoneCharged
+---@return number, table, boolean @activeKeystoneLevel, activeAffixIDs, wasActiveKeystoneCharged
 function C_ChallengeMode.GetActiveKeystoneInfo()
 end
 
@@ -26,7 +26,7 @@ function C_ChallengeMode.GetAffixInfo(affixID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChallengeMode.GetCompletionInfo)
----@return number, number, number, bool, number, bool @mapChallengeModeID, level, time, onTime, keystoneUpgradeLevels, practiceRun
+---@return number, number, number, boolean, number, boolean @mapChallengeModeID, level, time, onTime, keystoneUpgradeLevels, practiceRun
 function C_ChallengeMode.GetCompletionInfo()
 end
 
@@ -63,17 +63,17 @@ function C_ChallengeMode.GetSlottedKeystoneInfo()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChallengeMode.HasSlottedKeystone)
----@return bool @hasSlottedKeystone
+---@return boolean @hasSlottedKeystone
 function C_ChallengeMode.HasSlottedKeystone()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChallengeMode.IsChallengeModeActive)
----@return bool @challengeModeActive
+---@return boolean @challengeModeActive
 function C_ChallengeMode.IsChallengeModeActive()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChallengeMode.RemoveKeystone)
----@return bool @removalSuccessful
+---@return boolean @removalSuccessful
 function C_ChallengeMode.RemoveKeystone()
 end
 
@@ -95,7 +95,7 @@ function C_ChallengeMode.SlotKeystone()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChallengeMode.StartChallengeMode)
----@return bool @success
+---@return boolean @success
 function C_ChallengeMode.StartChallengeMode()
 end
 
@@ -109,7 +109,7 @@ ChallengeModeGuildAttemptMember = {}
 ---@field public classFileName string
 ---@field public keystoneLevel number
 ---@field public mapChallengeModeID number
----@field public isYou bool
+---@field public isYou boolean
 ---@field public members table
 ChallengeModeGuildTopAttempt = {}
 

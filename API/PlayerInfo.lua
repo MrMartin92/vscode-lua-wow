@@ -2,17 +2,17 @@
 C_PlayerInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.CanPlayerEnterChromieTime)
----@return bool @canEnter
+---@return boolean @canEnter
 function C_PlayerInfo.CanPlayerEnterChromieTime()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.CanPlayerUseAreaLoot)
----@return bool @canUseAreaLoot
+---@return boolean @canUseAreaLoot
 function C_PlayerInfo.CanPlayerUseAreaLoot()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.CanPlayerUseMountEquipment)
----@return bool, string @canUseMountEquipment, failureReason
+---@return boolean, string @canUseMountEquipment, failureReason
 function C_PlayerInfo.CanPlayerUseMountEquipment()
 end
 
@@ -29,22 +29,22 @@ function C_PlayerInfo.GetContentDifficultyQuestForPlayer(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.IsPlayerEligibleForNPE)
----@return bool, string @isEligible, failureReason
+---@return boolean, string @isEligible, failureReason
 function C_PlayerInfo.IsPlayerEligibleForNPE()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.IsPlayerEligibleForNPEv2)
----@return bool, string @isEligible, failureReason
+---@return boolean, string @isEligible, failureReason
 function C_PlayerInfo.IsPlayerEligibleForNPEv2()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.IsPlayerInChromieTime)
----@return bool @inChromieTime
+---@return boolean @inChromieTime
 function C_PlayerInfo.IsPlayerInChromieTime()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.IsPlayerNPERestricted)
----@return bool @isRestricted
+---@return boolean @isRestricted
 function C_PlayerInfo.IsPlayerNPERestricted()
 end
 

@@ -50,12 +50,12 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_IsUnitModelReadyForUI)
 ---@param unitToken string
----@return bool @isReady
+---@return boolean @isReady
 function IsUnitModelReadyForUI(unitToken)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_PlayerVehicleHasComboPoints)
----@return bool @vehicleHasComboPoints
+---@return boolean @vehicleHasComboPoints
 function PlayerVehicleHasComboPoints()
 end
 
@@ -73,7 +73,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_UnitAlliedRaceInfo)
 ---@param unit string
----@return bool, bool @isAlliedRace, hasHeritageArmorUnlocked
+---@return boolean, boolean @isAlliedRace, hasHeritageArmorUnlocked
 function UnitAlliedRaceInfo(unit)
 end
 
@@ -97,26 +97,26 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_UnitInPartyShard)
 ---@param unit string
----@return bool @inPartyShard
+---@return boolean @inPartyShard
 function UnitInPartyShard(unit)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_UnitIsConnected)
 ---@param unit string
----@return bool @isConnected
+---@return boolean @isConnected
 function UnitIsConnected(unit)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_UnitIsOwnerOrControllerOfUnit)
 ---@param controllingUnit string
 ---@param controlledUnit string
----@return bool @unitIsOwnerOrControllerOfUnit
+---@return boolean @unitIsOwnerOrControllerOfUnit
 function UnitIsOwnerOrControllerOfUnit(controllingUnit, controlledUnit)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_UnitNameplateShowsWidgetsOnly)
 ---@param unit string
----@return bool @nameplateShowsWidgetsOnly
+---@return boolean @nameplateShowsWidgetsOnly
 function UnitNameplateShowsWidgetsOnly(unit)
 end
 
@@ -129,7 +129,7 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_UnitPower)
 ---@param unitToken string
 ---@param powerType PowerType
----@param unmodified bool
+---@param unmodified boolean
 ---@return number @power
 function UnitPower(unitToken, powerType, unmodified)
 end
@@ -149,7 +149,7 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_UnitPowerMax)
 ---@param unitToken string
 ---@param powerType PowerType
----@param unmodified bool
+---@param unmodified boolean
 ---@return number @maxPower
 function UnitPowerMax(unitToken, powerType, unmodified)
 end
@@ -180,7 +180,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_UnitTreatAsPlayerForDisplay)
 ---@param unit string
----@return bool @treatAsPlayer
+---@return boolean @treatAsPlayer
 function UnitTreatAsPlayerForDisplay(unit)
 end
 
@@ -248,16 +248,16 @@ CorruptionEffectInfo = {}
 ---@field public minPower number
 ---@field public startInset number
 ---@field public endInset number
----@field public smooth bool
----@field public hideFromOthers bool
----@field public showOnRaid bool
----@field public opaqueSpark bool
----@field public opaqueFlash bool
----@field public anchorTop bool
----@field public forcePercentage bool
----@field public sparkUnderFrame bool
----@field public flashAtMinPower bool
----@field public fractionalCounter bool
----@field public animateNumbers bool
+---@field public smooth boolean
+---@field public hideFromOthers boolean
+---@field public showOnRaid boolean
+---@field public opaqueSpark boolean
+---@field public opaqueFlash boolean
+---@field public anchorTop boolean
+---@field public forcePercentage boolean
+---@field public sparkUnderFrame boolean
+---@field public flashAtMinPower boolean
+---@field public fractionalCounter boolean
+---@field public animateNumbers boolean
 UnitPowerBarInfo = {}
 

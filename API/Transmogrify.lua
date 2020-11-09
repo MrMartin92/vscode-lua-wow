@@ -29,7 +29,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TransmogSets.GetBaseSetsFilter)
 ---@param index number
----@return bool @isChecked
+---@return boolean @isChecked
 function C_TransmogSets.GetBaseSetsFilter(index)
 end
 
@@ -40,7 +40,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TransmogSets.GetIsFavorite)
 ---@param transmogSetID number
----@return bool, bool @isFavorite, isGroupFavorite
+---@return boolean, boolean @isFavorite, isGroupFavorite
 function C_TransmogSets.GetIsFavorite(transmogSetID)
 end
 
@@ -76,44 +76,44 @@ function C_TransmogSets.GetSourcesForSlot(transmogSetID, slot)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TransmogSets.HasUsableSets)
----@return bool @hasUsableSets
+---@return boolean @hasUsableSets
 function C_TransmogSets.HasUsableSets()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TransmogSets.IsBaseSetCollected)
 ---@param transmogSetID number
----@return bool @isCollected
+---@return boolean @isCollected
 function C_TransmogSets.IsBaseSetCollected(transmogSetID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TransmogSets.IsNewSource)
 ---@param sourceID number
----@return bool @isNew
+---@return boolean @isNew
 function C_TransmogSets.IsNewSource(sourceID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TransmogSets.SetBaseSetsFilter)
 ---@param index number
----@param isChecked bool
+---@param isChecked boolean
 function C_TransmogSets.SetBaseSetsFilter(index, isChecked)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TransmogSets.SetHasNewSources)
 ---@param transmogSetID number
----@return bool @hasNewSources
+---@return boolean @hasNewSources
 function C_TransmogSets.SetHasNewSources(transmogSetID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TransmogSets.SetHasNewSourcesForSlot)
 ---@param transmogSetID number
 ---@param slot number
----@return bool @hasNewSources
+---@return boolean @hasNewSources
 function C_TransmogSets.SetHasNewSourcesForSlot(transmogSetID, slot)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TransmogSets.SetIsFavorite)
 ---@param transmogSetID number
----@param isFavorite bool
+---@param isFavorite boolean
 function C_TransmogSets.SetIsFavorite(transmogSetID, isFavorite)
 end
 

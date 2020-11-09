@@ -99,9 +99,9 @@ UIModelSceneActorDisplayInfo = {}
 ---@field public pitch number
 ---@field public roll number
 ---@field public normalizeScaleAggressiveness number
----@field public useCenterForOriginX bool
----@field public useCenterForOriginY bool
----@field public useCenterForOriginZ bool
+---@field public useCenterForOriginX boolean
+---@field public useCenterForOriginY boolean
+---@field public useCenterForOriginZ boolean
 ---@field public modelActorDisplayID number
 UIModelSceneActorInfo = {}
 

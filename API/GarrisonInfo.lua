@@ -5,7 +5,7 @@ C_Garrison = {}
 ---@param missionID number
 ---@param followerID string
 ---@param boardIndex number
----@return bool @followerAdded
+---@return boolean @followerAdded
 function C_Garrison.AddFollowerToMission(missionID, followerID, boardIndex)
 end
 
@@ -145,19 +145,19 @@ function C_Garrison.GetTalentTreeTalentPointResearchInfo(garrTalentTreeID, talen
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Garrison.IsAtGarrisonMissionNPC)
----@return bool @atGarrisonMissionNPC
+---@return boolean @atGarrisonMissionNPC
 function C_Garrison.IsAtGarrisonMissionNPC()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Garrison.IsEnvironmentCountered)
 ---@param missionID number
----@return bool @environmentCountered
+---@return boolean @environmentCountered
 function C_Garrison.IsEnvironmentCountered(missionID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Garrison.IsTalentConditionMet)
 ---@param talentID number
----@return bool, string @isMet, failureString
+---@return boolean, string @isMet, failureString
 function C_Garrison.IsTalentConditionMet(talentID)
 end
 
@@ -172,7 +172,7 @@ function C_Garrison.RushHealFollower(garrFollowerID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Garrison.SetAutoCombatSpellFastForward)
----@param state bool
+---@param state boolean
 function C_Garrison.SetAutoCombatSpellFastForward(state)
 end
 
@@ -182,7 +182,7 @@ end
 AutoCombatDamageClassString = {}
 
 ---@class AutoCombatResult
----@field public winner bool
+---@field public winner boolean
 ---@field public combatLog table
 AutoCombatResult = {}
 
@@ -217,13 +217,13 @@ AutoCombatSpellInfo = {}
 ---@field public classAtlas string
 ---@field public portraitIconID number
 ---@field public textureKit string
----@field public isTroop bool
+---@field public isTroop boolean
 ---@field public raceID number
 ---@field public health number
 ---@field public maxHealth number
 ---@field public role number
----@field public isAutoTroop bool
----@field public isCollected bool
+---@field public isAutoTroop boolean
+---@field public isCollected boolean
 ---@field public autoCombatStats FollowerAutoCombatStatsInfo
 ---@field public autoCombatSpells table
 AutoCombatTroopInfo = {}
@@ -265,7 +265,7 @@ FollowerAutoCombatStatsInfo = {}
 ---@class FollowerDisplayID
 ---@field public id number
 ---@field public followerPageScale number
----@field public showWeapon bool
+---@field public showWeapon boolean
 FollowerDisplayID = {}
 
 ---@class FollowerMissionCompleteInfo
@@ -289,7 +289,7 @@ FollowerDisplayID = {}
 ---@field public classAtlas string
 ---@field public portraitIconID number
 ---@field public textureKit string
----@field public isTroop bool
+---@field public isTroop boolean
 ---@field public boardIndex number
 ---@field public health number
 ---@field public maxHealth number
@@ -309,12 +309,12 @@ GarrisonAbilityCounterInfo = {}
 ---@field public name string
 ---@field public description string
 ---@field public icon number
----@field public isTrait bool
----@field public isSpecialization bool
----@field public temporary bool
+---@field public isTrait boolean
+---@field public isSpecialization boolean
+---@field public temporary boolean
 ---@field public category string
 ---@field public counters table
----@field public isEmptySlot bool
+---@field public isEmptySlot boolean
 GarrisonAbilityInfo = {}
 
 ---@class GarrisonEnemyEncounterInfo
@@ -361,13 +361,13 @@ GarrisonPlotInstanceMapInfo = {}
 ---@field public environmentDesc string
 ---@field public environmentTexture number
 ---@field public locTextureKit string
----@field public isExhausting bool
+---@field public isExhausting boolean
 ---@field public enemies table
 MissionDeploymentInfo = {}
 
 ---@class MissionEncounterIconInfo
 ---@field public portraitFileDataID number
----@field public isElite bool
----@field public isRare bool
+---@field public isElite boolean
+---@field public isRare boolean
 MissionEncounterIconInfo = {}
 

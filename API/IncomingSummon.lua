@@ -3,7 +3,7 @@ C_IncomingSummon = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_IncomingSummon.HasIncomingSummon)
 ---@param unit string
----@return bool @summon
+---@return boolean @summon
 function C_IncomingSummon.HasIncomingSummon(unit)
 end
 

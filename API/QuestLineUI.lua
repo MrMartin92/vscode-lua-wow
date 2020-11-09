@@ -22,7 +22,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLine.IsComplete)
 ---@param questLineID number
----@return bool @isComplete
+---@return boolean @isComplete
 function C_QuestLine.IsComplete(questLineID)
 end
 
@@ -44,10 +44,10 @@ enum.QuestLineFloorLocation.Same = 2
 ---@field public questID number
 ---@field public x number
 ---@field public y number
----@field public isHidden bool
----@field public isLegendary bool
----@field public isDaily bool
----@field public isCampaign bool
+---@field public isHidden boolean
+---@field public isLegendary boolean
+---@field public isDaily boolean
+---@field public isCampaign boolean
 ---@field public floorLocation QuestLineFloorLocation
 QuestLineInfo = {}
 

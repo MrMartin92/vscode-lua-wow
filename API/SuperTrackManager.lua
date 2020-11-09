@@ -12,22 +12,22 @@ function C_SuperTrack.GetSuperTrackedQuestID()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SuperTrack.IsSuperTrackingAnything)
----@return bool @isSuperTracking
+---@return boolean @isSuperTracking
 function C_SuperTrack.IsSuperTrackingAnything()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SuperTrack.IsSuperTrackingCorpse)
----@return bool @isSuperTracking
+---@return boolean @isSuperTracking
 function C_SuperTrack.IsSuperTrackingCorpse()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SuperTrack.IsSuperTrackingQuest)
----@return bool @isSuperTracking
+---@return boolean @isSuperTracking
 function C_SuperTrack.IsSuperTrackingQuest()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SuperTrack.IsSuperTrackingUserWaypoint)
----@return bool @isSuperTracking
+---@return boolean @isSuperTracking
 function C_SuperTrack.IsSuperTrackingUserWaypoint()
 end
 
@@ -37,7 +37,7 @@ function C_SuperTrack.SetSuperTrackedQuestID(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SuperTrack.SetSuperTrackedUserWaypoint)
----@param superTracked bool
+---@param superTracked boolean
 function C_SuperTrack.SetSuperTrackedUserWaypoint(superTracked)
 end
 

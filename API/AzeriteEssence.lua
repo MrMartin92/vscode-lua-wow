@@ -10,18 +10,18 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEssence.CanActivateEssence)
 ---@param essenceID number
 ---@param milestoneID number
----@return bool @canActivate
+---@return boolean @canActivate
 function C_AzeriteEssence.CanActivateEssence(essenceID, milestoneID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEssence.CanDeactivateEssence)
 ---@param milestoneID number
----@return bool @canDeactivate
+---@return boolean @canDeactivate
 function C_AzeriteEssence.CanDeactivateEssence(milestoneID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEssence.CanOpenUI)
----@return bool @canOpen
+---@return boolean @canOpen
 function C_AzeriteEssence.CanOpenUI()
 end
 
@@ -90,17 +90,17 @@ function C_AzeriteEssence.GetPendingActivationEssence()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEssence.HasNeverActivatedAnyEssences)
----@return bool @hasNeverActivatedAnyEssences
+---@return boolean @hasNeverActivatedAnyEssences
 function C_AzeriteEssence.HasNeverActivatedAnyEssences()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEssence.HasPendingActivationEssence)
----@return bool @hasEssence
+---@return boolean @hasEssence
 function C_AzeriteEssence.HasPendingActivationEssence()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEssence.IsAtForge)
----@return bool @isAtForge
+---@return boolean @isAtForge
 function C_AzeriteEssence.IsAtForge()
 end
 
@@ -125,16 +125,16 @@ enum.AzeriteEssence.PassiveThreeSlot = 3
 ---@field public ID number
 ---@field public name string
 ---@field public rank number
----@field public unlocked bool
----@field public valid bool
+---@field public unlocked boolean
+---@field public valid boolean
 ---@field public icon number
 AzeriteEssenceInfo = {}
 
 ---@class AzeriteMilestoneInfo
 ---@field public ID number
 ---@field public requiredLevel number
----@field public canUnlock bool
----@field public unlocked bool
+---@field public canUnlock boolean
+---@field public unlocked boolean
 ---@field public rank number
 ---@field public slot AzeriteEssence
 AzeriteMilestoneInfo = {}

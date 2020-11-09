@@ -3,13 +3,13 @@ C_ReportSystem = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ReportSystem.CanReportPlayer)
 ---@param playerLocation table
----@return bool @canReport
+---@return boolean @canReport
 function C_ReportSystem.CanReportPlayer(playerLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ReportSystem.CanReportPlayerForLanguage)
 ---@param playerLocation table
----@return bool @canReport
+---@return boolean @canReport
 function C_ReportSystem.CanReportPlayerForLanguage(playerLocation)
 end
 
@@ -43,19 +43,19 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ReportSystem.SetPendingReportPetTarget)
 ---@param target string
----@return bool @set
+---@return boolean @set
 function C_ReportSystem.SetPendingReportPetTarget(target)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ReportSystem.SetPendingReportTarget)
 ---@param target string
----@return bool @set
+---@return boolean @set
 function C_ReportSystem.SetPendingReportTarget(target)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ReportSystem.SetPendingReportTargetByGuid)
 ---@param guid string
----@return bool @set
+---@return boolean @set
 function C_ReportSystem.SetPendingReportTargetByGuid(guid)
 end
 

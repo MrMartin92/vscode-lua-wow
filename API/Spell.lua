@@ -3,7 +3,7 @@ C_Spell = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Spell.DoesSpellExist)
 ---@param spellID number
----@return bool @spellExists
+---@return boolean @spellExists
 function C_Spell.DoesSpellExist(spellID)
 end
 
@@ -15,7 +15,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Spell.IsSpellDataCached)
 ---@param spellID number
----@return bool @isCached
+---@return boolean @isCached
 function C_Spell.IsSpellDataCached(spellID)
 end
 

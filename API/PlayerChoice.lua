@@ -19,7 +19,7 @@ function C_PlayerChoice.GetPlayerChoiceRewardInfo(rewardIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerChoice.IsWaitingForPlayerChoiceResponse)
----@return bool @isWaitingForResponse
+---@return boolean @isWaitingForResponse
 function C_PlayerChoice.IsWaitingForPlayerChoiceResponse()
 end
 
@@ -36,8 +36,8 @@ enum.PlayerChoiceRarity.Epic = 3
 ---@field public numOptions number
 ---@field public uiTextureKit string
 ---@field public soundKitID number
----@field public hideWarboardHeader bool
----@field public keepOpenAfterChoice bool
+---@field public hideWarboardHeader boolean
+---@field public keepOpenAfterChoice boolean
 PlayerChoiceInfo = {}
 
 ---@class PlayerChoiceOptionInfo
@@ -49,16 +49,16 @@ PlayerChoiceInfo = {}
 ---@field public choiceArtID number
 ---@field public confirmation string
 ---@field public widgetSetID number
----@field public disabledButton bool
----@field public desaturatedArt bool
----@field public disabledOption bool
+---@field public disabledButton boolean
+---@field public desaturatedArt boolean
+---@field public disabledOption boolean
 ---@field public groupID number
 ---@field public headerIconAtlasElement string
 ---@field public subHeader string
 ---@field public buttonTooltip string
 ---@field public rewardQuestID number
 ---@field public soundKitID number
----@field public hasRewards bool
+---@field public hasRewards boolean
 ---@field public rarity PlayerChoiceRarity
 ---@field public rarityColor table
 ---@field public typeArtID number

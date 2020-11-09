@@ -3,7 +3,7 @@ C_Map = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Map.CanSetUserWaypointOnMap)
 ---@param uiMapID number
----@return bool @canSet
+---@return boolean @canSet
 function C_Map.CanSetUserWaypointOnMap(uiMapID)
 end
 
@@ -78,14 +78,14 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Map.GetMapChildrenInfo)
 ---@param uiMapID number
 ---@param mapType UIMapType
----@param allDescendants bool
+---@param allDescendants boolean
 ---@return table @info
 function C_Map.GetMapChildrenInfo(uiMapID, mapType, allDescendants)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Map.GetMapDisplayInfo)
 ---@param uiMapID number
----@return bool @hideIcons
+---@return boolean @hideIcons
 function C_Map.GetMapDisplayInfo(uiMapID)
 end
 
@@ -193,19 +193,19 @@ function C_Map.GetWorldPosFromMapPos(uiMapID, mapPosition)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Map.HasUserWaypoint)
----@return bool @hasUserWaypoint
+---@return boolean @hasUserWaypoint
 function C_Map.HasUserWaypoint()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Map.IsMapValidForNavBarDropDown)
 ---@param uiMapID number
----@return bool @isValid
+---@return boolean @isValid
 function C_Map.IsMapValidForNavBarDropDown(uiMapID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Map.MapHasArt)
 ---@param uiMapID number
----@return bool @hasArt
+---@return boolean @hasArt
 function C_Map.MapHasArt(uiMapID)
 end
 

@@ -8,7 +8,7 @@ end
 
 ---@class GxAdapterInfoDetails
 ---@field public name string
----@field public isLowPower bool
----@field public isExternal bool
+---@field public isLowPower boolean
+---@field public isExternal boolean
 GxAdapterInfoDetails = {}
 

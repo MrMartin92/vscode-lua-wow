@@ -2,13 +2,13 @@
 C_LFGList = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LFGList.CanActiveEntryUseAutoAccept)
----@return bool @canUseAutoAccept
+---@return boolean @canUseAutoAccept
 function C_LFGList.CanActiveEntryUseAutoAccept()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LFGList.CanCreateQuestGroup)
 ---@param questID number
----@return bool @canCreate
+---@return boolean @canCreate
 function C_LFGList.CanCreateQuestGroup(questID)
 end
 
@@ -46,13 +46,13 @@ function C_LFGList.GetSearchResultInfo(searchResultID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LFGList.HasActiveEntryInfo)
----@return bool @hasActiveEntryInfo
+---@return boolean @hasActiveEntryInfo
 function C_LFGList.HasActiveEntryInfo()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LFGList.HasSearchResultInfo)
 ---@param searchResultID number
----@return bool @hasSearchResultInfo
+---@return boolean @hasSearchResultInfo
 function C_LFGList.HasSearchResultInfo(searchResultID)
 end
 
@@ -79,7 +79,7 @@ end
 ---@field public applicationStatus string
 ---@field public pendingApplicationStatus string
 ---@field public numMembers number
----@field public isNew bool
+---@field public isNew boolean
 ---@field public comment string
 ---@field public displayOrderID number
 LfgApplicantData = {}
@@ -92,8 +92,8 @@ LfgApplicantData = {}
 ---@field public comment string
 ---@field public voiceChat string
 ---@field public duration number
----@field public autoAccept bool
----@field public privateGroup bool
+---@field public autoAccept boolean
+---@field public privateGroup boolean
 ---@field public questID number
 LfgEntryData = {}
 
@@ -110,23 +110,23 @@ LfgEntryData = {}
 ---@field public numBNetFriends number
 ---@field public numCharFriends number
 ---@field public numGuildMates number
----@field public isDelisted bool
----@field public autoAccept bool
+---@field public isDelisted boolean
+---@field public autoAccept boolean
 ---@field public age number
 ---@field public questID number
 LfgSearchResultData = {}
 
 ---@class WowLocale
----@field public enUS bool
----@field public koKR bool
----@field public frFR bool
----@field public deDE bool
----@field public zhCN bool
----@field public zhTW bool
----@field public esES bool
----@field public esMX bool
----@field public ruRU bool
----@field public ptBR bool
----@field public itIT bool
+---@field public enUS boolean
+---@field public koKR boolean
+---@field public frFR boolean
+---@field public deDE boolean
+---@field public zhCN boolean
+---@field public zhTW boolean
+---@field public esES boolean
+---@field public esMX boolean
+---@field public ruRU boolean
+---@field public ptBR boolean
+---@field public itIT boolean
 WowLocale = {}
 

@@ -4,17 +4,17 @@ C_RecruitAFriend = {}
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_RecruitAFriend.ClaimActivityReward)
 ---@param activityID number
 ---@param acceptanceID string
----@return bool @success
+---@return boolean @success
 function C_RecruitAFriend.ClaimActivityReward(activityID, acceptanceID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_RecruitAFriend.ClaimNextReward)
----@return bool @success
+---@return boolean @success
 function C_RecruitAFriend.ClaimNextReward()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_RecruitAFriend.GenerateRecruitmentLink)
----@return bool @success
+---@return boolean @success
 function C_RecruitAFriend.GenerateRecruitmentLink()
 end
 
@@ -36,28 +36,28 @@ function C_RecruitAFriend.GetRecruitActivityRequirementsText(activityID, accepta
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_RecruitAFriend.GetRecruitInfo)
----@return bool, number @active, faction
+---@return boolean, number @active, faction
 function C_RecruitAFriend.GetRecruitInfo()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_RecruitAFriend.IsEnabled)
----@return bool @enabled
+---@return boolean @enabled
 function C_RecruitAFriend.IsEnabled()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_RecruitAFriend.IsRecruitingEnabled)
----@return bool @enabled
+---@return boolean @enabled
 function C_RecruitAFriend.IsRecruitingEnabled()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_RecruitAFriend.RemoveRAFRecruit)
 ---@param wowAccountGUID string
----@return bool @success
+---@return boolean @success
 function C_RecruitAFriend.RemoveRAFRecruit(wowAccountGUID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_RecruitAFriend.RequestUpdatedRecruitmentInfo)
----@return bool @success
+---@return boolean @success
 function C_RecruitAFriend.RequestUpdatedRecruitmentInfo()
 end
 
@@ -102,7 +102,7 @@ RafIllusionInfo = {}
 ---@field public lifetimeMonths number
 ---@field public spentMonths number
 ---@field public availableMonths number
----@field public claimInProgress bool
+---@field public claimInProgress boolean
 ---@field public rewards table
 ---@field public nextReward RafReward
 ---@field public recruitmentInfo RafRecruitmentinfo
@@ -159,9 +159,9 @@ RafRecruitmentinfo = {}
 ---@field public titleInfo RafTitleInfo
 ---@field public appearanceSetInfo RafAppearanceSetInfo
 ---@field public illusionInfo RafIllusionInfo
----@field public canClaim bool
----@field public claimed bool
----@field public repeatable bool
+---@field public canClaim boolean
+---@field public claimed boolean
+---@field public repeatable boolean
 ---@field public repeatableClaimCount number
 ---@field public monthsRequired number
 ---@field public monthCost number

@@ -2,7 +2,7 @@
 C_BarberShop = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_BarberShop.ApplyCustomizationChoices)
----@return bool @success
+---@return boolean @success
 function C_BarberShop.ApplyCustomizationChoices()
 end
 
@@ -35,12 +35,12 @@ function C_BarberShop.GetCurrentCost()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_BarberShop.HasAnyChanges)
----@return bool @hasChanges
+---@return boolean @hasChanges
 function C_BarberShop.HasAnyChanges()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_BarberShop.IsViewingAlteredForm)
----@return bool @isViewingAlteredForm
+---@return boolean @isViewingAlteredForm
 function C_BarberShop.IsViewingAlteredForm()
 end
 
@@ -74,7 +74,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_BarberShop.SetCameraZoomLevel)
 ---@param zoomLevel number
----@param keepCustomZoom bool
+---@param keepCustomZoom boolean
 function C_BarberShop.SetCameraZoomLevel(zoomLevel, keepCustomZoom)
 end
 
@@ -85,7 +85,7 @@ function C_BarberShop.SetCustomizationChoice(optionID, choiceID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_BarberShop.SetModelDressState)
----@param dressedState bool
+---@param dressedState boolean
 function C_BarberShop.SetModelDressState(dressedState)
 end
 
@@ -95,7 +95,7 @@ function C_BarberShop.SetSelectedSex(sex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_BarberShop.SetViewingAlteredForm)
----@param isViewingAlteredForm bool
+---@param isViewingAlteredForm boolean
 function C_BarberShop.SetViewingAlteredForm(isViewingAlteredForm)
 end
 

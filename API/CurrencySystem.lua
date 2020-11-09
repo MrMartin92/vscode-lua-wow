@@ -3,13 +3,13 @@ C_CurrencyInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CurrencyInfo.DoesWarModeBonusApply)
 ---@param currencyID number
----@return bool, bool @warModeApplies, limitOncePerTooltip
+---@return boolean, boolean @warModeApplies, limitOncePerTooltip
 function C_CurrencyInfo.DoesWarModeBonusApply(currencyID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CurrencyInfo.ExpandCurrencyList)
 ---@param index number
----@param expand bool
+---@param expand boolean
 function C_CurrencyInfo.ExpandCurrencyList(index, expand)
 end
 
@@ -94,7 +94,7 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CurrencyInfo.IsCurrencyContainer)
 ---@param currencyID number
 ---@param quantity number
----@return bool @isCurrencyContainer
+---@return boolean @isCurrencyContainer
 function C_CurrencyInfo.IsCurrencyContainer(currencyID, quantity)
 end
 
@@ -105,13 +105,13 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CurrencyInfo.SetCurrencyBackpack)
 ---@param index number
----@param backpack bool
+---@param backpack boolean
 function C_CurrencyInfo.SetCurrencyBackpack(index, backpack)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CurrencyInfo.SetCurrencyUnused)
 ---@param index number
----@param unused bool
+---@param unused boolean
 function C_CurrencyInfo.SetCurrencyUnused(index, unused)
 end
 
@@ -133,18 +133,18 @@ CurrencyDisplayInfo = {}
 
 ---@class CurrencyInfo
 ---@field public name string
----@field public isHeader bool
----@field public isHeaderExpanded bool
----@field public isTypeUnused bool
----@field public isShowInBackpack bool
+---@field public isHeader boolean
+---@field public isHeaderExpanded boolean
+---@field public isTypeUnused boolean
+---@field public isShowInBackpack boolean
 ---@field public quantity number
 ---@field public iconFileID number
 ---@field public maxQuantity number
----@field public canEarnPerWeek bool
+---@field public canEarnPerWeek boolean
 ---@field public quantityEarnedThisWeek number
----@field public isTradeable bool
+---@field public isTradeable boolean
 ---@field public quality ItemQuality
 ---@field public maxWeeklyQuantity number
----@field public discovered bool
+---@field public discovered boolean
 CurrencyInfo = {}
 

@@ -6,7 +6,7 @@ function C_GossipInfo.CloseGossip()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GossipInfo.ForceGossip)
----@return bool @forceGossip
+---@return boolean @forceGossip
 function C_GossipInfo.ForceGossip()
 end
 
@@ -71,7 +71,7 @@ end
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GossipInfo.SelectOption)
 ---@param index number
 ---@param text string
----@param confirmed bool
+---@param confirmed boolean
 function C_GossipInfo.SelectOption(index, text, confirmed)
 end
 
@@ -104,18 +104,18 @@ GossipOptionUIInfo = {}
 ---@field public name string
 ---@field public textureIndex number
 ---@field public position table
----@field public inBattleMap bool
+---@field public inBattleMap boolean
 GossipPoiInfo = {}
 
 ---@class GossipQuestUIInfo
 ---@field public title string
 ---@field public questLevel number
----@field public isTrivial bool
+---@field public isTrivial boolean
 ---@field public frequency number
----@field public repeatable bool
----@field public isComplete bool
----@field public isLegendary bool
----@field public isIgnored bool
+---@field public repeatable boolean
+---@field public isComplete boolean
+---@field public isLegendary boolean
+---@field public isIgnored boolean
 ---@field public questID number
 GossipQuestUIInfo = {}
 

@@ -2,17 +2,17 @@
 C_SpecializationInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SpecializationInfo.CanPlayerUsePVPTalentUI)
----@return bool, string @canUse, failureReason
+---@return boolean, string @canUse, failureReason
 function C_SpecializationInfo.CanPlayerUsePVPTalentUI()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SpecializationInfo.CanPlayerUseTalentSpecUI)
----@return bool, string @canUse, failureReason
+---@return boolean, string @canUse, failureReason
 function C_SpecializationInfo.CanPlayerUseTalentSpecUI()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SpecializationInfo.CanPlayerUseTalentUI)
----@return bool, string @canUse, failureReason
+---@return boolean, string @canUse, failureReason
 function C_SpecializationInfo.CanPlayerUseTalentUI()
 end
 
@@ -29,7 +29,7 @@ function C_SpecializationInfo.GetInspectSelectedPvpTalent(inspectedUnit, talentI
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SpecializationInfo.GetPvpTalentAlertStatus)
----@return bool, bool @hasUnspentSlot, hasNewTalent
+---@return boolean, boolean @hasUnspentSlot, hasNewTalent
 function C_SpecializationInfo.GetPvpTalentAlertStatus()
 end
 
@@ -58,24 +58,24 @@ function C_SpecializationInfo.GetSpellsDisplay(specializationID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SpecializationInfo.IsInitialized)
----@return bool @isSpecializationDataInitialized
+---@return boolean @isSpecializationDataInitialized
 function C_SpecializationInfo.IsInitialized()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SpecializationInfo.IsPvpTalentLocked)
 ---@param talentID number
----@return bool @locked
+---@return boolean @locked
 function C_SpecializationInfo.IsPvpTalentLocked(talentID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SpecializationInfo.SetPvpTalentLocked)
 ---@param talentID number
----@param locked bool
+---@param locked boolean
 function C_SpecializationInfo.SetPvpTalentLocked(talentID, locked)
 end
 
 ---@class PvpTalentSlotInfo
----@field public enabled bool
+---@field public enabled boolean
 ---@field public level number
 ---@field public selectedTalentID number
 ---@field public availableTalentIDs table

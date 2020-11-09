@@ -6,17 +6,17 @@ function C_Calendar.AddEvent()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.AreNamesReady)
----@return bool @ready
+---@return boolean @ready
 function C_Calendar.AreNamesReady()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.CanAddEvent)
----@return bool @canAddEvent
+---@return boolean @canAddEvent
 function C_Calendar.CanAddEvent()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.CanSendInvite)
----@return bool @canSendInvite
+---@return boolean @canSendInvite
 function C_Calendar.CanSendInvite()
 end
 
@@ -28,7 +28,7 @@ end
 ---@param offsetMonths number
 ---@param monthDay number
 ---@param eventIndex number
----@return bool @canComplain
+---@return boolean @canComplain
 function C_Calendar.ContextMenuEventCanComplain(offsetMonths, monthDay, eventIndex)
 end
 
@@ -36,7 +36,7 @@ end
 ---@param offsetMonths number
 ---@param monthDay number
 ---@param eventIndex number
----@return bool @canEdit
+---@return boolean @canEdit
 function C_Calendar.ContextMenuEventCanEdit(offsetMonths, monthDay, eventIndex)
 end
 
@@ -44,12 +44,12 @@ end
 ---@param offsetMonths number
 ---@param monthDay number
 ---@param eventIndex number
----@return bool @canRemove
+---@return boolean @canRemove
 function C_Calendar.ContextMenuEventCanRemove(offsetMonths, monthDay, eventIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.ContextMenuEventClipboard)
----@return bool @exists
+---@return boolean @exists
 function C_Calendar.ContextMenuEventClipboard()
 end
 
@@ -129,7 +129,7 @@ function C_Calendar.EventAvailable()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.EventCanEdit)
----@return bool @canEdit
+---@return boolean @canEdit
 function C_Calendar.EventCanEdit()
 end
 
@@ -173,7 +173,7 @@ function C_Calendar.EventGetInviteResponseTime(eventIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.EventGetInviteSortCriterion)
----@return string, bool @criterion, reverse
+---@return string, boolean @criterion, reverse
 function C_Calendar.EventGetInviteSortCriterion()
 end
 
@@ -205,12 +205,12 @@ function C_Calendar.EventGetTypesDisplayOrdered()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.EventHasPendingInvite)
----@return bool @hasPendingInvite
+---@return boolean @hasPendingInvite
 function C_Calendar.EventHasPendingInvite()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.EventHaveSettingsChanged)
----@return bool @haveSettingsChanged
+---@return boolean @haveSettingsChanged
 function C_Calendar.EventHaveSettingsChanged()
 end
 
@@ -297,7 +297,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.EventSortInvites)
 ---@param criterion string
----@param reverse bool
+---@param reverse boolean
 function C_Calendar.EventSortInvites(criterion, reverse)
 end
 
@@ -423,12 +423,12 @@ function C_Calendar.GetRaidInfo(offsetMonths, monthDay, eventIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.IsActionPending)
----@return bool @actionPending
+---@return boolean @actionPending
 function C_Calendar.IsActionPending()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.IsEventOpen)
----@return bool @isOpen
+---@return boolean @isOpen
 function C_Calendar.IsEventOpen()
 end
 
@@ -455,7 +455,7 @@ end
 ---@param offsetMonths number
 ---@param monthDay number
 ---@param index number
----@return bool @success
+---@return boolean @success
 function C_Calendar.OpenEvent(offsetMonths, monthDay, index)
 end
 
@@ -486,7 +486,7 @@ end
 ---@class CalendarDayEvent
 ---@field public eventID string
 ---@field public title string
----@field public isCustomTitle bool
+---@field public isCustomTitle boolean
 ---@field public startTime CalendarTime
 ---@field public endTime CalendarTime
 ---@field public calendarType string
@@ -501,10 +501,10 @@ end
 ---@field public sequenceIndex number
 ---@field public numSequenceDays number
 ---@field public difficultyName string
----@field public dontDisplayBanner bool
----@field public dontDisplayEnd bool
+---@field public dontDisplayBanner boolean
+---@field public dontDisplayEnd boolean
 ---@field public clubID string
----@field public isLocked bool
+---@field public isLocked boolean
 CalendarDayEvent = {}
 
 ---@class CalendarEventIndexInfo
@@ -523,9 +523,9 @@ CalendarEventIndexInfo = {}
 ---@field public textureIndex number
 ---@field public time CalendarTime
 ---@field public lockoutTime CalendarTime
----@field public isLocked bool
----@field public isAutoApprove bool
----@field public hasPendingInvite bool
+---@field public isLocked boolean
+---@field public isAutoApprove boolean
+---@field public hasPendingInvite boolean
 ---@field public inviteStatus number
 ---@field public inviteType number
 ---@field public calendarType string
@@ -539,7 +539,7 @@ CalendarEventInfo = {}
 ---@field public classFilename string
 ---@field public inviteStatus number
 ---@field public modStatus string
----@field public inviteIsMine bool
+---@field public inviteIsMine boolean
 ---@field public type number
 ---@field public notes string
 ---@field public classID number
@@ -557,7 +557,7 @@ CalendarEventStatusOption = {}
 ---@field public expansionLevel number
 ---@field public difficultyId number
 ---@field public mapId number
----@field public isLfr bool
+---@field public isLfr boolean
 CalendarEventTextureInfo = {}
 
 ---@class CalendarEventTypeDisplayInfo

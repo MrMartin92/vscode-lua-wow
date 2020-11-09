@@ -23,19 +23,19 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PetJournal.GetPetSummonInfo)
 ---@param battlePetGUID string
----@return bool, PetJournalError, string @isSummonable, error, errorText
+---@return boolean, PetJournalError, string @isSummonable, error, errorText
 function C_PetJournal.GetPetSummonInfo(battlePetGUID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PetJournal.PetIsSummonable)
 ---@param battlePetGUID string
----@return bool @isSummonable
+---@return boolean @isSummonable
 function C_PetJournal.PetIsSummonable(battlePetGUID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PetJournal.PetUsesRandomDisplay)
 ---@param speciesID number
----@return bool @usesRandomDisplay
+---@return boolean @usesRandomDisplay
 function C_PetJournal.PetUsesRandomDisplay(speciesID)
 end
 

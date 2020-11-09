@@ -2,7 +2,7 @@
 C_Minimap = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Minimap.GetDrawGroundTextures)
----@return bool @draw
+---@return boolean @draw
 function C_Minimap.GetDrawGroundTextures()
 end
 
@@ -17,22 +17,22 @@ function C_Minimap.GetViewRadius()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Minimap.IsRotateMinimapIgnored)
----@return bool @isIgnored
+---@return boolean @isIgnored
 function C_Minimap.IsRotateMinimapIgnored()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Minimap.SetDrawGroundTextures)
----@param draw bool
+---@param draw boolean
 function C_Minimap.SetDrawGroundTextures(draw)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Minimap.SetIgnoreRotateMinimap)
----@param ignore bool
+---@param ignore boolean
 function C_Minimap.SetIgnoreRotateMinimap(ignore)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Minimap.ShouldUseHybridMinimap)
----@return bool @shouldUse
+---@return boolean @shouldUse
 function C_Minimap.ShouldUseHybridMinimap()
 end
 

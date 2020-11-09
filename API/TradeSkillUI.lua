@@ -74,7 +74,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TradeSkillUI.IsEmptySkillLineCategory)
 ---@param categoryID number
----@return bool @effectivelyKnown
+---@return boolean @effectivelyKnown
 function C_TradeSkillUI.IsEmptySkillLineCategory(categoryID)
 end
 

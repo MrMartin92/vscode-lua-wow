@@ -18,12 +18,12 @@ function C_PlayerMentorship.GetMentorshipStatus(playerLocation)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerMentorship.IsActivePlayerConsideredNewcomer)
----@return bool @isConsideredNewcomer
+---@return boolean @isConsideredNewcomer
 function C_PlayerMentorship.IsActivePlayerConsideredNewcomer()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerMentorship.IsMentorRestricted)
----@return bool @isRestricted
+---@return boolean @isRestricted
 function C_PlayerMentorship.IsMentorRestricted()
 end
 

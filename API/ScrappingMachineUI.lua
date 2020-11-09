@@ -27,7 +27,7 @@ function C_ScrappingMachineUI.GetScrappingMachineName()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ScrappingMachineUI.HasScrappableItems)
----@return bool @hasScrappableItems
+---@return boolean @hasScrappableItems
 function C_ScrappingMachineUI.HasScrappableItems()
 end
 

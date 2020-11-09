@@ -3,13 +3,13 @@ C_TaskQuest = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TaskQuest.DoesMapShowTaskQuestObjectives)
 ---@param uiMapID number
----@return bool @showsTaskQuestObjectives
+---@return boolean @showsTaskQuestObjectives
 function C_TaskQuest.DoesMapShowTaskQuestObjectives(uiMapID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TaskQuest.GetQuestInfoByQuestID)
 ---@param questID number
----@return string, number, bool, bool @questTitle, factionID, capped, displayAsObjective
+---@return string, number, boolean, boolean @questTitle, factionID, capped, displayAsObjective
 function C_TaskQuest.GetQuestInfoByQuestID(questID)
 end
 
@@ -57,7 +57,7 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TaskQuest.IsActive)
 ---@param questID number
----@return bool @active
+---@return boolean @active
 function C_TaskQuest.IsActive(questID)
 end
 
@@ -70,12 +70,12 @@ end
 ---@field public questId number
 ---@field public x number
 ---@field public y number
----@field public inProgress bool
+---@field public inProgress boolean
 ---@field public numObjectives number
 ---@field public mapID number
----@field public isQuestStart bool
----@field public isDaily bool
----@field public isCombatAllyQuest bool
+---@field public isQuestStart boolean
+---@field public isDaily boolean
+---@field public isCombatAllyQuest boolean
 ---@field public childDepth number
 TaskPOIData = {}
 

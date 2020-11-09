@@ -50,13 +50,13 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CampaignInfo.IsCampaignQuest)
 ---@param questID number
----@return bool @isCampaignQuest
+---@return boolean @isCampaignQuest
 function C_CampaignInfo.IsCampaignQuest(questID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CampaignInfo.UsesNormalQuestIcons)
 ---@param campaignID number
----@return bool @useNormalQuestIcons
+---@return boolean @useNormalQuestIcons
 function C_CampaignInfo.UsesNormalQuestIcons(campaignID)
 end
 
@@ -84,6 +84,6 @@ CampaignFailureReason = {}
 ---@field public name string
 ---@field public description string
 ---@field public uiTextureKit string
----@field public isWarCampaign bool
+---@field public isWarCampaign boolean
 CampaignInfo = {}
 

@@ -3,17 +3,17 @@ C_StorePublic = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_StorePublic.DoesGroupHavePurchaseableProducts)
 ---@param groupID number
----@return bool @hasPurchaseableProducts
+---@return boolean @hasPurchaseableProducts
 function C_StorePublic.DoesGroupHavePurchaseableProducts(groupID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_StorePublic.IsDisabledByParentalControls)
----@return bool @disabled
+---@return boolean @disabled
 function C_StorePublic.IsDisabledByParentalControls()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_StorePublic.IsEnabled)
----@return bool @enabled
+---@return boolean @enabled
 function C_StorePublic.IsEnabled()
 end
 

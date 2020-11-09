@@ -8,6 +8,6 @@ end
 
 ---@class LoreTextEntry
 ---@field public text string
----@field public isHeader bool
+---@field public isHeader boolean
 LoreTextEntry = {}
 

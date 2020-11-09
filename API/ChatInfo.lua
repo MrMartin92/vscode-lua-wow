@@ -4,7 +4,7 @@ C_ChatInfo = {}
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChatInfo.GetChannelRosterInfo)
 ---@param channelIndex number
 ---@param rosterIndex number
----@return string, bool, bool, string @name, owner, moderator, guid
+---@return string, boolean, boolean, string @name, owner, moderator, guid
 function C_ChatInfo.GetChannelRosterInfo(channelIndex, rosterIndex)
 end
 
@@ -65,49 +65,49 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChatInfo.IsAddonMessagePrefixRegistered)
 ---@param prefix string
----@return bool @isRegistered
+---@return boolean @isRegistered
 function C_ChatInfo.IsAddonMessagePrefixRegistered(prefix)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChatInfo.IsChannelRegional)
 ---@param channelIndex number
----@return bool @isRegional
+---@return boolean @isRegional
 function C_ChatInfo.IsChannelRegional(channelIndex)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChatInfo.IsChannelRegionalForChannelID)
 ---@param channelID number
----@return bool @isRegional
+---@return boolean @isRegional
 function C_ChatInfo.IsChannelRegionalForChannelID(channelID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChatInfo.IsPartyChannelType)
 ---@param channelType ChatChannelType
----@return bool @isPartyChannelType
+---@return boolean @isPartyChannelType
 function C_ChatInfo.IsPartyChannelType(channelType)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChatInfo.IsRegionalServiceAvailable)
----@return bool @available
+---@return boolean @available
 function C_ChatInfo.IsRegionalServiceAvailable()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChatInfo.IsValidChatLine)
 ---@param chatLine number
----@return bool @isValid
+---@return boolean @isValid
 function C_ChatInfo.IsValidChatLine(chatLine)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChatInfo.RegisterAddonMessagePrefix)
 ---@param prefix string
----@return bool @successfulRequest
+---@return boolean @successfulRequest
 function C_ChatInfo.RegisterAddonMessagePrefix(prefix)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChatInfo.ReplaceIconAndGroupExpressions)
 ---@param input string
----@param noIconReplacement bool
----@param noGroupReplacement bool
+---@param noIconReplacement boolean
+---@param noGroupReplacement boolean
 ---@return string @output
 function C_ChatInfo.ReplaceIconAndGroupExpressions(input, noIconReplacement, noGroupReplacement)
 end
@@ -121,7 +121,7 @@ end
 ---@param message string
 ---@param chatType string
 ---@param target string
----@return bool @success
+---@return boolean @success
 function C_ChatInfo.SendAddonMessage(prefix, message, chatType, target)
 end
 
@@ -130,7 +130,7 @@ end
 ---@param message string
 ---@param chatType string
 ---@param target string
----@return bool @success
+---@return boolean @success
 function C_ChatInfo.SendAddonMessageLogged(prefix, message, chatType, target)
 end
 

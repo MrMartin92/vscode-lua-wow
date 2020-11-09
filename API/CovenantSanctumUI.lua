@@ -56,8 +56,8 @@ CovenantSanctumFeatureInfo = {}
 
 ---@class CovenantSanctumRenownMilestoneInfo
 ---@field public level number
----@field public locked bool
----@field public isCapstone bool
+---@field public locked boolean
+---@field public isCapstone boolean
 CovenantSanctumRenownMilestoneInfo = {}
 
 ---@class CovenantSanctumRenownRewardInfo

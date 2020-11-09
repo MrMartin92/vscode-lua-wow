@@ -33,57 +33,57 @@ end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.HasFlyoutActionButtons)
 ---@param flyoutID number
----@return bool @hasFlyoutActionButtons
+---@return boolean @hasFlyoutActionButtons
 function C_ActionBar.HasFlyoutActionButtons(flyoutID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.HasPetActionButtons)
 ---@param petActionID number
----@return bool @hasPetActionButtons
+---@return boolean @hasPetActionButtons
 function C_ActionBar.HasPetActionButtons(petActionID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.HasPetActionPetBarIndices)
 ---@param petActionID number
----@return bool @hasPetActionPetBarIndices
+---@return boolean @hasPetActionPetBarIndices
 function C_ActionBar.HasPetActionPetBarIndices(petActionID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.HasSpellActionButtons)
 ---@param spellID number
----@return bool @hasSpellActionButtons
+---@return boolean @hasSpellActionButtons
 function C_ActionBar.HasSpellActionButtons(spellID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.IsAutoCastPetAction)
 ---@param slotID number
----@return bool @isAutoCastPetAction
+---@return boolean @isAutoCastPetAction
 function C_ActionBar.IsAutoCastPetAction(slotID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.IsEnabledAutoCastPetAction)
 ---@param slotID number
----@return bool @isEnabledAutoCastPetAction
+---@return boolean @isEnabledAutoCastPetAction
 function C_ActionBar.IsEnabledAutoCastPetAction(slotID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.IsHarmfulAction)
 ---@param actionID number
----@param useNeutral bool
----@return bool @isHarmful
+---@param useNeutral boolean
+---@return boolean @isHarmful
 function C_ActionBar.IsHarmfulAction(actionID, useNeutral)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.IsHelpfulAction)
 ---@param actionID number
----@param useNeutral bool
----@return bool @isHelpful
+---@param useNeutral boolean
+---@return boolean @isHelpful
 function C_ActionBar.IsHelpfulAction(actionID, useNeutral)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.IsOnBarOrSpecialBar)
 ---@param spellID number
----@return bool @isOnBarOrSpecialBar
+---@return boolean @isOnBarOrSpecialBar
 function C_ActionBar.IsOnBarOrSpecialBar(spellID)
 end
 
@@ -93,12 +93,12 @@ function C_ActionBar.PutActionInSlot(slotID)
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.ShouldOverrideBarShowHealthBar)
----@return bool @showHealthBar
+---@return boolean @showHealthBar
 function C_ActionBar.ShouldOverrideBarShowHealthBar()
 end
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.ShouldOverrideBarShowManaBar)
----@return bool @showManaBar
+---@return boolean @showManaBar
 function C_ActionBar.ShouldOverrideBarShowManaBar()
 end
 
