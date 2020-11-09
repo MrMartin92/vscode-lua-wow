@@ -1,3 +1,4 @@
+---@class C_FogOfWar
 C_FogOfWar = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_FogOfWar.GetFogOfWarForMap)

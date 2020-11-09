@@ -1,3 +1,4 @@
+---@class C_ChromieTime
 C_ChromieTime = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChromieTime.CloseUI)

@@ -1,3 +1,4 @@
+---@class C_Reputation
 C_Reputation = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Reputation.GetFactionParagonInfo)

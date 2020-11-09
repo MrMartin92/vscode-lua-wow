@@ -1,3 +1,4 @@
+---@class C_ChatInfo
 C_ChatInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChatInfo.GetChannelRosterInfo)

@@ -1,3 +1,4 @@
+---@class C_VignetteInfo
 C_VignetteInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VignetteInfo.FindBestUniqueVignette)

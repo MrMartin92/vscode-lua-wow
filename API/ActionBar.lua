@@ -1,3 +1,4 @@
+---@class C_ActionBar
 C_ActionBar = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ActionBar.FindFlyoutActionButtons)

@@ -1,3 +1,4 @@
+---@class C_GuildInfo
 C_GuildInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GuildInfo.CanEditOfficerNote)

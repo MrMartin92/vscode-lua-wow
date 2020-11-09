@@ -1,3 +1,4 @@
+---@class C_Navigation
 C_Navigation = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Navigation.GetDistance)

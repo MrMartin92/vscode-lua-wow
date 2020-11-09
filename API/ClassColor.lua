@@ -1,3 +1,4 @@
+---@class C_ClassColor
 C_ClassColor = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClassColor.GetClassColor)

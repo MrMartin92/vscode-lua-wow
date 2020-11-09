@@ -1,3 +1,4 @@
+---@class C_LFGInfo
 C_LFGInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LFGInfo.CanPlayerUseGroupFinder)

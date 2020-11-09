@@ -1,3 +1,4 @@
+---@class C_BattleNet
 C_BattleNet = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_BattleNet.GetAccountInfoByGUID)

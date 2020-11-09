@@ -1,3 +1,4 @@
+---@class C_BarberShop
 C_BarberShop = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_BarberShop.ApplyCustomizationChoices)

@@ -1,3 +1,4 @@
+---@class C_PetJournal
 C_PetJournal = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PetJournal.GetDisplayIDByIndex)

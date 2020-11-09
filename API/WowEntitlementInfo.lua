@@ -1,3 +1,4 @@
+---@class C_WowEntitlementInfo
 C_WowEntitlementInfo = {}
 
 ---@alias WoWEntitlementType number|"enum.WoWEntitlementType.Item"|"enum.WoWEntitlementType.Mount"|"enum.WoWEntitlementType.Battlepet"|"enum.WoWEntitlementType.Toy"|"enum.WoWEntitlementType.Appearance"|"enum.WoWEntitlementType.AppearanceSet"|"enum.WoWEntitlementType.GameTime"|"enum.WoWEntitlementType.Title"|"enum.WoWEntitlementType.Illusion"|"enum.WoWEntitlementType.Invalid"

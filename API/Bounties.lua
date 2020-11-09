@@ -1,3 +1,4 @@
+---@class C_Bounties
 C_Bounties = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Bounties.GetBountiesForMapID)

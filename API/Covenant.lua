@@ -1,3 +1,4 @@
+---@class C_Covenants
 C_Covenants = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Covenants.GetActiveCovenantID)

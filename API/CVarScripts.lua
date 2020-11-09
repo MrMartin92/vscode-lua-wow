@@ -1,3 +1,4 @@
+---@class C_CVar
 C_CVar = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CVar.GetCVar)

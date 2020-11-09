@@ -1,3 +1,4 @@
+---@class C_TransmogSets
 C_TransmogSets = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TransmogSets.ClearLatestSource)

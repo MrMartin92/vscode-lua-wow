@@ -1,3 +1,4 @@
+---@class C_FriendList
 C_FriendList = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_FriendList.AddFriend)

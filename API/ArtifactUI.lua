@@ -1,3 +1,4 @@
+---@class C_ArtifactUI
 C_ArtifactUI = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.AddPower)

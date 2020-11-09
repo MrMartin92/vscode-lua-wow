@@ -1,3 +1,4 @@
+---@class C_PlayerChoice
 C_PlayerChoice = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerChoice.GetPlayerChoiceInfo)

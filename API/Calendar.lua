@@ -1,3 +1,4 @@
+---@class C_Calendar
 C_Calendar = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Calendar.AddEvent)

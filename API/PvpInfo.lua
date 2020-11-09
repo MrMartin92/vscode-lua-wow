@@ -1,3 +1,4 @@
+---@class C_PvP
 C_PvP = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.CanDisplayDeaths)

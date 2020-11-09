@@ -1,3 +1,4 @@
+---@class C_MythicPlus
 C_MythicPlus = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MythicPlus.GetCurrentAffixes)

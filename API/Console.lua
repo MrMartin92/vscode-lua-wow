@@ -1,3 +1,4 @@
+---@class C_Console
 C_Console = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Console.GetAllCommands)

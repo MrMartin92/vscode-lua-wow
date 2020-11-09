@@ -1,3 +1,4 @@
+---@class C_SuperTrack
 C_SuperTrack = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SuperTrack.GetHighestPrioritySuperTrackingType)

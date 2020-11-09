@@ -1,3 +1,4 @@
+---@class C_QuestLog
 C_QuestLog = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLog.AbandonQuest)

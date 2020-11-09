@@ -1,3 +1,4 @@
+---@class C_ItemSocketInfo
 C_ItemSocketInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ItemSocketInfo.CompleteSocketing)

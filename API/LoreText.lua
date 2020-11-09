@@ -1,3 +1,4 @@
+---@class C_LoreText
 C_LoreText = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LoreText.RequestLoreTextForCampaignID)

@@ -1,3 +1,4 @@
+---@class C_SpecializationInfo
 C_SpecializationInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SpecializationInfo.CanPlayerUsePVPTalentUI)

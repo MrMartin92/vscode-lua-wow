@@ -1,3 +1,4 @@
+---@class C_GamePad
 C_GamePad = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GamePad.ApplyConfigs)

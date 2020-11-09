@@ -1,3 +1,4 @@
+---@class C_ZoneAbility
 C_ZoneAbility = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ZoneAbility.GetActiveAbilities)

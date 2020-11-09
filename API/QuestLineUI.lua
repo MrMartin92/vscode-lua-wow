@@ -1,3 +1,4 @@
+---@class C_QuestLine
 C_QuestLine = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestLine.GetAvailableQuestLines)

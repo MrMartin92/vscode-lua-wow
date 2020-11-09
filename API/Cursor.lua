@@ -1,3 +1,4 @@
+---@class C_Cursor
 C_Cursor = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Cursor.DropCursorCommunitiesStream)

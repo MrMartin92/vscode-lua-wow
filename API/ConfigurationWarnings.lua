@@ -1,3 +1,4 @@
+---@class C_ConfigurationWarnings
 C_ConfigurationWarnings = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ConfigurationWarnings.GetConfigurationWarningSeen)

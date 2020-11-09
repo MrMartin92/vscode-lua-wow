@@ -1,3 +1,4 @@
+---@class C_AchievementInfo
 C_AchievementInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AchievementInfo.GetRewardItemID)

@@ -1,3 +1,4 @@
+---@class C_Tutorial
 C_Tutorial = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Tutorial.AbandonTutorialArea)

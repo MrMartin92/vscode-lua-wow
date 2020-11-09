@@ -1,3 +1,4 @@
+---@class C_ChallengeMode
 C_ChallengeMode = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChallengeMode.ClearKeystone)

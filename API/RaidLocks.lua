@@ -1,3 +1,4 @@
+---@class C_RaidLocks
 C_RaidLocks = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_RaidLocks.IsEncounterComplete)

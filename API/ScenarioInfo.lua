@@ -1,3 +1,4 @@
+---@class C_ScenarioInfo
 C_ScenarioInfo = {}
 
 ---@alias JailersTowerType number|"enum.JailersTowerType.TwistingCorridors"|"enum.JailersTowerType.SkoldusHalls"|"enum.JailersTowerType.FractureChambers"|"enum.JailersTowerType.Soulforges"|"enum.JailersTowerType.Coldheart"|"enum.JailersTowerType.Mortregar"|"enum.JailersTowerType.UpperReaches"

@@ -1,3 +1,4 @@
+---@class C_SocialRestrictions
 C_SocialRestrictions = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SocialRestrictions.IsMuted)

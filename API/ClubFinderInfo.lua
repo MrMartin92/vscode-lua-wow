@@ -1,3 +1,4 @@
+---@class C_ClubFinder
 C_ClubFinder = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.ApplicantAcceptClubInvite)

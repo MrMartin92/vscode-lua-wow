@@ -1,3 +1,4 @@
+---@class C_AzeriteItem
 C_AzeriteItem = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteItem.FindActiveAzeriteItem)

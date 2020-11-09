@@ -1,3 +1,4 @@
+---@class C_ContributionCollector
 C_ContributionCollector = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ContributionCollector.Close)

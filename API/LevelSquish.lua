@@ -1,3 +1,4 @@
+---@class C_LevelSquish
 C_LevelSquish = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LevelSquish.ConvertFollowerLevel)

@@ -1,3 +1,4 @@
+---@class C_SummonInfo
 C_SummonInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SummonInfo.CancelSummon)

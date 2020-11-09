@@ -1,3 +1,4 @@
+---@class C_CovenantPreview
 C_CovenantPreview = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CovenantPreview.CloseFromUI)

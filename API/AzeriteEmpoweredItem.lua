@@ -1,3 +1,4 @@
+---@class C_AzeriteEmpoweredItem
 C_AzeriteEmpoweredItem = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.CanSelectPower)

@@ -1,3 +1,4 @@
+---@class C_Map
 C_Map = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Map.CanSetUserWaypointOnMap)

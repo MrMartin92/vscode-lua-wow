@@ -1,3 +1,4 @@
+---@class C_LFGList
 C_LFGList = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LFGList.CanActiveEntryUseAutoAccept)

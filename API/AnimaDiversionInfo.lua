@@ -1,3 +1,4 @@
+---@class C_AnimaDiversion
 C_AnimaDiversion = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AnimaDiversion.CloseUI)

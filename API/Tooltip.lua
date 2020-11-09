@@ -1,3 +1,4 @@
+---@class C_Tooltip
 C_Tooltip = {}
 
 ---@alias TooltipSide number|"enum.TooltipSide.Left"|"enum.TooltipSide.Right"|"enum.TooltipSide.Top"|"enum.TooltipSide.Bottom"

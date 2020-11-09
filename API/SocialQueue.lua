@@ -1,3 +1,4 @@
+---@class C_SocialQueue
 C_SocialQueue = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SocialQueue.GetAllGroups)

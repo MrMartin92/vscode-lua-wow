@@ -1,3 +1,4 @@
+---@class C_Mail
 C_Mail = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Mail.CanCheckInbox)

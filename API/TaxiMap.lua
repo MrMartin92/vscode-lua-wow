@@ -1,3 +1,4 @@
+---@class C_TaxiMap
 C_TaxiMap = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TaxiMap.GetAllTaxiNodes)

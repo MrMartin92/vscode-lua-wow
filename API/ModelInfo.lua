@@ -1,3 +1,4 @@
+---@class C_ModelInfo
 C_ModelInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ModelInfo.AddActiveModelScene)

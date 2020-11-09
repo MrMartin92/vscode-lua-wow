@@ -1,3 +1,4 @@
+---@class C_ScrappingMachineUI
 C_ScrappingMachineUI = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ScrappingMachineUI.CloseScrappingMachine)

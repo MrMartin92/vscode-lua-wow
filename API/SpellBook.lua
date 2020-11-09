@@ -1,3 +1,4 @@
+---@class C_SpellBook
 C_SpellBook = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SpellBook.ContainsAnyDisenchantSpell)

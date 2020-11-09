@@ -1,3 +1,4 @@
+---@class C_VideoOptions
 C_VideoOptions = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VideoOptions.GetGxAdapterInfo)

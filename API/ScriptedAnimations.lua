@@ -1,3 +1,4 @@
+---@class C_ScriptedAnimations
 C_ScriptedAnimations = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ScriptedAnimations.GetAllScriptedAnimationEffects)

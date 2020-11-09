@@ -1,3 +1,4 @@
+---@class C_MerchantFrame
 C_MerchantFrame = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MerchantFrame.GetBuybackItemID)

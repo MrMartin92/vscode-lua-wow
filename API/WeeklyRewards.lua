@@ -1,3 +1,4 @@
+---@class C_WeeklyRewards
 C_WeeklyRewards = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_WeeklyRewards.CanClaimRewards)

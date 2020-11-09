@@ -1,3 +1,4 @@
+---@class C_System
 C_System = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_System.GetFrameStack)

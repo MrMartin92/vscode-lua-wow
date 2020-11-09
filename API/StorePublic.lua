@@ -1,3 +1,4 @@
+---@class C_StorePublic
 C_StorePublic = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_StorePublic.DoesGroupHavePurchaseableProducts)

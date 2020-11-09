@@ -1,3 +1,4 @@
+---@class C_ResearchInfo
 C_ResearchInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ResearchInfo.GetDigSitesForMap)

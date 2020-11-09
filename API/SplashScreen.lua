@@ -1,3 +1,4 @@
+---@class C_SplashScreen
 C_SplashScreen = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_SplashScreen.AcknowledgeSplash)

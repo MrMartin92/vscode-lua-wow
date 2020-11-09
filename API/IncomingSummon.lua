@@ -1,3 +1,4 @@
+---@class C_IncomingSummon
 C_IncomingSummon = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_IncomingSummon.HasIncomingSummon)

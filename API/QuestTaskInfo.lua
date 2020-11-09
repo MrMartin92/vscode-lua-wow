@@ -1,3 +1,4 @@
+---@class C_TaskQuest
 C_TaskQuest = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TaskQuest.DoesMapShowTaskQuestObjectives)

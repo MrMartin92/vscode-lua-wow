@@ -1,3 +1,4 @@
+---@class C_IslandsQueue
 C_IslandsQueue = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_IslandsQueue.CloseIslandsQueueScreen)

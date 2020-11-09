@@ -1,3 +1,4 @@
+---@class C_LossOfControl
 C_LossOfControl = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LossOfControl.GetActiveLossOfControlData)
