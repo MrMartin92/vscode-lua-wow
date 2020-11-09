@@ -1,0 +1,2 @@
+QuestOffer = {}
+

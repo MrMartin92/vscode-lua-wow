@@ -1,0 +1,2 @@
+TradeInfo = {}
+

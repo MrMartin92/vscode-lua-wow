@@ -1,0 +1,2 @@
+AdventureMap = {}
+

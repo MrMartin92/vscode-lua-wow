@@ -1,0 +1,2 @@
+LoadingScreen = {}
+

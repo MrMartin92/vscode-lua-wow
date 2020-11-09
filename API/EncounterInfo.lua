@@ -1,0 +1,2 @@
+EncounterInfo = {}
+
