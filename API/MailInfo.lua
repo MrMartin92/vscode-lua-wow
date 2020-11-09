@@ -1,4 +1,4 @@
-MailInfo = {}
+C_Mail = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Mail.CanCheckInbox)
 ---@return bool, number @canCheckInbox, secondsUntilAllowed

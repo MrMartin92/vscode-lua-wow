@@ -1,4 +1,4 @@
-GossipInfo = {}
+C_GossipInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_GossipInfo.CloseGossip)
 function C_GossipInfo.CloseGossip()

@@ -1,4 +1,4 @@
-CharacterCustomization = {}
+C_CharacterCustomization = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CharacterCustomization.GetAvailableCustomizations)
 ---@param raceID number

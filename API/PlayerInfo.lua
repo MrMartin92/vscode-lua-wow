@@ -1,4 +1,4 @@
-PlayerInfo = {}
+C_PlayerInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.CanPlayerEnterChromieTime)
 ---@return bool @canEnter

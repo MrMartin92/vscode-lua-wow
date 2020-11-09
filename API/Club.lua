@@ -1,4 +1,4 @@
-Club = {}
+C_Club = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Club.AcceptInvitation)
 ---@param clubId string

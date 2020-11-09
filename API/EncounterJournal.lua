@@ -1,4 +1,4 @@
-EncounterJournal = {}
+C_EncounterJournal = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_EncounterJournal.GetDungeonEntrancesForMap)
 ---@param uiMapID number

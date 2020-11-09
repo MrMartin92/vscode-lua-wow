@@ -1,2 +1,2 @@
-GlyphInfo = {}
+C_GlyphInfo = {}
 

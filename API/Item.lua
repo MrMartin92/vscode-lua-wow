@@ -1,4 +1,4 @@
-Item = {}
+C_Item = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Item.CanScrapItem)
 ---@param itemLoc table

@@ -1,4 +1,4 @@
-DateAndTime = {}
+C_DateAndTime = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_DateAndTime.AdjustTimeByDays)
 ---@param date CalendarTime

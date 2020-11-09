@@ -1,4 +1,4 @@
-Transmogrify = {}
+C_TransmogSets = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TransmogSets.ClearLatestSource)
 function C_TransmogSets.ClearLatestSource()

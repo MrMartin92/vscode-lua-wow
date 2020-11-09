@@ -1,4 +1,4 @@
-AzeriteEssence = {}
+C_AzeriteEssence = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEssence.ActivateEssence)
 ---@param essenceID number

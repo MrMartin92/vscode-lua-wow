@@ -1,4 +1,4 @@
-WarCampaign = {}
+C_CampaignInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CampaignInfo.GetAvailableCampaigns)
 ---@return table @campaignIDs

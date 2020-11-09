@@ -1,2 +1,2 @@
-BattlePet = {}
+C_BattlePet = {}
 

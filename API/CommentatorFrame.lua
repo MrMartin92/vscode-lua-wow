@@ -1,4 +1,4 @@
-CommentatorFrame = {}
+C_Commentator = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Commentator.AddPlayerOverrideName)
 ---@param playerName string

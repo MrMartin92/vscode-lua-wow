@@ -1,2 +1,2 @@
-AdventureJournal = {}
+C_AdventureJournal = {}
 

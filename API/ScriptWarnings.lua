@@ -1,2 +1,2 @@
-ScriptWarnings = {}
+C_ScriptWarnings = {}
 

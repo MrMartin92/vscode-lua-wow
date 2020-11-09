@@ -1,4 +1,4 @@
-PartyPose = {}
+C_PartyPose = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PartyPose.GetPartyPoseInfoByMapID)
 ---@param mapID number

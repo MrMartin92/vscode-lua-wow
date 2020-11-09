@@ -1,4 +1,4 @@
-StableInfo = {}
+C_StableInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_StableInfo.GetNumActivePets)
 ---@return number @numActivePets

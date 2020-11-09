@@ -1,4 +1,4 @@
-GarrisonInfo = {}
+C_Garrison = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Garrison.AddFollowerToMission)
 ---@param missionID number

@@ -1,4 +1,4 @@
-StorePublic = {}
+C_StorePublic = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_StorePublic.DoesGroupHavePurchaseableProducts)
 ---@param groupID number

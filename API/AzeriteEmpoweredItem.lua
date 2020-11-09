@@ -1,4 +1,4 @@
-AzeriteEmpoweredItem = {}
+C_AzeriteEmpoweredItem = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteEmpoweredItem.CanSelectPower)
 ---@param azeriteEmpoweredItemLocation table

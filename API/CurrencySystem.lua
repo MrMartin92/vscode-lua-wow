@@ -1,4 +1,4 @@
-CurrencySystem = {}
+C_CurrencyInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CurrencyInfo.DoesWarModeBonusApply)
 ---@param currencyID number

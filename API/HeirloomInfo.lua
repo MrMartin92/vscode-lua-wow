@@ -1,2 +1,2 @@
-HeirloomInfo = {}
+C_HeirloomInfo = {}
 

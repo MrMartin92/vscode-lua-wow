@@ -1,4 +1,4 @@
-QuestSession = {}
+C_QuestSession = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_QuestSession.CanStart)
 ---@return bool @allowed

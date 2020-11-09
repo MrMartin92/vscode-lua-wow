@@ -1,4 +1,4 @@
-CovenantCallings = {}
+C_CovenantCallings = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CovenantCallings.AreCallingsUnlocked)
 ---@return bool @unlocked

@@ -1,4 +1,4 @@
-Covenant = {}
+C_Covenants = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Covenants.GetActiveCovenantID)
 ---@return number @covenantID

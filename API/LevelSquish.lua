@@ -1,4 +1,4 @@
-LevelSquish = {}
+C_LevelSquish = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LevelSquish.ConvertFollowerLevel)
 ---@param level number

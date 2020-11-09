@@ -1,2 +1,2 @@
-LoadingScreen = {}
+C_LoadingScreen = {}
 

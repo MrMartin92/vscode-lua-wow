@@ -1,4 +1,4 @@
-EquipmentSet = {}
+C_EquipmentSet = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_EquipmentSet.AssignSpecToEquipmentSet)
 ---@param equipmentSetID number

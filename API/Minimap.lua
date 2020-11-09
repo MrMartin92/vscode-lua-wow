@@ -1,4 +1,4 @@
-Minimap = {}
+C_Minimap = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Minimap.GetDrawGroundTextures)
 ---@return bool @draw

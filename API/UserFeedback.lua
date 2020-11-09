@@ -1,4 +1,4 @@
-UserFeedback = {}
+C_UserFeedback = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_UserFeedback.SubmitBug)
 ---@param bugInfo string

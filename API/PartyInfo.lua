@@ -1,4 +1,4 @@
-PartyInfo = {}
+C_PartyInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PartyInfo.AllowedToDoPartyConversion)
 ---@param toRaid bool

@@ -1,2 +1,2 @@
-NamePlateManager = {}
+C_NamePlateManager = {}
 

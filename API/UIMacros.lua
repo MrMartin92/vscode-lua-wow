@@ -1,2 +1,2 @@
-UIMacros = {}
+C_Macro = {}
 

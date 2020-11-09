@@ -1,2 +1,2 @@
-WorldStateInfo = {}
+C_WorldStateInfo = {}
 

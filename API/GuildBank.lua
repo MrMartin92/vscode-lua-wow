@@ -1,2 +1,2 @@
-GuildBank = {}
+C_GuildBank = {}
 

@@ -1,4 +1,4 @@
-ItemInteractionUI = {}
+C_ItemInteraction = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ItemInteraction.ClearPendingItem)
 function C_ItemInteraction.ClearPendingItem()

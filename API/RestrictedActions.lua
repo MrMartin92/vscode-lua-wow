@@ -1,2 +1,2 @@
-RestrictedActions = {}
+C_RestrictedActions = {}
 

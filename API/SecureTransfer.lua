@@ -1,2 +1,2 @@
-SecureTransfer = {}
+C_SecureTransfer = {}
 

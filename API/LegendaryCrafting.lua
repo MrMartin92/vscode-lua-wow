@@ -1,4 +1,4 @@
-LegendaryCrafting = {}
+C_LegendaryCrafting = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LegendaryCrafting.CloseRuneforgeInteraction)
 function C_LegendaryCrafting.CloseRuneforgeInteraction()

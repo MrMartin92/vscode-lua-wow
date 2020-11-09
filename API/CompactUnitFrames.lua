@@ -1,2 +1,2 @@
-CompactUnitFrames = {}
+C_CompactUnitFrames = {}
 

@@ -1,2 +1,2 @@
-AdventureMap = {}
+C_AdventureMap = {}
 

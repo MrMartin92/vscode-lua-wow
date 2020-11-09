@@ -1,4 +1,4 @@
-AuctionHouse = {}
+C_AuctionHouse = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AuctionHouse.CalculateCommodityDeposit)
 ---@param itemID number

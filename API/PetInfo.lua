@@ -1,4 +1,4 @@
-PetInfo = {}
+C_PetInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PetInfo.GetPetTamersForMap)
 ---@param uiMapID number

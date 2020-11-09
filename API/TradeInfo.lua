@@ -1,2 +1,2 @@
-TradeInfo = {}
+C_TradeInfo = {}
 

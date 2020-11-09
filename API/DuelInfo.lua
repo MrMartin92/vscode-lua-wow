@@ -1,2 +1,2 @@
-DuelInfo = {}
+C_DuelInfo = {}
 

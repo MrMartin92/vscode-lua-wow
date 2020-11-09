@@ -1,4 +1,4 @@
-LFGuildInfo = {}
+C_LFGuildInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_LFGuildInfo.GetRecruitingGuildTabardInfo)
 ---@param index number

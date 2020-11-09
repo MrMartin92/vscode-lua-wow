@@ -1,4 +1,4 @@
-AccountInfo = {}
+C_AccountInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AccountInfo.GetIDFromBattleNetAccountGUID)
 ---@param battleNetAccountGUID string

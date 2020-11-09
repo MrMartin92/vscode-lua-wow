@@ -1,4 +1,4 @@
-TradeSkillUI = {}
+C_TradeSkillUI = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_TradeSkillUI.CraftRecipe)
 ---@param recipeSpellID number

@@ -1,2 +1,2 @@
-CombatLog = {}
+C_CombatLog = {}
 

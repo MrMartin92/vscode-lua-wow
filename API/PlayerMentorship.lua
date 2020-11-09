@@ -1,4 +1,4 @@
-PlayerMentorship = {}
+C_PlayerMentorship = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerMentorship.GetMentorLevelRequirement)
 ---@return number @level

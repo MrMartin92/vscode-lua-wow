@@ -1,4 +1,4 @@
-MountJournal = {}
+C_MountJournal = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MountJournal.ApplyMountEquipment)
 ---@param itemLocation table

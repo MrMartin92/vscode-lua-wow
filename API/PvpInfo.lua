@@ -1,4 +1,4 @@
-PvpInfo = {}
+C_PvP = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PvP.CanDisplayDeaths)
 ---@return bool @canDisplay

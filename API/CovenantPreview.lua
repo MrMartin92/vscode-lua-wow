@@ -1,4 +1,4 @@
-CovenantPreview = {}
+C_CovenantPreview = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CovenantPreview.CloseFromUI)
 function C_CovenantPreview.CloseFromUI()

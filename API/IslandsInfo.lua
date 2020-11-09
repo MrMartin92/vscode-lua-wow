@@ -1,2 +1,2 @@
-IslandsInfo = {}
+C_IslandsInfo = {}
 

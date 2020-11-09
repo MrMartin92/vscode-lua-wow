@@ -1,4 +1,4 @@
-KeyBindings = {}
+C_KeyBindings = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_KeyBindings.GetCustomBindingType)
 ---@param bindingIndex number

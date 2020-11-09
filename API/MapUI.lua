@@ -1,4 +1,4 @@
-MapUI = {}
+C_Map = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Map.CanSetUserWaypointOnMap)
 ---@param uiMapID number

@@ -1,2 +1,2 @@
-EncounterInfo = {}
+C_EncounterInfo = {}
 

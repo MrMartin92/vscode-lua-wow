@@ -1,4 +1,4 @@
-MapExplorationInfo = {}
+C_MapExplorationInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_MapExplorationInfo.GetExploredAreaIDsAtPosition)
 ---@param uiMapID number

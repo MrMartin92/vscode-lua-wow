@@ -1,4 +1,4 @@
-AlliedRaces = {}
+C_AlliedRaces = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AlliedRaces.ClearAlliedRaceDetailsGiver)
 function C_AlliedRaces.ClearAlliedRaceDetailsGiver()

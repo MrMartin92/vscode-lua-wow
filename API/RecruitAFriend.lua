@@ -1,4 +1,4 @@
-RecruitAFriend = {}
+C_RecruitAFriend = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_RecruitAFriend.ClaimActivityReward)
 ---@param activityID number

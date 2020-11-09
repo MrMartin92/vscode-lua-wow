@@ -1,4 +1,4 @@
-ArtifactUI = {}
+C_ArtifactUI = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ArtifactUI.AddPower)
 ---@param powerID number

@@ -1,2 +1,2 @@
-BlackMarketInfo = {}
+C_BlackMarketInfo = {}
 

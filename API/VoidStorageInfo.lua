@@ -1,2 +1,2 @@
-VoidStorageInfo = {}
+C_VoidStorageInfo = {}
 

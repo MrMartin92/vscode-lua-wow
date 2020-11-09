@@ -1,4 +1,4 @@
-PetJournalInfo = {}
+C_PetJournal = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PetJournal.GetDisplayIDByIndex)
 ---@param speciesID number

@@ -1,4 +1,4 @@
-ChallengeModeInfo = {}
+C_ChallengeMode = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChallengeMode.ClearKeystone)
 function C_ChallengeMode.ClearKeystone()

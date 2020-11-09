@@ -1,4 +1,4 @@
-Spell = {}
+C_Spell = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Spell.DoesSpellExist)
 ---@param spellID number

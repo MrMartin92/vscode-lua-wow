@@ -1,4 +1,4 @@
-ToyBoxInfo = {}
+C_ToyBoxInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ToyBoxInfo.ClearFanfare)
 ---@param itemID number

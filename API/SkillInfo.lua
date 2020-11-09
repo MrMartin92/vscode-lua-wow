@@ -1,2 +1,2 @@
-SkillInfo = {}
+C_SkillInfo = {}
 

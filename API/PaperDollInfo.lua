@@ -1,4 +1,4 @@
-PaperDollInfo = {}
+C_PaperDollInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PaperDollInfo.GetArmorEffectiveness)
 ---@param armor number

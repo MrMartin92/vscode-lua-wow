@@ -1,4 +1,4 @@
-AreaPoiInfo = {}
+C_AreaPoiInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AreaPoiInfo.GetAreaPOIForMap)
 ---@param uiMapID number

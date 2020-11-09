@@ -1,4 +1,4 @@
-InvasionInfo = {}
+C_InvasionInfo = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_InvasionInfo.AreInvasionsAvailable)
 ---@return bool @areInvasionsAvailable

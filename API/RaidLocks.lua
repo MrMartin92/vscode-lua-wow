@@ -1,4 +1,4 @@
-RaidLocks = {}
+C_RaidLocks = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_RaidLocks.IsEncounterComplete)
 ---@param mapID number

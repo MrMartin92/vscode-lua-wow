@@ -1,2 +1,2 @@
-GMTicketInfo = {}
+C_GMTicketInfo = {}
 

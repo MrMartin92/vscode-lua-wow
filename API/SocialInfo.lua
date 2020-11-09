@@ -1,4 +1,4 @@
-SocialInfo = {}
+C_Social = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Social.GetLastAchievement)
 ---@return number, string, string, number @achievementID, achievementName, achievementDesc, iconFileID

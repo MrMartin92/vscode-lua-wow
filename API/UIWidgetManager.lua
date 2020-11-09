@@ -1,4 +1,4 @@
-UIWidgetManager = {}
+C_UIWidgetManager = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_UIWidgetManager.GetAllWidgetsBySetID)
 ---@param setID number

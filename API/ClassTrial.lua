@@ -1,2 +1,2 @@
-ClassTrial = {}
+C_ClassTrial = {}
 

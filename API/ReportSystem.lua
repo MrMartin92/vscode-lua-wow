@@ -1,4 +1,4 @@
-ReportSystem = {}
+C_ReportSystem = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ReportSystem.CanReportPlayer)
 ---@param playerLocation table

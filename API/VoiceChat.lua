@@ -1,4 +1,4 @@
-VoiceChat = {}
+C_VoiceChat = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_VoiceChat.ActivateChannel)
 ---@param channelID number

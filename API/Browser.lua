@@ -1,2 +1,2 @@
-Browser = {}
+C_Browser = {}
 

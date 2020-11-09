@@ -1,2 +1,2 @@
-SpellActivationOverlay = {}
+C_SpellActivationOverlay = {}
 

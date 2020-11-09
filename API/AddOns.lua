@@ -1,2 +1,2 @@
-AddOns = {}
+C_AddOns = {}
 

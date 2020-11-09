@@ -1,4 +1,4 @@
-ClubFinderInfo = {}
+C_ClubFinder = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ClubFinder.ApplicantAcceptClubInvite)
 ---@param clubFinderGUID string

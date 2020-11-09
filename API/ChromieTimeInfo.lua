@@ -1,4 +1,4 @@
-ChromieTimeInfo = {}
+C_ChromieTime = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ChromieTime.CloseUI)
 function C_ChromieTime.CloseUI()

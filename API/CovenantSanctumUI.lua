@@ -1,4 +1,4 @@
-CovenantSanctumUI = {}
+C_CovenantSanctumUI = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_CovenantSanctumUI.DepositAnima)
 function C_CovenantSanctumUI.DepositAnima()

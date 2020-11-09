@@ -1,4 +1,4 @@
-Soulbinds = {}
+C_Soulbinds = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Soulbinds.ActivateSoulbind)
 ---@param soulbindID number

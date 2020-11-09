@@ -1,2 +1,2 @@
-InstanceEncounter = {}
+C_InstanceEncounter = {}
 

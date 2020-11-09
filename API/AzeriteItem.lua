@@ -1,4 +1,4 @@
-AzeriteItem = {}
+C_AzeriteItem = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_AzeriteItem.FindActiveAzeriteItem)
 ---@return table @activeAzeriteItemLocation

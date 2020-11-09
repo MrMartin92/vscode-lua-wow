@@ -1,4 +1,4 @@
-ItemUpgrade = {}
+C_ItemUpgrade = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ItemUpgrade.GetItemHyperlink)
 ---@return string @link

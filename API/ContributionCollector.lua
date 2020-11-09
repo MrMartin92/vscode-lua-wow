@@ -1,4 +1,4 @@
-ContributionCollector = {}
+C_ContributionCollector = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_ContributionCollector.Close)
 function C_ContributionCollector.Close()

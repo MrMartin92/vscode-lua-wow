@@ -1,2 +1,2 @@
-QuestOffer = {}
+C_QuestOffer = {}
 

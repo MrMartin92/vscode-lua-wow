@@ -1,4 +1,4 @@
-TextureUtils = {}
+C_Texture = {}
 
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_Texture.GetAtlasInfo)
 ---@param atlas string
