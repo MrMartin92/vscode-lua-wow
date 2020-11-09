@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.GUIDIsPlayer)
 ---@param guid string
 ---@return boolean @isPlayer

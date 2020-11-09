@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---@alias SuperTrackingType number|"enum.SuperTrackingType.Quest"|"enum.SuperTrackingType.UserWaypoint"|"enum.SuperTrackingType.Corpse"|"enum.SuperTrackingType.Scenario"
 enum.SuperTrackingType.Quest = 0
 enum.SuperTrackingType.UserWaypoint = 1

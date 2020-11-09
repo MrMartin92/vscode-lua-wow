@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---@alias ChatChannelRuleset number|"enum.ChatChannelRuleset.None"|"enum.ChatChannelRuleset.Mentor"|"enum.ChatChannelRuleset.Disabled"
 enum.ChatChannelRuleset.None = 0
 enum.ChatChannelRuleset.Mentor = 1

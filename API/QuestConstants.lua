@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---@alias QuestTagType number|"enum.QuestTagType.Tag"|"enum.QuestTagType.Profession"|"enum.QuestTagType.Normal"|"enum.QuestTagType.PvP"|"enum.QuestTagType.PetBattle"|"enum.QuestTagType.Bounty"|"enum.QuestTagType.Dungeon"|"enum.QuestTagType.Invasion"|"enum.QuestTagType.Raid"|"enum.QuestTagType.Contribution"|"enum.QuestTagType.RatedReward"|"enum.QuestTagType.InvasionWrapper"|"enum.QuestTagType.FactionAssault"|"enum.QuestTagType.Islands"|"enum.QuestTagType.Threat"|"enum.QuestTagType.CovenantCalling"
 enum.QuestTagType.Tag = 0
 enum.QuestTagType.Profession = 1

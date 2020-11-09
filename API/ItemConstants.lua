@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---@alias InventoryType number|"enum.InventoryType.IndexNonEquipType"|"enum.InventoryType.IndexHeadType"|"enum.InventoryType.IndexNeckType"|"enum.InventoryType.IndexShoulderType"|"enum.InventoryType.IndexBodyType"|"enum.InventoryType.IndexChestType"|"enum.InventoryType.IndexWaistType"|"enum.InventoryType.IndexLegsType"|"enum.InventoryType.IndexFeetType"|"enum.InventoryType.IndexWristType"|"enum.InventoryType.IndexHandType"|"enum.InventoryType.IndexFingerType"|"enum.InventoryType.IndexTrinketType"|"enum.InventoryType.IndexWeaponType"|"enum.InventoryType.IndexShieldType"|"enum.InventoryType.IndexRangedType"|"enum.InventoryType.IndexCloakType"|"enum.InventoryType.Index2HweaponType"|"enum.InventoryType.IndexBagType"|"enum.InventoryType.IndexTabardType"|"enum.InventoryType.IndexRobeType"|"enum.InventoryType.IndexWeaponmainhandType"|"enum.InventoryType.IndexWeaponoffhandType"|"enum.InventoryType.IndexHoldableType"|"enum.InventoryType.IndexAmmoType"|"enum.InventoryType.IndexThrownType"|"enum.InventoryType.IndexRangedrightType"|"enum.InventoryType.IndexQuiverType"|"enum.InventoryType.IndexRelicType"
 enum.InventoryType.IndexNonEquipType = 0
 enum.InventoryType.IndexHeadType = 1

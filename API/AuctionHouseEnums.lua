@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---@alias AuctionHouseCommoditySortOrder number|"enum.AuctionHouseCommoditySortOrder.UnitPrice"|"enum.AuctionHouseCommoditySortOrder.Quantity"
 enum.AuctionHouseCommoditySortOrder.UnitPrice = 0
 enum.AuctionHouseCommoditySortOrder.Quantity = 1

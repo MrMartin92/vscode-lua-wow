@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---@alias CovenantType number|"enum.CovenantType.None"|"enum.CovenantType.Kyrian"|"enum.CovenantType.Venthyr"|"enum.CovenantType.NightFae"|"enum.CovenantType.Necrolord"
 enum.CovenantType.None = 0
 enum.CovenantType.Kyrian = 1

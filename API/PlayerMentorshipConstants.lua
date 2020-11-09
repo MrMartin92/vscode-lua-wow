@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---@alias PlayerMentorshipApplicationResult number|"enum.PlayerMentorshipApplicationResult.Success"|"enum.PlayerMentorshipApplicationResult.AlreadyMentor"|"enum.PlayerMentorshipApplicationResult.Ineligible"
 enum.PlayerMentorshipApplicationResult.Success = 0
 enum.PlayerMentorshipApplicationResult.AlreadyMentor = 1

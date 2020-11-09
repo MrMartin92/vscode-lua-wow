@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---@alias UIWidgetLayoutDirection number|"enum.UIWidgetLayoutDirection.Default"|"enum.UIWidgetLayoutDirection.Vertical"|"enum.UIWidgetLayoutDirection.Horizontal"|"enum.UIWidgetLayoutDirection.Overlap"|"enum.UIWidgetLayoutDirection.HorizontalForceNewRow"
 enum.UIWidgetLayoutDirection.Default = 0
 enum.UIWidgetLayoutDirection.Vertical = 1

@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---@alias CalendarCommandType number|"enum.CalendarCommandType.CalendarCommandCreate"|"enum.CalendarCommandType.CalendarCommandInvite"|"enum.CalendarCommandType.CalendarCommandRsvp"|"enum.CalendarCommandType.CalendarCommandRemoveInvite"|"enum.CalendarCommandType.CalendarCommandRemoveEvent"|"enum.CalendarCommandType.CalendarCommandStatus"|"enum.CalendarCommandType.CalendarCommandModeratorStatus"|"enum.CalendarCommandType.CalendarCommandGetCalendar"|"enum.CalendarCommandType.CalendarCommandGetEvent"|"enum.CalendarCommandType.CalendarCommandUpdateEvent"|"enum.CalendarCommandType.CalendarCommandComplain"|"enum.CalendarCommandType.CalendarCommandNotes"
 enum.CalendarCommandType.CalendarCommandCreate = 0
 enum.CalendarCommandType.CalendarCommandInvite = 1

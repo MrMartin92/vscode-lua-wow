@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---@alias ChrCustomizationCategoryFlag number|"enum.ChrCustomizationCategoryFlag.UndressModel"
 enum.ChrCustomizationCategoryFlag.UndressModel = 1
 

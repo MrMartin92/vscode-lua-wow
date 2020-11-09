@@ -1,3 +1,7 @@
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+-- This file is automaticly generated. Don't edit manualy!
+-- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
+
 ---@alias QuestSessionCommand number|"enum.QuestSessionCommand.None"|"enum.QuestSessionCommand.Start"|"enum.QuestSessionCommand.Stop"|"enum.QuestSessionCommand.SessionActiveNoCommand"
 enum.QuestSessionCommand.None = 0
 enum.QuestSessionCommand.Start = 1
