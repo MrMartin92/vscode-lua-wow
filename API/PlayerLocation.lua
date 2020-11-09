@@ -1,6 +1,3 @@
----@class C_PlayerInfo
-C_PlayerInfo = {}
-
 ---[Wowpedia documentation](https://wow.gamepedia.com/API_C_PlayerInfo.GUIDIsPlayer)
 ---@param guid string
 ---@return boolean @isPlayer
