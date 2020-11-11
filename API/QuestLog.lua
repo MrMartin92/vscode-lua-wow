@@ -433,8 +433,6 @@ end
 function C_QuestLog.SortQuestWatches()
 end
 
----@alias MapOverlayDisplayLocation number|"Enum.MapOverlayDisplayLocation.Default"|"Enum.MapOverlayDisplayLocation.BottomLeft"|"Enum.MapOverlayDisplayLocation.TopLeft"|"Enum.MapOverlayDisplayLocation.BottomRight"|"Enum.MapOverlayDisplayLocation.TopRight"|"Enum.MapOverlayDisplayLocation.Hidden"
-
 ---@alias QuestFrequency number|"Enum.QuestFrequency.Default"|"Enum.QuestFrequency.Daily"|"Enum.QuestFrequency.Weekly"
 
 ---@alias QuestTag number|"Enum.QuestTag.Group"|"Enum.QuestTag.PvP"|"Enum.QuestTag.Raid"|"Enum.QuestTag.Dungeon"|"Enum.QuestTag.Legendary"|"Enum.QuestTag.Heroic"|"Enum.QuestTag.Raid10"|"Enum.QuestTag.Raid25"|"Enum.QuestTag.Scenario"|"Enum.QuestTag.Account"|"Enum.QuestTag.CombatAlly"
