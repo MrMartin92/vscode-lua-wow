@@ -364,43 +364,11 @@ end
 function C_VoiceChat.ToggleMuted()
 end
 
----@alias CommunicationMode number|"enum.CommunicationMode.PushToTalk"|"enum.CommunicationMode.OpenMic"
-enum.CommunicationMode.PushToTalk = 0
-enum.CommunicationMode.OpenMic = 1
+---@alias CommunicationMode number|"Enum.CommunicationMode.PushToTalk"|"Enum.CommunicationMode.OpenMic"
 
+---@alias VoiceChannelErrorReason number|"Enum.VoiceChannelErrorReason.Unknown"|"Enum.VoiceChannelErrorReason.IsBattleNetChannel"
 
----@alias VoiceChannelErrorReason number|"enum.VoiceChannelErrorReason.Unknown"|"enum.VoiceChannelErrorReason.IsBattleNetChannel"
-enum.VoiceChannelErrorReason.Unknown = 0
-enum.VoiceChannelErrorReason.IsBattleNetChannel = 1
-
-
----@alias VoiceChatStatusCode number|"enum.VoiceChatStatusCode.Success"|"enum.VoiceChatStatusCode.OperationPending"|"enum.VoiceChatStatusCode.TooManyRequests"|"enum.VoiceChatStatusCode.LoginProhibited"|"enum.VoiceChatStatusCode.ClientNotInitialized"|"enum.VoiceChatStatusCode.ClientNotLoggedIn"|"enum.VoiceChatStatusCode.ClientAlreadyLoggedIn"|"enum.VoiceChatStatusCode.ChannelNameTooShort"|"enum.VoiceChatStatusCode.ChannelNameTooLong"|"enum.VoiceChatStatusCode.ChannelAlreadyExists"|"enum.VoiceChatStatusCode.AlreadyInChannel"|"enum.VoiceChatStatusCode.TargetNotFound"|"enum.VoiceChatStatusCode.Failure"|"enum.VoiceChatStatusCode.ServiceLost"|"enum.VoiceChatStatusCode.UnableToLaunchProxy"|"enum.VoiceChatStatusCode.ProxyConnectionTimeOut"|"enum.VoiceChatStatusCode.ProxyConnectionUnableToConnect"|"enum.VoiceChatStatusCode.ProxyConnectionUnexpectedDisconnect"|"enum.VoiceChatStatusCode.Disabled"|"enum.VoiceChatStatusCode.UnsupportedChatChannelType"|"enum.VoiceChatStatusCode.InvalidCommunityStream"|"enum.VoiceChatStatusCode.PlayerSilenced"|"enum.VoiceChatStatusCode.PlayerVoiceChatParentalDisabled"|"enum.VoiceChatStatusCode.InvalidInputDevice"|"enum.VoiceChatStatusCode.InvalidOutputDevice"
-enum.VoiceChatStatusCode.Success = 0
-enum.VoiceChatStatusCode.OperationPending = 1
-enum.VoiceChatStatusCode.TooManyRequests = 2
-enum.VoiceChatStatusCode.LoginProhibited = 3
-enum.VoiceChatStatusCode.ClientNotInitialized = 4
-enum.VoiceChatStatusCode.ClientNotLoggedIn = 5
-enum.VoiceChatStatusCode.ClientAlreadyLoggedIn = 6
-enum.VoiceChatStatusCode.ChannelNameTooShort = 7
-enum.VoiceChatStatusCode.ChannelNameTooLong = 8
-enum.VoiceChatStatusCode.ChannelAlreadyExists = 9
-enum.VoiceChatStatusCode.AlreadyInChannel = 10
-enum.VoiceChatStatusCode.TargetNotFound = 11
-enum.VoiceChatStatusCode.Failure = 12
-enum.VoiceChatStatusCode.ServiceLost = 13
-enum.VoiceChatStatusCode.UnableToLaunchProxy = 14
-enum.VoiceChatStatusCode.ProxyConnectionTimeOut = 15
-enum.VoiceChatStatusCode.ProxyConnectionUnableToConnect = 16
-enum.VoiceChatStatusCode.ProxyConnectionUnexpectedDisconnect = 17
-enum.VoiceChatStatusCode.Disabled = 18
-enum.VoiceChatStatusCode.UnsupportedChatChannelType = 19
-enum.VoiceChatStatusCode.InvalidCommunityStream = 20
-enum.VoiceChatStatusCode.PlayerSilenced = 21
-enum.VoiceChatStatusCode.PlayerVoiceChatParentalDisabled = 22
-enum.VoiceChatStatusCode.InvalidInputDevice = 23
-enum.VoiceChatStatusCode.InvalidOutputDevice = 24
-
+---@alias VoiceChatStatusCode number|"Enum.VoiceChatStatusCode.Success"|"Enum.VoiceChatStatusCode.OperationPending"|"Enum.VoiceChatStatusCode.TooManyRequests"|"Enum.VoiceChatStatusCode.LoginProhibited"|"Enum.VoiceChatStatusCode.ClientNotInitialized"|"Enum.VoiceChatStatusCode.ClientNotLoggedIn"|"Enum.VoiceChatStatusCode.ClientAlreadyLoggedIn"|"Enum.VoiceChatStatusCode.ChannelNameTooShort"|"Enum.VoiceChatStatusCode.ChannelNameTooLong"|"Enum.VoiceChatStatusCode.ChannelAlreadyExists"|"Enum.VoiceChatStatusCode.AlreadyInChannel"|"Enum.VoiceChatStatusCode.TargetNotFound"|"Enum.VoiceChatStatusCode.Failure"|"Enum.VoiceChatStatusCode.ServiceLost"|"Enum.VoiceChatStatusCode.UnableToLaunchProxy"|"Enum.VoiceChatStatusCode.ProxyConnectionTimeOut"|"Enum.VoiceChatStatusCode.ProxyConnectionUnableToConnect"|"Enum.VoiceChatStatusCode.ProxyConnectionUnexpectedDisconnect"|"Enum.VoiceChatStatusCode.Disabled"|"Enum.VoiceChatStatusCode.UnsupportedChatChannelType"|"Enum.VoiceChatStatusCode.InvalidCommunityStream"|"Enum.VoiceChatStatusCode.PlayerSilenced"|"Enum.VoiceChatStatusCode.PlayerVoiceChatParentalDisabled"|"Enum.VoiceChatStatusCode.InvalidInputDevice"|"Enum.VoiceChatStatusCode.InvalidOutputDevice"
 
 ---@class VoiceAudioDevice
 ---@field public deviceID string

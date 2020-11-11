@@ -17,10 +17,5 @@ end
 function C_IncomingSummon.IncomingSummonStatus(unit)
 end
 
----@alias SummonStatus number|"enum.SummonStatus.None"|"enum.SummonStatus.Pending"|"enum.SummonStatus.Accepted"|"enum.SummonStatus.Declined"
-enum.SummonStatus.None = 0
-enum.SummonStatus.Pending = 1
-enum.SummonStatus.Accepted = 2
-enum.SummonStatus.Declined = 3
-
+---@alias SummonStatus number|"Enum.SummonStatus.None"|"Enum.SummonStatus.Pending"|"Enum.SummonStatus.Accepted"|"Enum.SummonStatus.Declined"
 

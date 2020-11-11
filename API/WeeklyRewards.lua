@@ -52,11 +52,7 @@ end
 function C_WeeklyRewards.HasGeneratedRewards()
 end
 
----@alias ConquestProgressBarDisplayType number|"enum.ConquestProgressBarDisplayType.FirstChest"|"enum.ConquestProgressBarDisplayType.AdditionalChest"|"enum.ConquestProgressBarDisplayType.Seasonal"
-enum.ConquestProgressBarDisplayType.FirstChest = 0
-enum.ConquestProgressBarDisplayType.AdditionalChest = 1
-enum.ConquestProgressBarDisplayType.Seasonal = 2
-
+---@alias ConquestProgressBarDisplayType number|"Enum.ConquestProgressBarDisplayType.FirstChest"|"Enum.ConquestProgressBarDisplayType.AdditionalChest"|"Enum.ConquestProgressBarDisplayType.Seasonal"
 
 ---@class ConquestWeeklyProgress
 ---@field public progress number

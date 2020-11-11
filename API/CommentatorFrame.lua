@@ -748,12 +748,7 @@ end
 function C_Commentator.ZoomOut()
 end
 
----@alias TrackedSpellCategory number|"enum.TrackedSpellCategory.Offensive"|"enum.TrackedSpellCategory.Defensive"|"enum.TrackedSpellCategory.Debuff"|"enum.TrackedSpellCategory.Count"
-enum.TrackedSpellCategory.Offensive = 0
-enum.TrackedSpellCategory.Defensive = 1
-enum.TrackedSpellCategory.Debuff = 2
-enum.TrackedSpellCategory.Count = 3
-
+---@alias TrackedSpellCategory number|"Enum.TrackedSpellCategory.Offensive"|"Enum.TrackedSpellCategory.Defensive"|"Enum.TrackedSpellCategory.Debuff"|"Enum.TrackedSpellCategory.Count"
 
 ---@class CommentatorHistory
 ---@field public series table

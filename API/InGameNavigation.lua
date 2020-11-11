@@ -30,9 +30,5 @@ end
 function C_Navigation.WasClampedToScreen()
 end
 
----@alias NavigationState number|"enum.NavigationState.Invalid"|"enum.NavigationState.Occluded"|"enum.NavigationState.InRange"
-enum.NavigationState.Invalid = 0
-enum.NavigationState.Occluded = 1
-enum.NavigationState.InRange = 2
-
+---@alias NavigationState number|"Enum.NavigationState.Invalid"|"Enum.NavigationState.Occluded"|"Enum.NavigationState.InRange"
 

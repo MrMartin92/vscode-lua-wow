@@ -303,85 +303,19 @@ end
 function C_ClubFinder.ShouldShowClubFinder()
 end
 
----@alias ClubFinderApplicationUpdateType number|"enum.ClubFinderApplicationUpdateType.None"|"enum.ClubFinderApplicationUpdateType.AcceptInvite"|"enum.ClubFinderApplicationUpdateType.DeclineInvite"|"enum.ClubFinderApplicationUpdateType.Cancel"
-enum.ClubFinderApplicationUpdateType.None = 0
-enum.ClubFinderApplicationUpdateType.AcceptInvite = 1
-enum.ClubFinderApplicationUpdateType.DeclineInvite = 2
-enum.ClubFinderApplicationUpdateType.Cancel = 3
+---@alias ClubFinderApplicationUpdateType number|"Enum.ClubFinderApplicationUpdateType.None"|"Enum.ClubFinderApplicationUpdateType.AcceptInvite"|"Enum.ClubFinderApplicationUpdateType.DeclineInvite"|"Enum.ClubFinderApplicationUpdateType.Cancel"
 
+---@alias ClubFinderClubPostingStatusFlags number|"Enum.ClubFinderClubPostingStatusFlags.None"|"Enum.ClubFinderClubPostingStatusFlags.NeedsCacheUpdate"|"Enum.ClubFinderClubPostingStatusFlags.ForceDescriptionChange"|"Enum.ClubFinderClubPostingStatusFlags.ForceNameChange"|"Enum.ClubFinderClubPostingStatusFlags.UnderReview"|"Enum.ClubFinderClubPostingStatusFlags.Banned"|"Enum.ClubFinderClubPostingStatusFlags.FakePost"|"Enum.ClubFinderClubPostingStatusFlags.PendingDelete"|"Enum.ClubFinderClubPostingStatusFlags.PostDelisted"
 
----@alias ClubFinderClubPostingStatusFlags number|"enum.ClubFinderClubPostingStatusFlags.None"|"enum.ClubFinderClubPostingStatusFlags.NeedsCacheUpdate"|"enum.ClubFinderClubPostingStatusFlags.ForceDescriptionChange"|"enum.ClubFinderClubPostingStatusFlags.ForceNameChange"|"enum.ClubFinderClubPostingStatusFlags.UnderReview"|"enum.ClubFinderClubPostingStatusFlags.Banned"|"enum.ClubFinderClubPostingStatusFlags.FakePost"|"enum.ClubFinderClubPostingStatusFlags.PendingDelete"|"enum.ClubFinderClubPostingStatusFlags.PostDelisted"
-enum.ClubFinderClubPostingStatusFlags.None = 0
-enum.ClubFinderClubPostingStatusFlags.NeedsCacheUpdate = 1
-enum.ClubFinderClubPostingStatusFlags.ForceDescriptionChange = 2
-enum.ClubFinderClubPostingStatusFlags.ForceNameChange = 3
-enum.ClubFinderClubPostingStatusFlags.UnderReview = 4
-enum.ClubFinderClubPostingStatusFlags.Banned = 5
-enum.ClubFinderClubPostingStatusFlags.FakePost = 6
-enum.ClubFinderClubPostingStatusFlags.PendingDelete = 7
-enum.ClubFinderClubPostingStatusFlags.PostDelisted = 8
+---@alias ClubFinderDisableReason number|"Enum.ClubFinderDisableReason.Muted"|"Enum.ClubFinderDisableReason.Silenced"|"Enum.ClubFinderDisableReason.VeteranTrial"
 
+---@alias ClubFinderPostingReportType number|"Enum.ClubFinderPostingReportType.PostersName"|"Enum.ClubFinderPostingReportType.ClubName"|"Enum.ClubFinderPostingReportType.PostingDescription"|"Enum.ClubFinderPostingReportType.ApplicantsName"|"Enum.ClubFinderPostingReportType.JoinNote"
 
----@alias ClubFinderDisableReason number|"enum.ClubFinderDisableReason.Muted"|"enum.ClubFinderDisableReason.Silenced"|"enum.ClubFinderDisableReason.VeteranTrial"
-enum.ClubFinderDisableReason.Muted = 0
-enum.ClubFinderDisableReason.Silenced = 1
-enum.ClubFinderDisableReason.VeteranTrial = 2
+---@alias ClubFinderRequestType number|"Enum.ClubFinderRequestType.None"|"Enum.ClubFinderRequestType.Guild"|"Enum.ClubFinderRequestType.Community"|"Enum.ClubFinderRequestType.All"
 
+---@alias ClubFinderSettingFlags number|"Enum.ClubFinderSettingFlags.None"|"Enum.ClubFinderSettingFlags.Dungeons"|"Enum.ClubFinderSettingFlags.Raids"|"Enum.ClubFinderSettingFlags.PvP"|"Enum.ClubFinderSettingFlags.RP"|"Enum.ClubFinderSettingFlags.Social"|"Enum.ClubFinderSettingFlags.Small"|"Enum.ClubFinderSettingFlags.Medium"|"Enum.ClubFinderSettingFlags.Large"|"Enum.ClubFinderSettingFlags.Tank"|"Enum.ClubFinderSettingFlags.Healer"|"Enum.ClubFinderSettingFlags.Damage"|"Enum.ClubFinderSettingFlags.EnableListing"|"Enum.ClubFinderSettingFlags.MaxLevelOnly"|"Enum.ClubFinderSettingFlags.AutoAccept"|"Enum.ClubFinderSettingFlags.FactionHorde"|"Enum.ClubFinderSettingFlags.FactionAlliance"|"Enum.ClubFinderSettingFlags.FactionNeutral"|"Enum.ClubFinderSettingFlags.SortRelevance"|"Enum.ClubFinderSettingFlags.SortMemberCount"|"Enum.ClubFinderSettingFlags.SortNewest"|"Enum.ClubFinderSettingFlags.LanguageReserved1"|"Enum.ClubFinderSettingFlags.LanguageReserved2"|"Enum.ClubFinderSettingFlags.LanguageReserved3"|"Enum.ClubFinderSettingFlags.LanguageReserved4"|"Enum.ClubFinderSettingFlags.LanguageReserved5"
 
----@alias ClubFinderPostingReportType number|"enum.ClubFinderPostingReportType.PostersName"|"enum.ClubFinderPostingReportType.ClubName"|"enum.ClubFinderPostingReportType.PostingDescription"|"enum.ClubFinderPostingReportType.ApplicantsName"|"enum.ClubFinderPostingReportType.JoinNote"
-enum.ClubFinderPostingReportType.PostersName = 0
-enum.ClubFinderPostingReportType.ClubName = 1
-enum.ClubFinderPostingReportType.PostingDescription = 2
-enum.ClubFinderPostingReportType.ApplicantsName = 3
-enum.ClubFinderPostingReportType.JoinNote = 4
-
-
----@alias ClubFinderRequestType number|"enum.ClubFinderRequestType.None"|"enum.ClubFinderRequestType.Guild"|"enum.ClubFinderRequestType.Community"|"enum.ClubFinderRequestType.All"
-enum.ClubFinderRequestType.None = 0
-enum.ClubFinderRequestType.Guild = 1
-enum.ClubFinderRequestType.Community = 2
-enum.ClubFinderRequestType.All = 3
-
-
----@alias ClubFinderSettingFlags number|"enum.ClubFinderSettingFlags.None"|"enum.ClubFinderSettingFlags.Dungeons"|"enum.ClubFinderSettingFlags.Raids"|"enum.ClubFinderSettingFlags.PvP"|"enum.ClubFinderSettingFlags.RP"|"enum.ClubFinderSettingFlags.Social"|"enum.ClubFinderSettingFlags.Small"|"enum.ClubFinderSettingFlags.Medium"|"enum.ClubFinderSettingFlags.Large"|"enum.ClubFinderSettingFlags.Tank"|"enum.ClubFinderSettingFlags.Healer"|"enum.ClubFinderSettingFlags.Damage"|"enum.ClubFinderSettingFlags.EnableListing"|"enum.ClubFinderSettingFlags.MaxLevelOnly"|"enum.ClubFinderSettingFlags.AutoAccept"|"enum.ClubFinderSettingFlags.FactionHorde"|"enum.ClubFinderSettingFlags.FactionAlliance"|"enum.ClubFinderSettingFlags.FactionNeutral"|"enum.ClubFinderSettingFlags.SortRelevance"|"enum.ClubFinderSettingFlags.SortMemberCount"|"enum.ClubFinderSettingFlags.SortNewest"|"enum.ClubFinderSettingFlags.LanguageReserved1"|"enum.ClubFinderSettingFlags.LanguageReserved2"|"enum.ClubFinderSettingFlags.LanguageReserved3"|"enum.ClubFinderSettingFlags.LanguageReserved4"|"enum.ClubFinderSettingFlags.LanguageReserved5"
-enum.ClubFinderSettingFlags.None = 0
-enum.ClubFinderSettingFlags.Dungeons = 1
-enum.ClubFinderSettingFlags.Raids = 2
-enum.ClubFinderSettingFlags.PvP = 3
-enum.ClubFinderSettingFlags.RP = 4
-enum.ClubFinderSettingFlags.Social = 5
-enum.ClubFinderSettingFlags.Small = 6
-enum.ClubFinderSettingFlags.Medium = 7
-enum.ClubFinderSettingFlags.Large = 8
-enum.ClubFinderSettingFlags.Tank = 9
-enum.ClubFinderSettingFlags.Healer = 10
-enum.ClubFinderSettingFlags.Damage = 11
-enum.ClubFinderSettingFlags.EnableListing = 12
-enum.ClubFinderSettingFlags.MaxLevelOnly = 13
-enum.ClubFinderSettingFlags.AutoAccept = 14
-enum.ClubFinderSettingFlags.FactionHorde = 15
-enum.ClubFinderSettingFlags.FactionAlliance = 16
-enum.ClubFinderSettingFlags.FactionNeutral = 17
-enum.ClubFinderSettingFlags.SortRelevance = 18
-enum.ClubFinderSettingFlags.SortMemberCount = 19
-enum.ClubFinderSettingFlags.SortNewest = 20
-enum.ClubFinderSettingFlags.LanguageReserved1 = 21
-enum.ClubFinderSettingFlags.LanguageReserved2 = 22
-enum.ClubFinderSettingFlags.LanguageReserved3 = 23
-enum.ClubFinderSettingFlags.LanguageReserved4 = 24
-enum.ClubFinderSettingFlags.LanguageReserved5 = 25
-
-
----@alias PlayerClubRequestStatus number|"enum.PlayerClubRequestStatus.None"|"enum.PlayerClubRequestStatus.Pending"|"enum.PlayerClubRequestStatus.AutoApproved"|"enum.PlayerClubRequestStatus.Declined"|"enum.PlayerClubRequestStatus.Approved"|"enum.PlayerClubRequestStatus.Joined"|"enum.PlayerClubRequestStatus.JoinedAnother"|"enum.PlayerClubRequestStatus.Canceled"
-enum.PlayerClubRequestStatus.None = 0
-enum.PlayerClubRequestStatus.Pending = 1
-enum.PlayerClubRequestStatus.AutoApproved = 2
-enum.PlayerClubRequestStatus.Declined = 3
-enum.PlayerClubRequestStatus.Approved = 4
-enum.PlayerClubRequestStatus.Joined = 5
-enum.PlayerClubRequestStatus.JoinedAnother = 6
-enum.PlayerClubRequestStatus.Canceled = 7
-
+---@alias PlayerClubRequestStatus number|"Enum.PlayerClubRequestStatus.None"|"Enum.PlayerClubRequestStatus.Pending"|"Enum.PlayerClubRequestStatus.AutoApproved"|"Enum.PlayerClubRequestStatus.Declined"|"Enum.PlayerClubRequestStatus.Approved"|"Enum.PlayerClubRequestStatus.Joined"|"Enum.PlayerClubRequestStatus.JoinedAnother"|"Enum.PlayerClubRequestStatus.Canceled"
 
 ---@class ClubFinderApplicantInfo
 ---@field public clubFinderGUID string

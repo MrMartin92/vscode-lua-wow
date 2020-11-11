@@ -223,49 +223,13 @@ end
 function C_Map.SetUserWaypoint(point)
 end
 
----@alias MapCanvasPosition number|"enum.MapCanvasPosition.None"|"enum.MapCanvasPosition.BottomLeft"|"enum.MapCanvasPosition.BottomRight"|"enum.MapCanvasPosition.TopLeft"|"enum.MapCanvasPosition.TopRight"
-enum.MapCanvasPosition.None = 0
-enum.MapCanvasPosition.BottomLeft = 1
-enum.MapCanvasPosition.BottomRight = 2
-enum.MapCanvasPosition.TopLeft = 3
-enum.MapCanvasPosition.TopRight = 4
+---@alias MapCanvasPosition number|"Enum.MapCanvasPosition.None"|"Enum.MapCanvasPosition.BottomLeft"|"Enum.MapCanvasPosition.BottomRight"|"Enum.MapCanvasPosition.TopLeft"|"Enum.MapCanvasPosition.TopRight"
 
+---@alias UIMapFlag number|"Enum.UIMapFlag.NoHighlight"|"Enum.UIMapFlag.ShowOverlays"|"Enum.UIMapFlag.ShowTaxiNodes"|"Enum.UIMapFlag.GarrisonMap"|"Enum.UIMapFlag.FallbackToParentMap"|"Enum.UIMapFlag.NoHighlightTexture"|"Enum.UIMapFlag.ShowTaskObjectives"|"Enum.UIMapFlag.NoWorldPositions"|"Enum.UIMapFlag.HideArchaeologyDigs"|"Enum.UIMapFlag.Deprecated"|"Enum.UIMapFlag.HideIcons"|"Enum.UIMapFlag.HideVignettes"|"Enum.UIMapFlag.ForceAllOverlayExplored"|"Enum.UIMapFlag.FlightMapShowZoomOut"|"Enum.UIMapFlag.FlightMapAutoZoom"|"Enum.UIMapFlag.ForceOnNavbar"
 
----@alias UIMapFlag number|"enum.UIMapFlag.NoHighlight"|"enum.UIMapFlag.ShowOverlays"|"enum.UIMapFlag.ShowTaxiNodes"|"enum.UIMapFlag.GarrisonMap"|"enum.UIMapFlag.FallbackToParentMap"|"enum.UIMapFlag.NoHighlightTexture"|"enum.UIMapFlag.ShowTaskObjectives"|"enum.UIMapFlag.NoWorldPositions"|"enum.UIMapFlag.HideArchaeologyDigs"|"enum.UIMapFlag.Deprecated"|"enum.UIMapFlag.HideIcons"|"enum.UIMapFlag.HideVignettes"|"enum.UIMapFlag.ForceAllOverlayExplored"|"enum.UIMapFlag.FlightMapShowZoomOut"|"enum.UIMapFlag.FlightMapAutoZoom"|"enum.UIMapFlag.ForceOnNavbar"
-enum.UIMapFlag.NoHighlight = 1
-enum.UIMapFlag.ShowOverlays = 2
-enum.UIMapFlag.ShowTaxiNodes = 4
-enum.UIMapFlag.GarrisonMap = 8
-enum.UIMapFlag.FallbackToParentMap = 16
-enum.UIMapFlag.NoHighlightTexture = 32
-enum.UIMapFlag.ShowTaskObjectives = 64
-enum.UIMapFlag.NoWorldPositions = 128
-enum.UIMapFlag.HideArchaeologyDigs = 256
-enum.UIMapFlag.Deprecated = 512
-enum.UIMapFlag.HideIcons = 1024
-enum.UIMapFlag.HideVignettes = 2048
-enum.UIMapFlag.ForceAllOverlayExplored = 4096
-enum.UIMapFlag.FlightMapShowZoomOut = 8192
-enum.UIMapFlag.FlightMapAutoZoom = 16384
-enum.UIMapFlag.ForceOnNavbar = 32768
+---@alias UIMapSystem number|"Enum.UIMapSystem.World"|"Enum.UIMapSystem.Taxi"|"Enum.UIMapSystem.Adventure"|"Enum.UIMapSystem.Minimap"
 
-
----@alias UIMapSystem number|"enum.UIMapSystem.World"|"enum.UIMapSystem.Taxi"|"enum.UIMapSystem.Adventure"|"enum.UIMapSystem.Minimap"
-enum.UIMapSystem.World = 0
-enum.UIMapSystem.Taxi = 1
-enum.UIMapSystem.Adventure = 2
-enum.UIMapSystem.Minimap = 3
-
-
----@alias UIMapType number|"enum.UIMapType.Cosmic"|"enum.UIMapType.World"|"enum.UIMapType.Continent"|"enum.UIMapType.Zone"|"enum.UIMapType.Dungeon"|"enum.UIMapType.Micro"|"enum.UIMapType.Orphan"
-enum.UIMapType.Cosmic = 0
-enum.UIMapType.World = 1
-enum.UIMapType.Continent = 2
-enum.UIMapType.Zone = 3
-enum.UIMapType.Dungeon = 4
-enum.UIMapType.Micro = 5
-enum.UIMapType.Orphan = 6
-
+---@alias UIMapType number|"Enum.UIMapType.Cosmic"|"Enum.UIMapType.World"|"Enum.UIMapType.Continent"|"Enum.UIMapType.Zone"|"Enum.UIMapType.Dungeon"|"Enum.UIMapType.Micro"|"Enum.UIMapType.Orphan"
 
 ---@class MapBannerInfo
 ---@field public areaPoiID number

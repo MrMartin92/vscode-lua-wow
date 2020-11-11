@@ -78,24 +78,7 @@ end
 function C_EncounterJournal.SetSlotFilter(filterSlot)
 end
 
----@alias ItemSlotFilterType number|"enum.ItemSlotFilterType.Head"|"enum.ItemSlotFilterType.Neck"|"enum.ItemSlotFilterType.Shoulder"|"enum.ItemSlotFilterType.Cloak"|"enum.ItemSlotFilterType.Chest"|"enum.ItemSlotFilterType.Wrist"|"enum.ItemSlotFilterType.Hand"|"enum.ItemSlotFilterType.Waist"|"enum.ItemSlotFilterType.Legs"|"enum.ItemSlotFilterType.Feet"|"enum.ItemSlotFilterType.MainHand"|"enum.ItemSlotFilterType.OffHand"|"enum.ItemSlotFilterType.Finger"|"enum.ItemSlotFilterType.Trinket"|"enum.ItemSlotFilterType.Other"|"enum.ItemSlotFilterType.NoFilter"
-enum.ItemSlotFilterType.Head = 0
-enum.ItemSlotFilterType.Neck = 1
-enum.ItemSlotFilterType.Shoulder = 2
-enum.ItemSlotFilterType.Cloak = 3
-enum.ItemSlotFilterType.Chest = 4
-enum.ItemSlotFilterType.Wrist = 5
-enum.ItemSlotFilterType.Hand = 6
-enum.ItemSlotFilterType.Waist = 7
-enum.ItemSlotFilterType.Legs = 8
-enum.ItemSlotFilterType.Feet = 9
-enum.ItemSlotFilterType.MainHand = 10
-enum.ItemSlotFilterType.OffHand = 11
-enum.ItemSlotFilterType.Finger = 12
-enum.ItemSlotFilterType.Trinket = 13
-enum.ItemSlotFilterType.Other = 14
-enum.ItemSlotFilterType.NoFilter = 15
-
+---@alias ItemSlotFilterType number|"Enum.ItemSlotFilterType.Head"|"Enum.ItemSlotFilterType.Neck"|"Enum.ItemSlotFilterType.Shoulder"|"Enum.ItemSlotFilterType.Cloak"|"Enum.ItemSlotFilterType.Chest"|"Enum.ItemSlotFilterType.Wrist"|"Enum.ItemSlotFilterType.Hand"|"Enum.ItemSlotFilterType.Waist"|"Enum.ItemSlotFilterType.Legs"|"Enum.ItemSlotFilterType.Feet"|"Enum.ItemSlotFilterType.MainHand"|"Enum.ItemSlotFilterType.OffHand"|"Enum.ItemSlotFilterType.Finger"|"Enum.ItemSlotFilterType.Trinket"|"Enum.ItemSlotFilterType.Other"|"Enum.ItemSlotFilterType.NoFilter"
 
 ---@class DungeonEntranceMapInfo
 ---@field public areaPoiID number

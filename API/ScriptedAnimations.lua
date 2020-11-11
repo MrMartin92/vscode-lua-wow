@@ -10,24 +10,9 @@ C_ScriptedAnimations = {}
 function C_ScriptedAnimations.GetAllScriptedAnimationEffects()
 end
 
----@alias ScriptedAnimationBehavior number|"enum.ScriptedAnimationBehavior.None"|"enum.ScriptedAnimationBehavior.TargetShake"|"enum.ScriptedAnimationBehavior.TargetKnockBack"|"enum.ScriptedAnimationBehavior.SourceRecoil"|"enum.ScriptedAnimationBehavior.SourceCollideWithTarget"|"enum.ScriptedAnimationBehavior.UIParentShake"
-enum.ScriptedAnimationBehavior.None = 0
-enum.ScriptedAnimationBehavior.TargetShake = 1
-enum.ScriptedAnimationBehavior.TargetKnockBack = 2
-enum.ScriptedAnimationBehavior.SourceRecoil = 3
-enum.ScriptedAnimationBehavior.SourceCollideWithTarget = 4
-enum.ScriptedAnimationBehavior.UIParentShake = 5
+---@alias ScriptedAnimationBehavior number|"Enum.ScriptedAnimationBehavior.None"|"Enum.ScriptedAnimationBehavior.TargetShake"|"Enum.ScriptedAnimationBehavior.TargetKnockBack"|"Enum.ScriptedAnimationBehavior.SourceRecoil"|"Enum.ScriptedAnimationBehavior.SourceCollideWithTarget"|"Enum.ScriptedAnimationBehavior.UIParentShake"
 
-
----@alias ScriptedAnimationTrajectory number|"enum.ScriptedAnimationTrajectory.AtSource"|"enum.ScriptedAnimationTrajectory.AtTarget"|"enum.ScriptedAnimationTrajectory.Straight"|"enum.ScriptedAnimationTrajectory.CurveLeft"|"enum.ScriptedAnimationTrajectory.CurveRight"|"enum.ScriptedAnimationTrajectory.CurveRandom"|"enum.ScriptedAnimationTrajectory.HalfwayBetween"
-enum.ScriptedAnimationTrajectory.AtSource = 0
-enum.ScriptedAnimationTrajectory.AtTarget = 1
-enum.ScriptedAnimationTrajectory.Straight = 2
-enum.ScriptedAnimationTrajectory.CurveLeft = 3
-enum.ScriptedAnimationTrajectory.CurveRight = 4
-enum.ScriptedAnimationTrajectory.CurveRandom = 5
-enum.ScriptedAnimationTrajectory.HalfwayBetween = 6
-
+---@alias ScriptedAnimationTrajectory number|"Enum.ScriptedAnimationTrajectory.AtSource"|"Enum.ScriptedAnimationTrajectory.AtTarget"|"Enum.ScriptedAnimationTrajectory.Straight"|"Enum.ScriptedAnimationTrajectory.CurveLeft"|"Enum.ScriptedAnimationTrajectory.CurveRight"|"Enum.ScriptedAnimationTrajectory.CurveRandom"|"Enum.ScriptedAnimationTrajectory.HalfwayBetween"
 
 ---@class ScriptedAnimationEffect
 ---@field public id number

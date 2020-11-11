@@ -456,22 +456,11 @@ end
 function C_AuctionHouse.StartCommoditiesPurchase(itemID, quantity)
 end
 
----@alias AuctionHouseFilterCategory number|"enum.AuctionHouseFilterCategory.Uncategorized"|"enum.AuctionHouseFilterCategory.Equipment"|"enum.AuctionHouseFilterCategory.Rarity"
-enum.AuctionHouseFilterCategory.Uncategorized = 0
-enum.AuctionHouseFilterCategory.Equipment = 1
-enum.AuctionHouseFilterCategory.Rarity = 2
+---@alias AuctionHouseFilterCategory number|"Enum.AuctionHouseFilterCategory.Uncategorized"|"Enum.AuctionHouseFilterCategory.Equipment"|"Enum.AuctionHouseFilterCategory.Rarity"
 
+---@alias AuctionStatus number|"Enum.AuctionStatus.Active"|"Enum.AuctionStatus.Sold"
 
----@alias AuctionStatus number|"enum.AuctionStatus.Active"|"enum.AuctionStatus.Sold"
-enum.AuctionStatus.Active = 0
-enum.AuctionStatus.Sold = 1
-
-
----@alias ItemCommodityStatus number|"enum.ItemCommodityStatus.Unknown"|"enum.ItemCommodityStatus.Item"|"enum.ItemCommodityStatus.Commodity"
-enum.ItemCommodityStatus.Unknown = 0
-enum.ItemCommodityStatus.Item = 1
-enum.ItemCommodityStatus.Commodity = 2
-
+---@alias ItemCommodityStatus number|"Enum.ItemCommodityStatus.Unknown"|"Enum.ItemCommodityStatus.Item"|"Enum.ItemCommodityStatus.Commodity"
 
 ---@class AuctionHouseBrowseQuery
 ---@field public searchString string

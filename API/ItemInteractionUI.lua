@@ -45,9 +45,7 @@ end
 function C_ItemInteraction.SetPendingItem(item)
 end
 
----@alias ItemInteractionFrameType number|"enum.ItemInteractionFrameType.CleanseCorruption"
-enum.ItemInteractionFrameType.CleanseCorruption = 0
-
+---@alias ItemInteractionFrameType number|"Enum.ItemInteractionFrameType.CleanseCorruption"
 
 ---@class ItemInteractionFrameInfo
 ---@field public textureKit string

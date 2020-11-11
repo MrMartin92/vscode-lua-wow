@@ -15,10 +15,7 @@ end
 function C_CovenantPreview.GetCovenantInfoForPlayerChoiceResponseID(playerChoiceResponseID)
 end
 
----@alias CovenantAbilityType number|"enum.CovenantAbilityType.Class"|"enum.CovenantAbilityType.Signature"
-enum.CovenantAbilityType.Class = 0
-enum.CovenantAbilityType.Signature = 1
-
+---@alias CovenantAbilityType number|"Enum.CovenantAbilityType.Class"|"Enum.CovenantAbilityType.Signature"
 
 ---@class CovenantAbilityInfo
 ---@field public spellID number

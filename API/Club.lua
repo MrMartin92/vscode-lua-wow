@@ -486,163 +486,29 @@ end
 function C_Club.ValidateText(clubType, text, clubFieldType)
 end
 
----@alias ClubActionType number|"enum.ClubActionType.ErrorClubActionSubscribe"|"enum.ClubActionType.ErrorClubActionCreate"|"enum.ClubActionType.ErrorClubActionEdit"|"enum.ClubActionType.ErrorClubActionDestroy"|"enum.ClubActionType.ErrorClubActionLeave"|"enum.ClubActionType.ErrorClubActionCreateTicket"|"enum.ClubActionType.ErrorClubActionDestroyTicket"|"enum.ClubActionType.ErrorClubActionRedeemTicket"|"enum.ClubActionType.ErrorClubActionGetTicket"|"enum.ClubActionType.ErrorClubActionGetTickets"|"enum.ClubActionType.ErrorClubActionGetBans"|"enum.ClubActionType.ErrorClubActionGetInvitations"|"enum.ClubActionType.ErrorClubActionRevokeInvitation"|"enum.ClubActionType.ErrorClubActionAcceptInvitation"|"enum.ClubActionType.ErrorClubActionDeclineInvitation"|"enum.ClubActionType.ErrorClubActionCreateStream"|"enum.ClubActionType.ErrorClubActionEditStream"|"enum.ClubActionType.ErrorClubActionDestroyStream"|"enum.ClubActionType.ErrorClubActionInviteMember"|"enum.ClubActionType.ErrorClubActionEditMember"|"enum.ClubActionType.ErrorClubActionEditMemberNote"|"enum.ClubActionType.ErrorClubActionKickMember"|"enum.ClubActionType.ErrorClubActionAddBan"|"enum.ClubActionType.ErrorClubActionRemoveBan"|"enum.ClubActionType.ErrorClubActionCreateMessage"|"enum.ClubActionType.ErrorClubActionEditMessage"|"enum.ClubActionType.ErrorClubActionDestroyMessage"
-enum.ClubActionType.ErrorClubActionSubscribe = 0
-enum.ClubActionType.ErrorClubActionCreate = 1
-enum.ClubActionType.ErrorClubActionEdit = 2
-enum.ClubActionType.ErrorClubActionDestroy = 3
-enum.ClubActionType.ErrorClubActionLeave = 4
-enum.ClubActionType.ErrorClubActionCreateTicket = 5
-enum.ClubActionType.ErrorClubActionDestroyTicket = 6
-enum.ClubActionType.ErrorClubActionRedeemTicket = 7
-enum.ClubActionType.ErrorClubActionGetTicket = 8
-enum.ClubActionType.ErrorClubActionGetTickets = 9
-enum.ClubActionType.ErrorClubActionGetBans = 10
-enum.ClubActionType.ErrorClubActionGetInvitations = 11
-enum.ClubActionType.ErrorClubActionRevokeInvitation = 12
-enum.ClubActionType.ErrorClubActionAcceptInvitation = 13
-enum.ClubActionType.ErrorClubActionDeclineInvitation = 14
-enum.ClubActionType.ErrorClubActionCreateStream = 15
-enum.ClubActionType.ErrorClubActionEditStream = 16
-enum.ClubActionType.ErrorClubActionDestroyStream = 17
-enum.ClubActionType.ErrorClubActionInviteMember = 18
-enum.ClubActionType.ErrorClubActionEditMember = 19
-enum.ClubActionType.ErrorClubActionEditMemberNote = 20
-enum.ClubActionType.ErrorClubActionKickMember = 21
-enum.ClubActionType.ErrorClubActionAddBan = 22
-enum.ClubActionType.ErrorClubActionRemoveBan = 23
-enum.ClubActionType.ErrorClubActionCreateMessage = 24
-enum.ClubActionType.ErrorClubActionEditMessage = 25
-enum.ClubActionType.ErrorClubActionDestroyMessage = 26
+---@alias ClubActionType number|"Enum.ClubActionType.ErrorClubActionSubscribe"|"Enum.ClubActionType.ErrorClubActionCreate"|"Enum.ClubActionType.ErrorClubActionEdit"|"Enum.ClubActionType.ErrorClubActionDestroy"|"Enum.ClubActionType.ErrorClubActionLeave"|"Enum.ClubActionType.ErrorClubActionCreateTicket"|"Enum.ClubActionType.ErrorClubActionDestroyTicket"|"Enum.ClubActionType.ErrorClubActionRedeemTicket"|"Enum.ClubActionType.ErrorClubActionGetTicket"|"Enum.ClubActionType.ErrorClubActionGetTickets"|"Enum.ClubActionType.ErrorClubActionGetBans"|"Enum.ClubActionType.ErrorClubActionGetInvitations"|"Enum.ClubActionType.ErrorClubActionRevokeInvitation"|"Enum.ClubActionType.ErrorClubActionAcceptInvitation"|"Enum.ClubActionType.ErrorClubActionDeclineInvitation"|"Enum.ClubActionType.ErrorClubActionCreateStream"|"Enum.ClubActionType.ErrorClubActionEditStream"|"Enum.ClubActionType.ErrorClubActionDestroyStream"|"Enum.ClubActionType.ErrorClubActionInviteMember"|"Enum.ClubActionType.ErrorClubActionEditMember"|"Enum.ClubActionType.ErrorClubActionEditMemberNote"|"Enum.ClubActionType.ErrorClubActionKickMember"|"Enum.ClubActionType.ErrorClubActionAddBan"|"Enum.ClubActionType.ErrorClubActionRemoveBan"|"Enum.ClubActionType.ErrorClubActionCreateMessage"|"Enum.ClubActionType.ErrorClubActionEditMessage"|"Enum.ClubActionType.ErrorClubActionDestroyMessage"
 
+---@alias ClubErrorType number|"Enum.ClubErrorType.ErrorCommunitiesNone"|"Enum.ClubErrorType.ErrorCommunitiesUnknown"|"Enum.ClubErrorType.ErrorCommunitiesNeutralFaction"|"Enum.ClubErrorType.ErrorCommunitiesUnknownRealm"|"Enum.ClubErrorType.ErrorCommunitiesBadTarget"|"Enum.ClubErrorType.ErrorCommunitiesWrongFaction"|"Enum.ClubErrorType.ErrorCommunitiesRestricted"|"Enum.ClubErrorType.ErrorCommunitiesIgnored"|"Enum.ClubErrorType.ErrorCommunitiesGuild"|"Enum.ClubErrorType.ErrorCommunitiesWrongRegion"|"Enum.ClubErrorType.ErrorCommunitiesUnknownTicket"|"Enum.ClubErrorType.ErrorCommunitiesMissingShortName"|"Enum.ClubErrorType.ErrorCommunitiesProfanity"|"Enum.ClubErrorType.ErrorCommunitiesTrial"|"Enum.ClubErrorType.ErrorCommunitiesVeteranTrial"|"Enum.ClubErrorType.ErrorCommunitiesChatMute"|"Enum.ClubErrorType.ErrorClubFull"|"Enum.ClubErrorType.ErrorClubNoClub"|"Enum.ClubErrorType.ErrorClubNotMember"|"Enum.ClubErrorType.ErrorClubAlreadyMember"|"Enum.ClubErrorType.ErrorClubNoSuchMember"|"Enum.ClubErrorType.ErrorClubNoSuchInvitation"|"Enum.ClubErrorType.ErrorClubInvitationAlreadyExists"|"Enum.ClubErrorType.ErrorClubInvalidRoleID"|"Enum.ClubErrorType.ErrorClubInsufficientPrivileges"|"Enum.ClubErrorType.ErrorClubTooManyClubsJoined"|"Enum.ClubErrorType.ErrorClubVoiceFull"|"Enum.ClubErrorType.ErrorClubStreamNoStream"|"Enum.ClubErrorType.ErrorClubStreamInvalidName"|"Enum.ClubErrorType.ErrorClubStreamCountAtMin"|"Enum.ClubErrorType.ErrorClubStreamCountAtMax"|"Enum.ClubErrorType.ErrorClubMemberHasRequiredRole"|"Enum.ClubErrorType.ErrorClubSentInvitationCountAtMax"|"Enum.ClubErrorType.ErrorClubReceivedInvitationCountAtMax"|"Enum.ClubErrorType.ErrorClubTargetIsBanned"|"Enum.ClubErrorType.ErrorClubBanAlreadyExists"|"Enum.ClubErrorType.ErrorClubBanCountAtMax"|"Enum.ClubErrorType.ErrorClubTicketCountAtMax"|"Enum.ClubErrorType.ErrorClubTicketNoSuchTicket"|"Enum.ClubErrorType.ErrorClubTicketHasConsumedAllowedRedeemCount"
 
----@alias ClubErrorType number|"enum.ClubErrorType.ErrorCommunitiesNone"|"enum.ClubErrorType.ErrorCommunitiesUnknown"|"enum.ClubErrorType.ErrorCommunitiesNeutralFaction"|"enum.ClubErrorType.ErrorCommunitiesUnknownRealm"|"enum.ClubErrorType.ErrorCommunitiesBadTarget"|"enum.ClubErrorType.ErrorCommunitiesWrongFaction"|"enum.ClubErrorType.ErrorCommunitiesRestricted"|"enum.ClubErrorType.ErrorCommunitiesIgnored"|"enum.ClubErrorType.ErrorCommunitiesGuild"|"enum.ClubErrorType.ErrorCommunitiesWrongRegion"|"enum.ClubErrorType.ErrorCommunitiesUnknownTicket"|"enum.ClubErrorType.ErrorCommunitiesMissingShortName"|"enum.ClubErrorType.ErrorCommunitiesProfanity"|"enum.ClubErrorType.ErrorCommunitiesTrial"|"enum.ClubErrorType.ErrorCommunitiesVeteranTrial"|"enum.ClubErrorType.ErrorCommunitiesChatMute"|"enum.ClubErrorType.ErrorClubFull"|"enum.ClubErrorType.ErrorClubNoClub"|"enum.ClubErrorType.ErrorClubNotMember"|"enum.ClubErrorType.ErrorClubAlreadyMember"|"enum.ClubErrorType.ErrorClubNoSuchMember"|"enum.ClubErrorType.ErrorClubNoSuchInvitation"|"enum.ClubErrorType.ErrorClubInvitationAlreadyExists"|"enum.ClubErrorType.ErrorClubInvalidRoleID"|"enum.ClubErrorType.ErrorClubInsufficientPrivileges"|"enum.ClubErrorType.ErrorClubTooManyClubsJoined"|"enum.ClubErrorType.ErrorClubVoiceFull"|"enum.ClubErrorType.ErrorClubStreamNoStream"|"enum.ClubErrorType.ErrorClubStreamInvalidName"|"enum.ClubErrorType.ErrorClubStreamCountAtMin"|"enum.ClubErrorType.ErrorClubStreamCountAtMax"|"enum.ClubErrorType.ErrorClubMemberHasRequiredRole"|"enum.ClubErrorType.ErrorClubSentInvitationCountAtMax"|"enum.ClubErrorType.ErrorClubReceivedInvitationCountAtMax"|"enum.ClubErrorType.ErrorClubTargetIsBanned"|"enum.ClubErrorType.ErrorClubBanAlreadyExists"|"enum.ClubErrorType.ErrorClubBanCountAtMax"|"enum.ClubErrorType.ErrorClubTicketCountAtMax"|"enum.ClubErrorType.ErrorClubTicketNoSuchTicket"|"enum.ClubErrorType.ErrorClubTicketHasConsumedAllowedRedeemCount"
-enum.ClubErrorType.ErrorCommunitiesNone = 0
-enum.ClubErrorType.ErrorCommunitiesUnknown = 1
-enum.ClubErrorType.ErrorCommunitiesNeutralFaction = 2
-enum.ClubErrorType.ErrorCommunitiesUnknownRealm = 3
-enum.ClubErrorType.ErrorCommunitiesBadTarget = 4
-enum.ClubErrorType.ErrorCommunitiesWrongFaction = 5
-enum.ClubErrorType.ErrorCommunitiesRestricted = 6
-enum.ClubErrorType.ErrorCommunitiesIgnored = 7
-enum.ClubErrorType.ErrorCommunitiesGuild = 8
-enum.ClubErrorType.ErrorCommunitiesWrongRegion = 9
-enum.ClubErrorType.ErrorCommunitiesUnknownTicket = 10
-enum.ClubErrorType.ErrorCommunitiesMissingShortName = 11
-enum.ClubErrorType.ErrorCommunitiesProfanity = 12
-enum.ClubErrorType.ErrorCommunitiesTrial = 13
-enum.ClubErrorType.ErrorCommunitiesVeteranTrial = 14
-enum.ClubErrorType.ErrorCommunitiesChatMute = 15
-enum.ClubErrorType.ErrorClubFull = 16
-enum.ClubErrorType.ErrorClubNoClub = 17
-enum.ClubErrorType.ErrorClubNotMember = 18
-enum.ClubErrorType.ErrorClubAlreadyMember = 19
-enum.ClubErrorType.ErrorClubNoSuchMember = 20
-enum.ClubErrorType.ErrorClubNoSuchInvitation = 21
-enum.ClubErrorType.ErrorClubInvitationAlreadyExists = 22
-enum.ClubErrorType.ErrorClubInvalidRoleID = 23
-enum.ClubErrorType.ErrorClubInsufficientPrivileges = 24
-enum.ClubErrorType.ErrorClubTooManyClubsJoined = 25
-enum.ClubErrorType.ErrorClubVoiceFull = 26
-enum.ClubErrorType.ErrorClubStreamNoStream = 27
-enum.ClubErrorType.ErrorClubStreamInvalidName = 28
-enum.ClubErrorType.ErrorClubStreamCountAtMin = 29
-enum.ClubErrorType.ErrorClubStreamCountAtMax = 30
-enum.ClubErrorType.ErrorClubMemberHasRequiredRole = 31
-enum.ClubErrorType.ErrorClubSentInvitationCountAtMax = 32
-enum.ClubErrorType.ErrorClubReceivedInvitationCountAtMax = 33
-enum.ClubErrorType.ErrorClubTargetIsBanned = 34
-enum.ClubErrorType.ErrorClubBanAlreadyExists = 35
-enum.ClubErrorType.ErrorClubBanCountAtMax = 36
-enum.ClubErrorType.ErrorClubTicketCountAtMax = 37
-enum.ClubErrorType.ErrorClubTicketNoSuchTicket = 38
-enum.ClubErrorType.ErrorClubTicketHasConsumedAllowedRedeemCount = 39
+---@alias ClubFieldType number|"Enum.ClubFieldType.ClubName"|"Enum.ClubFieldType.ClubShortName"|"Enum.ClubFieldType.ClubDescription"|"Enum.ClubFieldType.ClubBroadcast"|"Enum.ClubFieldType.ClubStreamName"|"Enum.ClubFieldType.ClubStreamSubject"|"Enum.ClubFieldType.NumTypes"
 
+---@alias ClubInvitationCandidateStatus number|"Enum.ClubInvitationCandidateStatus.Available"|"Enum.ClubInvitationCandidateStatus.InvitePending"|"Enum.ClubInvitationCandidateStatus.AlreadyMember"
 
----@alias ClubFieldType number|"enum.ClubFieldType.ClubName"|"enum.ClubFieldType.ClubShortName"|"enum.ClubFieldType.ClubDescription"|"enum.ClubFieldType.ClubBroadcast"|"enum.ClubFieldType.ClubStreamName"|"enum.ClubFieldType.ClubStreamSubject"|"enum.ClubFieldType.NumTypes"
-enum.ClubFieldType.ClubName = 0
-enum.ClubFieldType.ClubShortName = 1
-enum.ClubFieldType.ClubDescription = 2
-enum.ClubFieldType.ClubBroadcast = 3
-enum.ClubFieldType.ClubStreamName = 4
-enum.ClubFieldType.ClubStreamSubject = 5
-enum.ClubFieldType.NumTypes = 6
+---@alias ClubMemberPresence number|"Enum.ClubMemberPresence.Unknown"|"Enum.ClubMemberPresence.Online"|"Enum.ClubMemberPresence.OnlineMobile"|"Enum.ClubMemberPresence.Offline"|"Enum.ClubMemberPresence.Away"|"Enum.ClubMemberPresence.Busy"
 
+---@alias ClubRemovedReason number|"Enum.ClubRemovedReason.None"|"Enum.ClubRemovedReason.Banned"|"Enum.ClubRemovedReason.Removed"|"Enum.ClubRemovedReason.ClubDestroyed"
 
----@alias ClubInvitationCandidateStatus number|"enum.ClubInvitationCandidateStatus.Available"|"enum.ClubInvitationCandidateStatus.InvitePending"|"enum.ClubInvitationCandidateStatus.AlreadyMember"
-enum.ClubInvitationCandidateStatus.Available = 0
-enum.ClubInvitationCandidateStatus.InvitePending = 1
-enum.ClubInvitationCandidateStatus.AlreadyMember = 2
+---@alias ClubRestrictionReason number|"Enum.ClubRestrictionReason.None"|"Enum.ClubRestrictionReason.Unavailable"
 
+---@alias ClubRoleIdentifier number|"Enum.ClubRoleIdentifier.Owner"|"Enum.ClubRoleIdentifier.Leader"|"Enum.ClubRoleIdentifier.Moderator"|"Enum.ClubRoleIdentifier.Member"
 
----@alias ClubMemberPresence number|"enum.ClubMemberPresence.Unknown"|"enum.ClubMemberPresence.Online"|"enum.ClubMemberPresence.OnlineMobile"|"enum.ClubMemberPresence.Offline"|"enum.ClubMemberPresence.Away"|"enum.ClubMemberPresence.Busy"
-enum.ClubMemberPresence.Unknown = 0
-enum.ClubMemberPresence.Online = 1
-enum.ClubMemberPresence.OnlineMobile = 2
-enum.ClubMemberPresence.Offline = 3
-enum.ClubMemberPresence.Away = 4
-enum.ClubMemberPresence.Busy = 5
+---@alias ClubStreamNotificationFilter number|"Enum.ClubStreamNotificationFilter.None"|"Enum.ClubStreamNotificationFilter.Mention"|"Enum.ClubStreamNotificationFilter.All"
 
+---@alias ClubStreamType number|"Enum.ClubStreamType.General"|"Enum.ClubStreamType.Guild"|"Enum.ClubStreamType.Officer"|"Enum.ClubStreamType.Other"
 
----@alias ClubRemovedReason number|"enum.ClubRemovedReason.None"|"enum.ClubRemovedReason.Banned"|"enum.ClubRemovedReason.Removed"|"enum.ClubRemovedReason.ClubDestroyed"
-enum.ClubRemovedReason.None = 0
-enum.ClubRemovedReason.Banned = 1
-enum.ClubRemovedReason.Removed = 2
-enum.ClubRemovedReason.ClubDestroyed = 3
+---@alias ClubType number|"Enum.ClubType.BattleNet"|"Enum.ClubType.Character"|"Enum.ClubType.Guild"|"Enum.ClubType.Other"
 
-
----@alias ClubRestrictionReason number|"enum.ClubRestrictionReason.None"|"enum.ClubRestrictionReason.Unavailable"
-enum.ClubRestrictionReason.None = 0
-enum.ClubRestrictionReason.Unavailable = 1
-
-
----@alias ClubRoleIdentifier number|"enum.ClubRoleIdentifier.Owner"|"enum.ClubRoleIdentifier.Leader"|"enum.ClubRoleIdentifier.Moderator"|"enum.ClubRoleIdentifier.Member"
-enum.ClubRoleIdentifier.Owner = 1
-enum.ClubRoleIdentifier.Leader = 2
-enum.ClubRoleIdentifier.Moderator = 3
-enum.ClubRoleIdentifier.Member = 4
-
-
----@alias ClubStreamNotificationFilter number|"enum.ClubStreamNotificationFilter.None"|"enum.ClubStreamNotificationFilter.Mention"|"enum.ClubStreamNotificationFilter.All"
-enum.ClubStreamNotificationFilter.None = 0
-enum.ClubStreamNotificationFilter.Mention = 1
-enum.ClubStreamNotificationFilter.All = 2
-
-
----@alias ClubStreamType number|"enum.ClubStreamType.General"|"enum.ClubStreamType.Guild"|"enum.ClubStreamType.Officer"|"enum.ClubStreamType.Other"
-enum.ClubStreamType.General = 0
-enum.ClubStreamType.Guild = 1
-enum.ClubStreamType.Officer = 2
-enum.ClubStreamType.Other = 3
-
-
----@alias ClubType number|"enum.ClubType.BattleNet"|"enum.ClubType.Character"|"enum.ClubType.Guild"|"enum.ClubType.Other"
-enum.ClubType.BattleNet = 0
-enum.ClubType.Character = 1
-enum.ClubType.Guild = 2
-enum.ClubType.Other = 3
-
-
----@alias ValidateNameResult number|"enum.ValidateNameResult.NameSuccess"|"enum.ValidateNameResult.NameFailure"|"enum.ValidateNameResult.NameNoName"|"enum.ValidateNameResult.NameTooShort"|"enum.ValidateNameResult.NameTooLong"|"enum.ValidateNameResult.NameInvalidCharacter"|"enum.ValidateNameResult.NameMixedLanguages"|"enum.ValidateNameResult.NameProfane"|"enum.ValidateNameResult.NameReserved"|"enum.ValidateNameResult.NameInvalidApostrophe"|"enum.ValidateNameResult.NameMultipleApostrophes"|"enum.ValidateNameResult.NameThreeConsecutive"|"enum.ValidateNameResult.NameInvalidSpace"|"enum.ValidateNameResult.NameConsecutiveSpaces"|"enum.ValidateNameResult.NameRussianConsecutiveSilentCharacters"|"enum.ValidateNameResult.NameRussianSilentCharacterAtBeginningOrEnd"|"enum.ValidateNameResult.NameDeclensionDoesntMatchBaseName"|"enum.ValidateNameResult.NameSpacesDisallowed"
-enum.ValidateNameResult.NameSuccess = 0
-enum.ValidateNameResult.NameFailure = 1
-enum.ValidateNameResult.NameNoName = 2
-enum.ValidateNameResult.NameTooShort = 3
-enum.ValidateNameResult.NameTooLong = 4
-enum.ValidateNameResult.NameInvalidCharacter = 5
-enum.ValidateNameResult.NameMixedLanguages = 6
-enum.ValidateNameResult.NameProfane = 7
-enum.ValidateNameResult.NameReserved = 8
-enum.ValidateNameResult.NameInvalidApostrophe = 9
-enum.ValidateNameResult.NameMultipleApostrophes = 10
-enum.ValidateNameResult.NameThreeConsecutive = 11
-enum.ValidateNameResult.NameInvalidSpace = 12
-enum.ValidateNameResult.NameConsecutiveSpaces = 13
-enum.ValidateNameResult.NameRussianConsecutiveSilentCharacters = 14
-enum.ValidateNameResult.NameRussianSilentCharacterAtBeginningOrEnd = 15
-enum.ValidateNameResult.NameDeclensionDoesntMatchBaseName = 16
-enum.ValidateNameResult.NameSpacesDisallowed = 17
-
+---@alias ValidateNameResult number|"Enum.ValidateNameResult.NameSuccess"|"Enum.ValidateNameResult.NameFailure"|"Enum.ValidateNameResult.NameNoName"|"Enum.ValidateNameResult.NameTooShort"|"Enum.ValidateNameResult.NameTooLong"|"Enum.ValidateNameResult.NameInvalidCharacter"|"Enum.ValidateNameResult.NameMixedLanguages"|"Enum.ValidateNameResult.NameProfane"|"Enum.ValidateNameResult.NameReserved"|"Enum.ValidateNameResult.NameInvalidApostrophe"|"Enum.ValidateNameResult.NameMultipleApostrophes"|"Enum.ValidateNameResult.NameThreeConsecutive"|"Enum.ValidateNameResult.NameInvalidSpace"|"Enum.ValidateNameResult.NameConsecutiveSpaces"|"Enum.ValidateNameResult.NameRussianConsecutiveSilentCharacters"|"Enum.ValidateNameResult.NameRussianSilentCharacterAtBeginningOrEnd"|"Enum.ValidateNameResult.NameDeclensionDoesntMatchBaseName"|"Enum.ValidateNameResult.NameSpacesDisallowed"
 
 ---@class ClubInfo
 ---@field public clubId string

@@ -28,14 +28,5 @@ end
 function C_ConfigurationWarnings.SetConfigurationWarningSeen(configurationWarning)
 end
 
----@alias ConfigurationWarning number|"enum.ConfigurationWarning.ShaderModelWillBeOutdated"|"enum.ConfigurationWarning.ShaderModelIsOutdated"|"enum.ConfigurationWarning.ConsoleDeviceSseOutdated"|"enum.ConfigurationWarning.DriverBlacklisted"|"enum.ConfigurationWarning.DriverOutOfDate"|"enum.ConfigurationWarning.DeviceBlacklisted"|"enum.ConfigurationWarning.GraphicsApiWillBeOutdated"|"enum.ConfigurationWarning.OsBitsWillBeOutdated"
-enum.ConfigurationWarning.ShaderModelWillBeOutdated = 0
-enum.ConfigurationWarning.ShaderModelIsOutdated = 1
-enum.ConfigurationWarning.ConsoleDeviceSseOutdated = 2
-enum.ConfigurationWarning.DriverBlacklisted = 3
-enum.ConfigurationWarning.DriverOutOfDate = 4
-enum.ConfigurationWarning.DeviceBlacklisted = 5
-enum.ConfigurationWarning.GraphicsApiWillBeOutdated = 6
-enum.ConfigurationWarning.OsBitsWillBeOutdated = 7
-
+---@alias ConfigurationWarning number|"Enum.ConfigurationWarning.ShaderModelWillBeOutdated"|"Enum.ConfigurationWarning.ShaderModelIsOutdated"|"Enum.ConfigurationWarning.ConsoleDeviceSseOutdated"|"Enum.ConfigurationWarning.DriverBlacklisted"|"Enum.ConfigurationWarning.DriverOutOfDate"|"Enum.ConfigurationWarning.DeviceBlacklisted"|"Enum.ConfigurationWarning.GraphicsApiWillBeOutdated"|"Enum.ConfigurationWarning.OsBitsWillBeOutdated"
 

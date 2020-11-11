@@ -19,10 +19,7 @@ end
 function C_SplashScreen.RequestLatestSplashScreen(fromGameMenu)
 end
 
----@alias SplashScreenType number|"enum.SplashScreenType.WhatsNew"|"enum.SplashScreenType.SeasonRollOver"
-enum.SplashScreenType.WhatsNew = 0
-enum.SplashScreenType.SeasonRollOver = 1
-
+---@alias SplashScreenType number|"Enum.SplashScreenType.WhatsNew"|"Enum.SplashScreenType.SeasonRollOver"
 
 ---@class SplashScreenInfo
 ---@field public textureKit string

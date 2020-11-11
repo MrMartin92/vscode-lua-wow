@@ -194,51 +194,11 @@ end
 function UnitWidgetSet(unit)
 end
 
----@alias PhaseReason number|"enum.PhaseReason.Phasing"|"enum.PhaseReason.Sharding"|"enum.PhaseReason.WarMode"|"enum.PhaseReason.ChromieTime"
-enum.PhaseReason.Phasing = 0
-enum.PhaseReason.Sharding = 1
-enum.PhaseReason.WarMode = 2
-enum.PhaseReason.ChromieTime = 3
+---@alias PhaseReason number|"Enum.PhaseReason.Phasing"|"Enum.PhaseReason.Sharding"|"Enum.PhaseReason.WarMode"|"Enum.PhaseReason.ChromieTime"
 
+---@alias PowerType number|"Enum.PowerType.HealthCost"|"Enum.PowerType.None"|"Enum.PowerType.Mana"|"Enum.PowerType.Rage"|"Enum.PowerType.Focus"|"Enum.PowerType.Energy"|"Enum.PowerType.ComboPoints"|"Enum.PowerType.Runes"|"Enum.PowerType.RunicPower"|"Enum.PowerType.SoulShards"|"Enum.PowerType.LunarPower"|"Enum.PowerType.HolyPower"|"Enum.PowerType.Alternate"|"Enum.PowerType.Maelstrom"|"Enum.PowerType.Chi"|"Enum.PowerType.Insanity"|"Enum.PowerType.Obsolete"|"Enum.PowerType.Obsolete2"|"Enum.PowerType.ArcaneCharges"|"Enum.PowerType.Fury"|"Enum.PowerType.Pain"|"Enum.PowerType.NumPowerTypes"
 
----@alias PowerType number|"enum.PowerType.HealthCost"|"enum.PowerType.None"|"enum.PowerType.Mana"|"enum.PowerType.Rage"|"enum.PowerType.Focus"|"enum.PowerType.Energy"|"enum.PowerType.ComboPoints"|"enum.PowerType.Runes"|"enum.PowerType.RunicPower"|"enum.PowerType.SoulShards"|"enum.PowerType.LunarPower"|"enum.PowerType.HolyPower"|"enum.PowerType.Alternate"|"enum.PowerType.Maelstrom"|"enum.PowerType.Chi"|"enum.PowerType.Insanity"|"enum.PowerType.Obsolete"|"enum.PowerType.Obsolete2"|"enum.PowerType.ArcaneCharges"|"enum.PowerType.Fury"|"enum.PowerType.Pain"|"enum.PowerType.NumPowerTypes"
-enum.PowerType.HealthCost = -2
-enum.PowerType.None = -1
-enum.PowerType.Mana = 0
-enum.PowerType.Rage = 1
-enum.PowerType.Focus = 2
-enum.PowerType.Energy = 3
-enum.PowerType.ComboPoints = 4
-enum.PowerType.Runes = 5
-enum.PowerType.RunicPower = 6
-enum.PowerType.SoulShards = 7
-enum.PowerType.LunarPower = 8
-enum.PowerType.HolyPower = 9
-enum.PowerType.Alternate = 10
-enum.PowerType.Maelstrom = 11
-enum.PowerType.Chi = 12
-enum.PowerType.Insanity = 13
-enum.PowerType.Obsolete = 14
-enum.PowerType.Obsolete2 = 15
-enum.PowerType.ArcaneCharges = 16
-enum.PowerType.Fury = 17
-enum.PowerType.Pain = 18
-enum.PowerType.NumPowerTypes = 19
-
-
----@alias PvPUnitClassification number|"enum.PvPUnitClassification.FlagCarrierHorde"|"enum.PvPUnitClassification.FlagCarrierAlliance"|"enum.PvPUnitClassification.FlagCarrierNeutral"|"enum.PvPUnitClassification.CartRunnerHorde"|"enum.PvPUnitClassification.CartRunnerAlliance"|"enum.PvPUnitClassification.AssassinHorde"|"enum.PvPUnitClassification.AssassinAlliance"|"enum.PvPUnitClassification.OrbCarrierBlue"|"enum.PvPUnitClassification.OrbCarrierGreen"|"enum.PvPUnitClassification.OrbCarrierOrange"|"enum.PvPUnitClassification.OrbCarrierPurple"
-enum.PvPUnitClassification.FlagCarrierHorde = 0
-enum.PvPUnitClassification.FlagCarrierAlliance = 1
-enum.PvPUnitClassification.FlagCarrierNeutral = 2
-enum.PvPUnitClassification.CartRunnerHorde = 3
-enum.PvPUnitClassification.CartRunnerAlliance = 4
-enum.PvPUnitClassification.AssassinHorde = 5
-enum.PvPUnitClassification.AssassinAlliance = 6
-enum.PvPUnitClassification.OrbCarrierBlue = 7
-enum.PvPUnitClassification.OrbCarrierGreen = 8
-enum.PvPUnitClassification.OrbCarrierOrange = 9
-enum.PvPUnitClassification.OrbCarrierPurple = 10
-
+---@alias PvPUnitClassification number|"Enum.PvPUnitClassification.FlagCarrierHorde"|"Enum.PvPUnitClassification.FlagCarrierAlliance"|"Enum.PvPUnitClassification.FlagCarrierNeutral"|"Enum.PvPUnitClassification.CartRunnerHorde"|"Enum.PvPUnitClassification.CartRunnerAlliance"|"Enum.PvPUnitClassification.AssassinHorde"|"Enum.PvPUnitClassification.AssassinAlliance"|"Enum.PvPUnitClassification.OrbCarrierBlue"|"Enum.PvPUnitClassification.OrbCarrierGreen"|"Enum.PvPUnitClassification.OrbCarrierOrange"|"Enum.PvPUnitClassification.OrbCarrierPurple"
 
 ---@class CorruptionEffectInfo
 ---@field public name string

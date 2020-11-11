@@ -11,7 +11,5 @@ C_KeyBindings = {}
 function C_KeyBindings.GetCustomBindingType(bindingIndex)
 end
 
----@alias CustomBindingType number|"enum.CustomBindingType.VoicePushToTalk"
-enum.CustomBindingType.VoicePushToTalk = 0
-
+---@alias CustomBindingType number|"Enum.CustomBindingType.VoicePushToTalk"
 

@@ -178,149 +178,51 @@ end
 function C_UIWidgetManager.UnregisterUnitForWidgetUpdates(unitToken)
 end
 
----@alias CaptureBarWidgetFillDirectionType number|"enum.CaptureBarWidgetFillDirectionType.RightToLeft"|"enum.CaptureBarWidgetFillDirectionType.LeftToRight"
-enum.CaptureBarWidgetFillDirectionType.RightToLeft = 0
-enum.CaptureBarWidgetFillDirectionType.LeftToRight = 1
+---@alias CaptureBarWidgetFillDirectionType number|"Enum.CaptureBarWidgetFillDirectionType.RightToLeft"|"Enum.CaptureBarWidgetFillDirectionType.LeftToRight"
 
+---@alias CaptureBarWidgetGlowAnimType number|"Enum.CaptureBarWidgetGlowAnimType.None"|"Enum.CaptureBarWidgetGlowAnimType.Pulse"
 
----@alias CaptureBarWidgetGlowAnimType number|"enum.CaptureBarWidgetGlowAnimType.None"|"enum.CaptureBarWidgetGlowAnimType.Pulse"
-enum.CaptureBarWidgetGlowAnimType.None = 0
-enum.CaptureBarWidgetGlowAnimType.Pulse = 1
+---@alias IconAndTextWidgetState number|"Enum.IconAndTextWidgetState.Hidden"|"Enum.IconAndTextWidgetState.Shown"|"Enum.IconAndTextWidgetState.ShownWithDynamicIconFlashing"|"Enum.IconAndTextWidgetState.ShownWithDynamicIconNotFlashing"
 
+---@alias IconState number|"Enum.IconState.Hidden"|"Enum.IconState.ShowState1"|"Enum.IconState.ShowState2"
 
----@alias IconAndTextWidgetState number|"enum.IconAndTextWidgetState.Hidden"|"enum.IconAndTextWidgetState.Shown"|"enum.IconAndTextWidgetState.ShownWithDynamicIconFlashing"|"enum.IconAndTextWidgetState.ShownWithDynamicIconNotFlashing"
-enum.IconAndTextWidgetState.Hidden = 0
-enum.IconAndTextWidgetState.Shown = 1
-enum.IconAndTextWidgetState.ShownWithDynamicIconFlashing = 2
-enum.IconAndTextWidgetState.ShownWithDynamicIconNotFlashing = 3
+---@alias SpellDisplayIconDisplayType number|"Enum.SpellDisplayIconDisplayType.Buff"|"Enum.SpellDisplayIconDisplayType.Debuff"|"Enum.SpellDisplayIconDisplayType.Circular"
 
+---@alias SpellDisplayIconSizeType number|"Enum.SpellDisplayIconSizeType.Small"|"Enum.SpellDisplayIconSizeType.Medium"|"Enum.SpellDisplayIconSizeType.Large"
 
----@alias IconState number|"enum.IconState.Hidden"|"enum.IconState.ShowState1"|"enum.IconState.ShowState2"
-enum.IconState.Hidden = 0
-enum.IconState.ShowState1 = 1
-enum.IconState.ShowState2 = 2
+---@alias SpellDisplayTextShownStateType number|"Enum.SpellDisplayTextShownStateType.Shown"|"Enum.SpellDisplayTextShownStateType.Hidden"
 
+---@alias StatusBarColorTintValue number|"Enum.StatusBarColorTintValue.None"|"Enum.StatusBarColorTintValue.Black"|"Enum.StatusBarColorTintValue.White"|"Enum.StatusBarColorTintValue.Red"|"Enum.StatusBarColorTintValue.Yellow"|"Enum.StatusBarColorTintValue.Orange"|"Enum.StatusBarColorTintValue.Purple"|"Enum.StatusBarColorTintValue.Green"|"Enum.StatusBarColorTintValue.Blue"
 
----@alias SpellDisplayIconDisplayType number|"enum.SpellDisplayIconDisplayType.Buff"|"enum.SpellDisplayIconDisplayType.Debuff"|"enum.SpellDisplayIconDisplayType.Circular"
-enum.SpellDisplayIconDisplayType.Buff = 0
-enum.SpellDisplayIconDisplayType.Debuff = 1
-enum.SpellDisplayIconDisplayType.Circular = 2
+---@alias StatusBarOverrideBarTextShownType number|"Enum.StatusBarOverrideBarTextShownType.Never"|"Enum.StatusBarOverrideBarTextShownType.Always"|"Enum.StatusBarOverrideBarTextShownType.OnlyOnMouseover"|"Enum.StatusBarOverrideBarTextShownType.OnlyNotOnMouseover"
 
+---@alias StatusBarValueTextType number|"Enum.StatusBarValueTextType.Hidden"|"Enum.StatusBarValueTextType.Percentage"|"Enum.StatusBarValueTextType.Value"|"Enum.StatusBarValueTextType.Time"|"Enum.StatusBarValueTextType.TimeShowOneLevelOnly"|"Enum.StatusBarValueTextType.ValueOverMax"|"Enum.StatusBarValueTextType.ValueOverMaxNormalized"
 
----@alias SpellDisplayIconSizeType number|"enum.SpellDisplayIconSizeType.Small"|"enum.SpellDisplayIconSizeType.Medium"|"enum.SpellDisplayIconSizeType.Large"
-enum.SpellDisplayIconSizeType.Small = 0
-enum.SpellDisplayIconSizeType.Medium = 1
-enum.SpellDisplayIconSizeType.Large = 2
+---@alias UIWidgetFlag number|"Enum.UIWidgetFlag.UniversalWidget"
 
+---@alias UIWidgetFontType number|"Enum.UIWidgetFontType.Normal"|"Enum.UIWidgetFontType.Shadow"|"Enum.UIWidgetFontType.Outline"
 
----@alias SpellDisplayTextShownStateType number|"enum.SpellDisplayTextShownStateType.Shown"|"enum.SpellDisplayTextShownStateType.Hidden"
-enum.SpellDisplayTextShownStateType.Shown = 0
-enum.SpellDisplayTextShownStateType.Hidden = 1
+---@alias UIWidgetTextSizeType number|"Enum.UIWidgetTextSizeType.Small"|"Enum.UIWidgetTextSizeType.Medium"|"Enum.UIWidgetTextSizeType.Large"|"Enum.UIWidgetTextSizeType.Huge"
 
+---@alias WidgetAnimationType number|"Enum.WidgetAnimationType.None"|"Enum.WidgetAnimationType.Fade"
 
----@alias StatusBarColorTintValue number|"enum.StatusBarColorTintValue.None"|"enum.StatusBarColorTintValue.Black"|"enum.StatusBarColorTintValue.White"|"enum.StatusBarColorTintValue.Red"|"enum.StatusBarColorTintValue.Yellow"|"enum.StatusBarColorTintValue.Orange"|"enum.StatusBarColorTintValue.Purple"|"enum.StatusBarColorTintValue.Green"|"enum.StatusBarColorTintValue.Blue"
-enum.StatusBarColorTintValue.None = 0
-enum.StatusBarColorTintValue.Black = 1
-enum.StatusBarColorTintValue.White = 2
-enum.StatusBarColorTintValue.Red = 3
-enum.StatusBarColorTintValue.Yellow = 4
-enum.StatusBarColorTintValue.Orange = 5
-enum.StatusBarColorTintValue.Purple = 6
-enum.StatusBarColorTintValue.Green = 7
-enum.StatusBarColorTintValue.Blue = 8
+---@alias WidgetCurrencyClass number|"Enum.WidgetCurrencyClass.Currency"|"Enum.WidgetCurrencyClass.Item"
 
+---@alias WidgetEnabledState number|"Enum.WidgetEnabledState.Disabled"|"Enum.WidgetEnabledState.Enabled"|"Enum.WidgetEnabledState.Red"|"Enum.WidgetEnabledState.Highlight"
 
----@alias StatusBarOverrideBarTextShownType number|"enum.StatusBarOverrideBarTextShownType.Never"|"enum.StatusBarOverrideBarTextShownType.Always"|"enum.StatusBarOverrideBarTextShownType.OnlyOnMouseover"|"enum.StatusBarOverrideBarTextShownType.OnlyNotOnMouseover"
-enum.StatusBarOverrideBarTextShownType.Never = 0
-enum.StatusBarOverrideBarTextShownType.Always = 1
-enum.StatusBarOverrideBarTextShownType.OnlyOnMouseover = 2
-enum.StatusBarOverrideBarTextShownType.OnlyNotOnMouseover = 3
+---@alias WidgetShownState number|"Enum.WidgetShownState.Hidden"|"Enum.WidgetShownState.Shown"
 
+---@alias ZoneControlActiveState number|"Enum.ZoneControlActiveState.Inactive"|"Enum.ZoneControlActiveState.Active"
 
----@alias StatusBarValueTextType number|"enum.StatusBarValueTextType.Hidden"|"enum.StatusBarValueTextType.Percentage"|"enum.StatusBarValueTextType.Value"|"enum.StatusBarValueTextType.Time"|"enum.StatusBarValueTextType.TimeShowOneLevelOnly"|"enum.StatusBarValueTextType.ValueOverMax"|"enum.StatusBarValueTextType.ValueOverMaxNormalized"
-enum.StatusBarValueTextType.Hidden = 0
-enum.StatusBarValueTextType.Percentage = 1
-enum.StatusBarValueTextType.Value = 2
-enum.StatusBarValueTextType.Time = 3
-enum.StatusBarValueTextType.TimeShowOneLevelOnly = 4
-enum.StatusBarValueTextType.ValueOverMax = 5
-enum.StatusBarValueTextType.ValueOverMaxNormalized = 6
+---@alias ZoneControlDangerFlashType number|"Enum.ZoneControlDangerFlashType.ShowOnGoodStates"|"Enum.ZoneControlDangerFlashType.ShowOnBadStates"|"Enum.ZoneControlDangerFlashType.ShowOnBoth"|"Enum.ZoneControlDangerFlashType.ShowOnNeither"
 
+---@alias ZoneControlFillType number|"Enum.ZoneControlFillType.SingleFillClockwise"|"Enum.ZoneControlFillType.SingleFillCounterClockwise"|"Enum.ZoneControlFillType.DoubleFillClockwise"|"Enum.ZoneControlFillType.DoubleFillCounterClockwise"
 
----@alias UIWidgetFlag number|"enum.UIWidgetFlag.UniversalWidget"
-enum.UIWidgetFlag.UniversalWidget = 1
+---@alias ZoneControlLeadingEdgeType number|"Enum.ZoneControlLeadingEdgeType.NoLeadingEdge"|"Enum.ZoneControlLeadingEdgeType.UseLeadingEdge"
 
+---@alias ZoneControlMode number|"Enum.ZoneControlMode.BothStatesAreGood"|"Enum.ZoneControlMode.State1IsGood"|"Enum.ZoneControlMode.State2IsGood"|"Enum.ZoneControlMode.NeitherStateIsGood"
 
----@alias UIWidgetFontType number|"enum.UIWidgetFontType.Normal"|"enum.UIWidgetFontType.Shadow"|"enum.UIWidgetFontType.Outline"
-enum.UIWidgetFontType.Normal = 0
-enum.UIWidgetFontType.Shadow = 1
-enum.UIWidgetFontType.Outline = 2
-
-
----@alias UIWidgetTextSizeType number|"enum.UIWidgetTextSizeType.Small"|"enum.UIWidgetTextSizeType.Medium"|"enum.UIWidgetTextSizeType.Large"|"enum.UIWidgetTextSizeType.Huge"
-enum.UIWidgetTextSizeType.Small = 0
-enum.UIWidgetTextSizeType.Medium = 1
-enum.UIWidgetTextSizeType.Large = 2
-enum.UIWidgetTextSizeType.Huge = 3
-
-
----@alias WidgetAnimationType number|"enum.WidgetAnimationType.None"|"enum.WidgetAnimationType.Fade"
-enum.WidgetAnimationType.None = 0
-enum.WidgetAnimationType.Fade = 1
-
-
----@alias WidgetCurrencyClass number|"enum.WidgetCurrencyClass.Currency"|"enum.WidgetCurrencyClass.Item"
-enum.WidgetCurrencyClass.Currency = 0
-enum.WidgetCurrencyClass.Item = 1
-
-
----@alias WidgetEnabledState number|"enum.WidgetEnabledState.Disabled"|"enum.WidgetEnabledState.Enabled"|"enum.WidgetEnabledState.Red"|"enum.WidgetEnabledState.Highlight"
-enum.WidgetEnabledState.Disabled = 0
-enum.WidgetEnabledState.Enabled = 1
-enum.WidgetEnabledState.Red = 2
-enum.WidgetEnabledState.Highlight = 3
-
-
----@alias WidgetShownState number|"enum.WidgetShownState.Hidden"|"enum.WidgetShownState.Shown"
-enum.WidgetShownState.Hidden = 0
-enum.WidgetShownState.Shown = 1
-
-
----@alias ZoneControlActiveState number|"enum.ZoneControlActiveState.Inactive"|"enum.ZoneControlActiveState.Active"
-enum.ZoneControlActiveState.Inactive = 0
-enum.ZoneControlActiveState.Active = 1
-
-
----@alias ZoneControlDangerFlashType number|"enum.ZoneControlDangerFlashType.ShowOnGoodStates"|"enum.ZoneControlDangerFlashType.ShowOnBadStates"|"enum.ZoneControlDangerFlashType.ShowOnBoth"|"enum.ZoneControlDangerFlashType.ShowOnNeither"
-enum.ZoneControlDangerFlashType.ShowOnGoodStates = 0
-enum.ZoneControlDangerFlashType.ShowOnBadStates = 1
-enum.ZoneControlDangerFlashType.ShowOnBoth = 2
-enum.ZoneControlDangerFlashType.ShowOnNeither = 3
-
-
----@alias ZoneControlFillType number|"enum.ZoneControlFillType.SingleFillClockwise"|"enum.ZoneControlFillType.SingleFillCounterClockwise"|"enum.ZoneControlFillType.DoubleFillClockwise"|"enum.ZoneControlFillType.DoubleFillCounterClockwise"
-enum.ZoneControlFillType.SingleFillClockwise = 0
-enum.ZoneControlFillType.SingleFillCounterClockwise = 1
-enum.ZoneControlFillType.DoubleFillClockwise = 2
-enum.ZoneControlFillType.DoubleFillCounterClockwise = 3
-
-
----@alias ZoneControlLeadingEdgeType number|"enum.ZoneControlLeadingEdgeType.NoLeadingEdge"|"enum.ZoneControlLeadingEdgeType.UseLeadingEdge"
-enum.ZoneControlLeadingEdgeType.NoLeadingEdge = 0
-enum.ZoneControlLeadingEdgeType.UseLeadingEdge = 1
-
-
----@alias ZoneControlMode number|"enum.ZoneControlMode.BothStatesAreGood"|"enum.ZoneControlMode.State1IsGood"|"enum.ZoneControlMode.State2IsGood"|"enum.ZoneControlMode.NeitherStateIsGood"
-enum.ZoneControlMode.BothStatesAreGood = 0
-enum.ZoneControlMode.State1IsGood = 1
-enum.ZoneControlMode.State2IsGood = 2
-enum.ZoneControlMode.NeitherStateIsGood = 3
-
-
----@alias ZoneControlState number|"enum.ZoneControlState.State1"|"enum.ZoneControlState.State2"
-enum.ZoneControlState.State1 = 0
-enum.ZoneControlState.State2 = 1
-
+---@alias ZoneControlState number|"Enum.ZoneControlState.State1"|"Enum.ZoneControlState.State2"
 
 ---@class BulletTextListWidgetVisualizationInfo
 ---@field public shownState WidgetShownState

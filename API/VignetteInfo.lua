@@ -29,12 +29,7 @@ end
 function C_VignetteInfo.GetVignettes()
 end
 
----@alias VignetteType number|"enum.VignetteType.Normal"|"enum.VignetteType.PvPBounty"|"enum.VignetteType.Torghast"|"enum.VignetteType.Treasure"
-enum.VignetteType.Normal = 0
-enum.VignetteType.PvPBounty = 1
-enum.VignetteType.Torghast = 2
-enum.VignetteType.Treasure = 3
-
+---@alias VignetteType number|"Enum.VignetteType.Normal"|"Enum.VignetteType.PvPBounty"|"Enum.VignetteType.Torghast"|"Enum.VignetteType.Treasure"
 
 ---@class VignetteInfo
 ---@field public vignetteGUID string

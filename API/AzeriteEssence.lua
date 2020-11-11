@@ -118,12 +118,7 @@ end
 function C_AzeriteEssence.UnlockMilestone(milestoneID)
 end
 
----@alias AzeriteEssence number|"enum.AzeriteEssence.MainSlot"|"enum.AzeriteEssence.PassiveOneSlot"|"enum.AzeriteEssence.PassiveTwoSlot"|"enum.AzeriteEssence.PassiveThreeSlot"
-enum.AzeriteEssence.MainSlot = 0
-enum.AzeriteEssence.PassiveOneSlot = 1
-enum.AzeriteEssence.PassiveTwoSlot = 2
-enum.AzeriteEssence.PassiveThreeSlot = 3
-
+---@alias AzeriteEssence number|"Enum.AzeriteEssence.MainSlot"|"Enum.AzeriteEssence.PassiveOneSlot"|"Enum.AzeriteEssence.PassiveTwoSlot"|"Enum.AzeriteEssence.PassiveThreeSlot"
 
 ---@class AzeriteEssenceInfo
 ---@field public ID number

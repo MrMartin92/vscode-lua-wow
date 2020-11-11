@@ -51,39 +51,11 @@ end
 function C_ModelInfo.GetModelSceneInfoByID(modelSceneID)
 end
 
----@alias ItemTryOnReason number|"enum.ItemTryOnReason.Success"|"enum.ItemTryOnReason.WrongRace"|"enum.ItemTryOnReason.NotEquippable"|"enum.ItemTryOnReason.DataPending"
-enum.ItemTryOnReason.Success = 0
-enum.ItemTryOnReason.WrongRace = 1
-enum.ItemTryOnReason.NotEquippable = 2
-enum.ItemTryOnReason.DataPending = 3
+---@alias ItemTryOnReason number|"Enum.ItemTryOnReason.Success"|"Enum.ItemTryOnReason.WrongRace"|"Enum.ItemTryOnReason.NotEquippable"|"Enum.ItemTryOnReason.DataPending"
 
+---@alias ModelSceneSetting number|"Enum.ModelSceneSetting.AlignLightToOrbitDelta"
 
----@alias ModelSceneSetting number|"enum.ModelSceneSetting.AlignLightToOrbitDelta"
-enum.ModelSceneSetting.AlignLightToOrbitDelta = 1
-
-
----@alias ModelSceneType number|"enum.ModelSceneType.MountJournal"|"enum.ModelSceneType.PetJournalCard"|"enum.ModelSceneType.ShopCard"|"enum.ModelSceneType.EncounterJournal"|"enum.ModelSceneType.PetJournalLoadout"|"enum.ModelSceneType.ArtifactTier2"|"enum.ModelSceneType.ArtifactTier2ForgingScene"|"enum.ModelSceneType.ArtifactTier2SlamEffect"|"enum.ModelSceneType.CommentatorVictoryFanfare"|"enum.ModelSceneType.ArtifactRelicTalentEffect"|"enum.ModelSceneType.PvPWarModeOrb"|"enum.ModelSceneType.PvPWarModeFire"|"enum.ModelSceneType.PartyPose"|"enum.ModelSceneType.AzeriteItemLevelUpToast"|"enum.ModelSceneType.AzeritePowers"|"enum.ModelSceneType.AzeriteRewardGlow"|"enum.ModelSceneType.HeartOfAzeroth"|"enum.ModelSceneType.WorldMapThreat"|"enum.ModelSceneType.Soulbinds"|"enum.ModelSceneType.JailersTowerAnimaGlow"
-enum.ModelSceneType.MountJournal = 0
-enum.ModelSceneType.PetJournalCard = 1
-enum.ModelSceneType.ShopCard = 2
-enum.ModelSceneType.EncounterJournal = 3
-enum.ModelSceneType.PetJournalLoadout = 4
-enum.ModelSceneType.ArtifactTier2 = 5
-enum.ModelSceneType.ArtifactTier2ForgingScene = 6
-enum.ModelSceneType.ArtifactTier2SlamEffect = 7
-enum.ModelSceneType.CommentatorVictoryFanfare = 8
-enum.ModelSceneType.ArtifactRelicTalentEffect = 9
-enum.ModelSceneType.PvPWarModeOrb = 10
-enum.ModelSceneType.PvPWarModeFire = 11
-enum.ModelSceneType.PartyPose = 12
-enum.ModelSceneType.AzeriteItemLevelUpToast = 13
-enum.ModelSceneType.AzeritePowers = 14
-enum.ModelSceneType.AzeriteRewardGlow = 15
-enum.ModelSceneType.HeartOfAzeroth = 16
-enum.ModelSceneType.WorldMapThreat = 17
-enum.ModelSceneType.Soulbinds = 18
-enum.ModelSceneType.JailersTowerAnimaGlow = 19
-
+---@alias ModelSceneType number|"Enum.ModelSceneType.MountJournal"|"Enum.ModelSceneType.PetJournalCard"|"Enum.ModelSceneType.ShopCard"|"Enum.ModelSceneType.EncounterJournal"|"Enum.ModelSceneType.PetJournalLoadout"|"Enum.ModelSceneType.ArtifactTier2"|"Enum.ModelSceneType.ArtifactTier2ForgingScene"|"Enum.ModelSceneType.ArtifactTier2SlamEffect"|"Enum.ModelSceneType.CommentatorVictoryFanfare"|"Enum.ModelSceneType.ArtifactRelicTalentEffect"|"Enum.ModelSceneType.PvPWarModeOrb"|"Enum.ModelSceneType.PvPWarModeFire"|"Enum.ModelSceneType.PartyPose"|"Enum.ModelSceneType.AzeriteItemLevelUpToast"|"Enum.ModelSceneType.AzeritePowers"|"Enum.ModelSceneType.AzeriteRewardGlow"|"Enum.ModelSceneType.HeartOfAzeroth"|"Enum.ModelSceneType.WorldMapThreat"|"Enum.ModelSceneType.Soulbinds"|"Enum.ModelSceneType.JailersTowerAnimaGlow"
 
 ---@class UIModelSceneActorDisplayInfo
 ---@field public animation number

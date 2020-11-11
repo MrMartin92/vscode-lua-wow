@@ -27,12 +27,7 @@ end
 function C_PlayerChoice.IsWaitingForPlayerChoiceResponse()
 end
 
----@alias PlayerChoiceRarity number|"enum.PlayerChoiceRarity.Common"|"enum.PlayerChoiceRarity.Uncommon"|"enum.PlayerChoiceRarity.Rare"|"enum.PlayerChoiceRarity.Epic"
-enum.PlayerChoiceRarity.Common = 0
-enum.PlayerChoiceRarity.Uncommon = 1
-enum.PlayerChoiceRarity.Rare = 2
-enum.PlayerChoiceRarity.Epic = 3
-
+---@alias PlayerChoiceRarity number|"Enum.PlayerChoiceRarity.Common"|"Enum.PlayerChoiceRarity.Uncommon"|"Enum.PlayerChoiceRarity.Rare"|"Enum.PlayerChoiceRarity.Epic"
 
 ---@class PlayerChoiceInfo
 ---@field public choiceID number

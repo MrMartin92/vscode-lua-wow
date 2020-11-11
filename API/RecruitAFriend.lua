@@ -65,28 +65,11 @@ end
 function C_RecruitAFriend.RequestUpdatedRecruitmentInfo()
 end
 
----@alias RafRecruitActivityState number|"enum.RafRecruitActivityState.Incomplete"|"enum.RafRecruitActivityState.Complete"|"enum.RafRecruitActivityState.RewardClaimed"
-enum.RafRecruitActivityState.Incomplete = 0
-enum.RafRecruitActivityState.Complete = 1
-enum.RafRecruitActivityState.RewardClaimed = 2
+---@alias RafRecruitActivityState number|"Enum.RafRecruitActivityState.Incomplete"|"Enum.RafRecruitActivityState.Complete"|"Enum.RafRecruitActivityState.RewardClaimed"
 
+---@alias RafRecruitSubStatus number|"Enum.RafRecruitSubStatus.Trial"|"Enum.RafRecruitSubStatus.Active"|"Enum.RafRecruitSubStatus.Inactive"
 
----@alias RafRecruitSubStatus number|"enum.RafRecruitSubStatus.Trial"|"enum.RafRecruitSubStatus.Active"|"enum.RafRecruitSubStatus.Inactive"
-enum.RafRecruitSubStatus.Trial = 0
-enum.RafRecruitSubStatus.Active = 1
-enum.RafRecruitSubStatus.Inactive = 2
-
-
----@alias RafRewardType number|"enum.RafRewardType.Pet"|"enum.RafRewardType.Mount"|"enum.RafRewardType.Appearance"|"enum.RafRewardType.Title"|"enum.RafRewardType.GameTime"|"enum.RafRewardType.AppearanceSet"|"enum.RafRewardType.Illusion"|"enum.RafRewardType.Invalid"
-enum.RafRewardType.Pet = 0
-enum.RafRewardType.Mount = 1
-enum.RafRewardType.Appearance = 2
-enum.RafRewardType.Title = 3
-enum.RafRewardType.GameTime = 4
-enum.RafRewardType.AppearanceSet = 5
-enum.RafRewardType.Illusion = 6
-enum.RafRewardType.Invalid = 7
-
+---@alias RafRewardType number|"Enum.RafRewardType.Pet"|"Enum.RafRewardType.Mount"|"Enum.RafRewardType.Appearance"|"Enum.RafRewardType.Title"|"Enum.RafRewardType.GameTime"|"Enum.RafRewardType.AppearanceSet"|"Enum.RafRewardType.Illusion"|"Enum.RafRewardType.Invalid"
 
 ---@class RafAppearanceInfo
 ---@field public appearanceID number

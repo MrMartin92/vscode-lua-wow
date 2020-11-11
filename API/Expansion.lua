@@ -105,17 +105,9 @@ end
 function SendSubscriptionInterstitialResponse(response)
 end
 
----@alias SubscriptionInterstitialResponseType number|"enum.SubscriptionInterstitialResponseType.Clicked"|"enum.SubscriptionInterstitialResponseType.Closed"|"enum.SubscriptionInterstitialResponseType.WebRedirect"
-enum.SubscriptionInterstitialResponseType.Clicked = 0
-enum.SubscriptionInterstitialResponseType.Closed = 1
-enum.SubscriptionInterstitialResponseType.WebRedirect = 2
+---@alias SubscriptionInterstitialResponseType number|"Enum.SubscriptionInterstitialResponseType.Clicked"|"Enum.SubscriptionInterstitialResponseType.Closed"|"Enum.SubscriptionInterstitialResponseType.WebRedirect"
 
-
----@alias SubscriptionInterstitialType number|"enum.SubscriptionInterstitialType.Standard"|"enum.SubscriptionInterstitialType.LeftNpeArea"|"enum.SubscriptionInterstitialType.MaxLevel"
-enum.SubscriptionInterstitialType.Standard = 0
-enum.SubscriptionInterstitialType.LeftNpeArea = 1
-enum.SubscriptionInterstitialType.MaxLevel = 2
-
+---@alias SubscriptionInterstitialType number|"Enum.SubscriptionInterstitialType.Standard"|"Enum.SubscriptionInterstitialType.LeftNpeArea"|"Enum.SubscriptionInterstitialType.MaxLevel"
 
 ---@class ExpansionDisplayInfo
 ---@field public logo number

@@ -354,18 +354,9 @@ end
 function C_PvP.ToggleWarMode()
 end
 
----@alias BrawlType number|"enum.BrawlType.None"|"enum.BrawlType.Battleground"|"enum.BrawlType.Arena"|"enum.BrawlType.Lfg"
-enum.BrawlType.None = 0
-enum.BrawlType.Battleground = 1
-enum.BrawlType.Arena = 2
-enum.BrawlType.Lfg = 3
+---@alias BrawlType number|"Enum.BrawlType.None"|"Enum.BrawlType.Battleground"|"Enum.BrawlType.Arena"|"Enum.BrawlType.Lfg"
 
-
----@alias PvPMatchState number|"enum.PvPMatchState.Inactive"|"enum.PvPMatchState.Active"|"enum.PvPMatchState.Complete"
-enum.PvPMatchState.Inactive = 0
-enum.PvPMatchState.Active = 1
-enum.PvPMatchState.Complete = 2
-
+---@alias PvPMatchState number|"Enum.PvPMatchState.Inactive"|"Enum.PvPMatchState.Active"|"Enum.PvPMatchState.Complete"
 
 ---@class BattlefieldCurrencyReward
 ---@field public id number

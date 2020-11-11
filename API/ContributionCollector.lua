@@ -110,28 +110,11 @@ end
 function C_ContributionCollector.IsAwaitingRewardQuestData(contributionID)
 end
 
----@alias ContributionAppearanceFlags number|"enum.ContributionAppearanceFlags.TooltipUseTimeRemaining"
-enum.ContributionAppearanceFlags.TooltipUseTimeRemaining = 0
+---@alias ContributionAppearanceFlags number|"Enum.ContributionAppearanceFlags.TooltipUseTimeRemaining"
 
+---@alias ContributionResult number|"Enum.ContributionResult.Success"|"Enum.ContributionResult.MustBeNearNpc"|"Enum.ContributionResult.IncorrectState"|"Enum.ContributionResult.InvalidID"|"Enum.ContributionResult.QuestDataMissing"|"Enum.ContributionResult.FailedConditionCheck"|"Enum.ContributionResult.UnableToCompleteTurnIn"|"Enum.ContributionResult.InternalError"
 
----@alias ContributionResult number|"enum.ContributionResult.Success"|"enum.ContributionResult.MustBeNearNpc"|"enum.ContributionResult.IncorrectState"|"enum.ContributionResult.InvalidID"|"enum.ContributionResult.QuestDataMissing"|"enum.ContributionResult.FailedConditionCheck"|"enum.ContributionResult.UnableToCompleteTurnIn"|"enum.ContributionResult.InternalError"
-enum.ContributionResult.Success = 0
-enum.ContributionResult.MustBeNearNpc = 1
-enum.ContributionResult.IncorrectState = 2
-enum.ContributionResult.InvalidID = 3
-enum.ContributionResult.QuestDataMissing = 4
-enum.ContributionResult.FailedConditionCheck = 5
-enum.ContributionResult.UnableToCompleteTurnIn = 6
-enum.ContributionResult.InternalError = 7
-
-
----@alias ContributionState number|"enum.ContributionState.None"|"enum.ContributionState.Building"|"enum.ContributionState.Active"|"enum.ContributionState.UnderAttack"|"enum.ContributionState.Destroyed"
-enum.ContributionState.None = 0
-enum.ContributionState.Building = 1
-enum.ContributionState.Active = 2
-enum.ContributionState.UnderAttack = 3
-enum.ContributionState.Destroyed = 4
-
+---@alias ContributionState number|"Enum.ContributionState.None"|"Enum.ContributionState.Building"|"Enum.ContributionState.Active"|"Enum.ContributionState.UnderAttack"|"Enum.ContributionState.Destroyed"
 
 ---@class ContributionAppearance
 ---@field public stateName string

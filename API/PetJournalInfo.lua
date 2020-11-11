@@ -43,13 +43,5 @@ end
 function C_PetJournal.PetUsesRandomDisplay(speciesID)
 end
 
----@alias PetJournalError number|"enum.PetJournalError.None"|"enum.PetJournalError.PetIsDead"|"enum.PetJournalError.JournalIsLocked"|"enum.PetJournalError.InvalidFaction"|"enum.PetJournalError.NoFavoritesToSummon"|"enum.PetJournalError.NoValidRandomSummon"|"enum.PetJournalError.InvalidCovenant"
-enum.PetJournalError.None = 0
-enum.PetJournalError.PetIsDead = 1
-enum.PetJournalError.JournalIsLocked = 2
-enum.PetJournalError.InvalidFaction = 3
-enum.PetJournalError.NoFavoritesToSummon = 4
-enum.PetJournalError.NoValidRandomSummon = 5
-enum.PetJournalError.InvalidCovenant = 6
-
+---@alias PetJournalError number|"Enum.PetJournalError.None"|"Enum.PetJournalError.PetIsDead"|"Enum.PetJournalError.JournalIsLocked"|"Enum.PetJournalError.InvalidFaction"|"Enum.PetJournalError.NoFavoritesToSummon"|"Enum.PetJournalError.NoValidRandomSummon"|"Enum.PetJournalError.InvalidCovenant"
 

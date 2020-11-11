@@ -2,21 +2,11 @@
 -- This file is automaticly generated. Don't edit manualy!
 -- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
 
----@alias ChrCustomizationCategoryFlag number|"enum.ChrCustomizationCategoryFlag.UndressModel"
-enum.ChrCustomizationCategoryFlag.UndressModel = 1
+---@alias ChrCustomizationCategoryFlag number|"Enum.ChrCustomizationCategoryFlag.UndressModel"
 
+---@alias ChrCustomizationOptionType number|"Enum.ChrCustomizationOptionType.SelectionPopout"|"Enum.ChrCustomizationOptionType.Checkbox"|"Enum.ChrCustomizationOptionType.Slider"
 
----@alias ChrCustomizationOptionType number|"enum.ChrCustomizationOptionType.SelectionPopout"|"enum.ChrCustomizationOptionType.Checkbox"|"enum.ChrCustomizationOptionType.Slider"
-enum.ChrCustomizationOptionType.SelectionPopout = 0
-enum.ChrCustomizationOptionType.Checkbox = 1
-enum.ChrCustomizationOptionType.Slider = 2
-
-
----@alias Unitsex number|"enum.Unitsex.Male"|"enum.Unitsex.Female"|"enum.Unitsex.None"
-enum.Unitsex.Male = 0
-enum.Unitsex.Female = 1
-enum.Unitsex.None = 2
-
+---@alias Unitsex number|"Enum.Unitsex.Male"|"Enum.Unitsex.Female"|"Enum.Unitsex.None"
 
 ---@class CharCustomizationChoice
 ---@field public id number

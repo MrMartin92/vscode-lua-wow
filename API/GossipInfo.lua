@@ -79,17 +79,9 @@ end
 function C_GossipInfo.SelectOption(index, text, confirmed)
 end
 
----@alias GossipOptionRewardType number|"enum.GossipOptionRewardType.Item"|"enum.GossipOptionRewardType.Currency"
-enum.GossipOptionRewardType.Item = 0
-enum.GossipOptionRewardType.Currency = 1
+---@alias GossipOptionRewardType number|"Enum.GossipOptionRewardType.Item"|"Enum.GossipOptionRewardType.Currency"
 
-
----@alias GossipOptionStatus number|"enum.GossipOptionStatus.Available"|"enum.GossipOptionStatus.Unavailable"|"enum.GossipOptionStatus.Locked"|"enum.GossipOptionStatus.AlreadyComplete"
-enum.GossipOptionStatus.Available = 0
-enum.GossipOptionStatus.Unavailable = 1
-enum.GossipOptionStatus.Locked = 2
-enum.GossipOptionStatus.AlreadyComplete = 3
-
+---@alias GossipOptionStatus number|"Enum.GossipOptionStatus.Available"|"Enum.GossipOptionStatus.Unavailable"|"Enum.GossipOptionStatus.Locked"|"Enum.GossipOptionStatus.AlreadyComplete"
 
 ---@class GossipOptionRewardInfo
 ---@field public id number

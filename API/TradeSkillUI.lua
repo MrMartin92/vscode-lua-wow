@@ -89,9 +89,7 @@ end
 function C_TradeSkillUI.SetRecipeRepeatCount(recipeSpellID, numCasts, optionalReagents)
 end
 
----@alias OptionalReagentItemFlag number|"enum.OptionalReagentItemFlag.TooltipShowsAsStatModifications"
-enum.OptionalReagentItemFlag.TooltipShowsAsStatModifications = 0
-
+---@alias OptionalReagentItemFlag number|"Enum.OptionalReagentItemFlag.TooltipShowsAsStatModifications"
 
 ---@class OptionalReagentSlot
 ---@field public requiredSkillRank number

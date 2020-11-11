@@ -2,9 +2,5 @@
 -- This file is automaticly generated. Don't edit manualy!
 -- !!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!
 
----@alias RuneforgePowerState number|"enum.RuneforgePowerState.Available"|"enum.RuneforgePowerState.Unavailable"|"enum.RuneforgePowerState.Invalid"
-enum.RuneforgePowerState.Available = 0
-enum.RuneforgePowerState.Unavailable = 1
-enum.RuneforgePowerState.Invalid = 2
-
+---@alias RuneforgePowerState number|"Enum.RuneforgePowerState.Available"|"Enum.RuneforgePowerState.Unavailable"|"Enum.RuneforgePowerState.Invalid"
 

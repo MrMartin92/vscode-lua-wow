@@ -39,13 +39,7 @@ end
 function C_AnimaDiversion.SelectAnimaNode(talentID, temporary)
 end
 
----@alias AnimaDiversionNodeState number|"enum.AnimaDiversionNodeState.Unavailable"|"enum.AnimaDiversionNodeState.Available"|"enum.AnimaDiversionNodeState.SelectedTemporary"|"enum.AnimaDiversionNodeState.SelectedPermanent"|"enum.AnimaDiversionNodeState.Cooldown"
-enum.AnimaDiversionNodeState.Unavailable = 0
-enum.AnimaDiversionNodeState.Available = 1
-enum.AnimaDiversionNodeState.SelectedTemporary = 2
-enum.AnimaDiversionNodeState.SelectedPermanent = 3
-enum.AnimaDiversionNodeState.Cooldown = 4
-
+---@alias AnimaDiversionNodeState number|"Enum.AnimaDiversionNodeState.Unavailable"|"Enum.AnimaDiversionNodeState.Available"|"Enum.AnimaDiversionNodeState.SelectedTemporary"|"Enum.AnimaDiversionNodeState.SelectedPermanent"|"Enum.AnimaDiversionNodeState.Cooldown"
 
 ---@class AnimaDiversionCostInfo
 ---@field public currencyID number

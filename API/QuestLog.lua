@@ -433,45 +433,15 @@ end
 function C_QuestLog.SortQuestWatches()
 end
 
----@alias MapOverlayDisplayLocation number|"enum.MapOverlayDisplayLocation.Default"|"enum.MapOverlayDisplayLocation.BottomLeft"|"enum.MapOverlayDisplayLocation.TopLeft"|"enum.MapOverlayDisplayLocation.BottomRight"|"enum.MapOverlayDisplayLocation.TopRight"|"enum.MapOverlayDisplayLocation.Hidden"
-enum.MapOverlayDisplayLocation.Default = 0
-enum.MapOverlayDisplayLocation.BottomLeft = 1
-enum.MapOverlayDisplayLocation.TopLeft = 2
-enum.MapOverlayDisplayLocation.BottomRight = 3
-enum.MapOverlayDisplayLocation.TopRight = 4
-enum.MapOverlayDisplayLocation.Hidden = 5
+---@alias MapOverlayDisplayLocation number|"Enum.MapOverlayDisplayLocation.Default"|"Enum.MapOverlayDisplayLocation.BottomLeft"|"Enum.MapOverlayDisplayLocation.TopLeft"|"Enum.MapOverlayDisplayLocation.BottomRight"|"Enum.MapOverlayDisplayLocation.TopRight"|"Enum.MapOverlayDisplayLocation.Hidden"
 
+---@alias QuestFrequency number|"Enum.QuestFrequency.Default"|"Enum.QuestFrequency.Daily"|"Enum.QuestFrequency.Weekly"
 
----@alias QuestFrequency number|"enum.QuestFrequency.Default"|"enum.QuestFrequency.Daily"|"enum.QuestFrequency.Weekly"
-enum.QuestFrequency.Default = 0
-enum.QuestFrequency.Daily = 1
-enum.QuestFrequency.Weekly = 2
+---@alias QuestTag number|"Enum.QuestTag.Group"|"Enum.QuestTag.PvP"|"Enum.QuestTag.Raid"|"Enum.QuestTag.Dungeon"|"Enum.QuestTag.Legendary"|"Enum.QuestTag.Heroic"|"Enum.QuestTag.Raid10"|"Enum.QuestTag.Raid25"|"Enum.QuestTag.Scenario"|"Enum.QuestTag.Account"|"Enum.QuestTag.CombatAlly"
 
+---@alias QuestWatchType number|"Enum.QuestWatchType.Automatic"|"Enum.QuestWatchType.Manual"
 
----@alias QuestTag number|"enum.QuestTag.Group"|"enum.QuestTag.PvP"|"enum.QuestTag.Raid"|"enum.QuestTag.Dungeon"|"enum.QuestTag.Legendary"|"enum.QuestTag.Heroic"|"enum.QuestTag.Raid10"|"enum.QuestTag.Raid25"|"enum.QuestTag.Scenario"|"enum.QuestTag.Account"|"enum.QuestTag.CombatAlly"
-enum.QuestTag.Group = 1
-enum.QuestTag.PvP = 41
-enum.QuestTag.Raid = 62
-enum.QuestTag.Dungeon = 81
-enum.QuestTag.Legendary = 83
-enum.QuestTag.Heroic = 85
-enum.QuestTag.Raid10 = 88
-enum.QuestTag.Raid25 = 89
-enum.QuestTag.Scenario = 98
-enum.QuestTag.Account = 102
-enum.QuestTag.CombatAlly = 266
-
-
----@alias QuestWatchType number|"enum.QuestWatchType.Automatic"|"enum.QuestWatchType.Manual"
-enum.QuestWatchType.Automatic = 0
-enum.QuestWatchType.Manual = 1
-
-
----@alias WorldQuestQuality number|"enum.WorldQuestQuality.Common"|"enum.WorldQuestQuality.Rare"|"enum.WorldQuestQuality.Epic"
-enum.WorldQuestQuality.Common = 0
-enum.WorldQuestQuality.Rare = 1
-enum.WorldQuestQuality.Epic = 2
-
+---@alias WorldQuestQuality number|"Enum.WorldQuestQuality.Common"|"Enum.WorldQuestQuality.Rare"|"Enum.WorldQuestQuality.Epic"
 
 ---@class QuestInfo
 ---@field public title string

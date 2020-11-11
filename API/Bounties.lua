@@ -23,14 +23,7 @@ end
 function C_Bounties.GetBountySetInfoForMapID(uiMapID)
 end
 
----@alias MapOverlayDisplayLocation number|"enum.MapOverlayDisplayLocation.Default"|"enum.MapOverlayDisplayLocation.BottomLeft"|"enum.MapOverlayDisplayLocation.TopLeft"|"enum.MapOverlayDisplayLocation.BottomRight"|"enum.MapOverlayDisplayLocation.TopRight"|"enum.MapOverlayDisplayLocation.Hidden"
-enum.MapOverlayDisplayLocation.Default = 0
-enum.MapOverlayDisplayLocation.BottomLeft = 1
-enum.MapOverlayDisplayLocation.TopLeft = 2
-enum.MapOverlayDisplayLocation.BottomRight = 3
-enum.MapOverlayDisplayLocation.TopRight = 4
-enum.MapOverlayDisplayLocation.Hidden = 5
-
+---@alias MapOverlayDisplayLocation number|"Enum.MapOverlayDisplayLocation.Default"|"Enum.MapOverlayDisplayLocation.BottomLeft"|"Enum.MapOverlayDisplayLocation.TopLeft"|"Enum.MapOverlayDisplayLocation.BottomRight"|"Enum.MapOverlayDisplayLocation.TopRight"|"Enum.MapOverlayDisplayLocation.Hidden"
 
 ---@class BountyInfo
 ---@field public questID number

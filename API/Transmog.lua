@@ -63,58 +63,11 @@ end
 function C_Transmog.SetPending(transmogLocation, transmogID, categoryID)
 end
 
----@alias TransmogCollectionType number|"enum.TransmogCollectionType.Head"|"enum.TransmogCollectionType.Shoulder"|"enum.TransmogCollectionType.Back"|"enum.TransmogCollectionType.Chest"|"enum.TransmogCollectionType.Shirt"|"enum.TransmogCollectionType.Tabard"|"enum.TransmogCollectionType.Wrist"|"enum.TransmogCollectionType.Hands"|"enum.TransmogCollectionType.Waist"|"enum.TransmogCollectionType.Legs"|"enum.TransmogCollectionType.Feet"|"enum.TransmogCollectionType.Wand"|"enum.TransmogCollectionType.OneHAxe"|"enum.TransmogCollectionType.OneHSword"|"enum.TransmogCollectionType.OneHMace"|"enum.TransmogCollectionType.Dagger"|"enum.TransmogCollectionType.Fist"|"enum.TransmogCollectionType.Shield"|"enum.TransmogCollectionType.Holdable"|"enum.TransmogCollectionType.TwoHAxe"|"enum.TransmogCollectionType.TwoHSword"|"enum.TransmogCollectionType.TwoHMace"|"enum.TransmogCollectionType.Staff"|"enum.TransmogCollectionType.Polearm"|"enum.TransmogCollectionType.Bow"|"enum.TransmogCollectionType.Gun"|"enum.TransmogCollectionType.Crossbow"|"enum.TransmogCollectionType.Warglaives"|"enum.TransmogCollectionType.Paired"
-enum.TransmogCollectionType.Head = 0
-enum.TransmogCollectionType.Shoulder = 1
-enum.TransmogCollectionType.Back = 2
-enum.TransmogCollectionType.Chest = 3
-enum.TransmogCollectionType.Shirt = 4
-enum.TransmogCollectionType.Tabard = 5
-enum.TransmogCollectionType.Wrist = 6
-enum.TransmogCollectionType.Hands = 7
-enum.TransmogCollectionType.Waist = 8
-enum.TransmogCollectionType.Legs = 9
-enum.TransmogCollectionType.Feet = 10
-enum.TransmogCollectionType.Wand = 11
-enum.TransmogCollectionType.OneHAxe = 12
-enum.TransmogCollectionType.OneHSword = 13
-enum.TransmogCollectionType.OneHMace = 14
-enum.TransmogCollectionType.Dagger = 15
-enum.TransmogCollectionType.Fist = 16
-enum.TransmogCollectionType.Shield = 17
-enum.TransmogCollectionType.Holdable = 18
-enum.TransmogCollectionType.TwoHAxe = 19
-enum.TransmogCollectionType.TwoHSword = 20
-enum.TransmogCollectionType.TwoHMace = 21
-enum.TransmogCollectionType.Staff = 22
-enum.TransmogCollectionType.Polearm = 23
-enum.TransmogCollectionType.Bow = 24
-enum.TransmogCollectionType.Gun = 25
-enum.TransmogCollectionType.Crossbow = 26
-enum.TransmogCollectionType.Warglaives = 27
-enum.TransmogCollectionType.Paired = 28
+---@alias TransmogCollectionType number|"Enum.TransmogCollectionType.Head"|"Enum.TransmogCollectionType.Shoulder"|"Enum.TransmogCollectionType.Back"|"Enum.TransmogCollectionType.Chest"|"Enum.TransmogCollectionType.Shirt"|"Enum.TransmogCollectionType.Tabard"|"Enum.TransmogCollectionType.Wrist"|"Enum.TransmogCollectionType.Hands"|"Enum.TransmogCollectionType.Waist"|"Enum.TransmogCollectionType.Legs"|"Enum.TransmogCollectionType.Feet"|"Enum.TransmogCollectionType.Wand"|"Enum.TransmogCollectionType.OneHAxe"|"Enum.TransmogCollectionType.OneHSword"|"Enum.TransmogCollectionType.OneHMace"|"Enum.TransmogCollectionType.Dagger"|"Enum.TransmogCollectionType.Fist"|"Enum.TransmogCollectionType.Shield"|"Enum.TransmogCollectionType.Holdable"|"Enum.TransmogCollectionType.TwoHAxe"|"Enum.TransmogCollectionType.TwoHSword"|"Enum.TransmogCollectionType.TwoHMace"|"Enum.TransmogCollectionType.Staff"|"Enum.TransmogCollectionType.Polearm"|"Enum.TransmogCollectionType.Bow"|"Enum.TransmogCollectionType.Gun"|"Enum.TransmogCollectionType.Crossbow"|"Enum.TransmogCollectionType.Warglaives"|"Enum.TransmogCollectionType.Paired"
 
+---@alias TransmogModification number|"Enum.TransmogModification.None"|"Enum.TransmogModification.RightShoulder"
 
----@alias TransmogModification number|"enum.TransmogModification.None"|"enum.TransmogModification.RightShoulder"
-enum.TransmogModification.None = 0
-enum.TransmogModification.RightShoulder = 1
+---@alias TransmogSource number|"Enum.TransmogSource.None"|"Enum.TransmogSource.JournalEncounter"|"Enum.TransmogSource.Quest"|"Enum.TransmogSource.Vendor"|"Enum.TransmogSource.WorldDrop"|"Enum.TransmogSource.HiddenUntilCollected"|"Enum.TransmogSource.CantCollect"|"Enum.TransmogSource.Achievement"|"Enum.TransmogSource.Profession"|"Enum.TransmogSource.NotValidForTransmog"
 
-
----@alias TransmogSource number|"enum.TransmogSource.None"|"enum.TransmogSource.JournalEncounter"|"enum.TransmogSource.Quest"|"enum.TransmogSource.Vendor"|"enum.TransmogSource.WorldDrop"|"enum.TransmogSource.HiddenUntilCollected"|"enum.TransmogSource.CantCollect"|"enum.TransmogSource.Achievement"|"enum.TransmogSource.Profession"|"enum.TransmogSource.NotValidForTransmog"
-enum.TransmogSource.None = 0
-enum.TransmogSource.JournalEncounter = 1
-enum.TransmogSource.Quest = 2
-enum.TransmogSource.Vendor = 3
-enum.TransmogSource.WorldDrop = 4
-enum.TransmogSource.HiddenUntilCollected = 5
-enum.TransmogSource.CantCollect = 6
-enum.TransmogSource.Achievement = 7
-enum.TransmogSource.Profession = 8
-enum.TransmogSource.NotValidForTransmog = 9
-
-
----@alias TransmogType number|"enum.TransmogType.Appearance"|"enum.TransmogType.Illusion"
-enum.TransmogType.Appearance = 0
-enum.TransmogType.Illusion = 1
-
+---@alias TransmogType number|"Enum.TransmogType.Appearance"|"Enum.TransmogType.Illusion"
 
